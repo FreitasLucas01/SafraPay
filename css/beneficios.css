@@ -1,7 +1,6 @@
 #beneficios{
     background: #F4F5F9;
-    padding-top: 108px;
-    padding-bottom: 108px;
+    padding: 108px 0;
     /* position: relative;
     overflow: hidden; */
 }
@@ -9,8 +8,8 @@
 .beneficios-container{
     display: grid;
     grid-template-columns: 3fr 8fr;
-    /* gap: 35px; */
-    max-width: 1282px;
+    gap: 45px;
+    max-width: 1375px;
     margin-left: auto;
 }
 
