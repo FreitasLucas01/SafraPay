@@ -1,0 +1,271 @@
+.venda-responsivo-dois {
+    display: none;
+}
+
+#venda {
+    background: #182446;
+    overflow: hidden;
+}
+
+.venda-container {
+    max-width: 1230px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    gap: 100px;
+    padding-top: 80px;
+}
+
+.venda-container h1 {
+    position: relative;
+    font: 300 3.43rem/1.1 "IBM Plex Sans", monospace;
+    color: #FFFFFF;
+}
+
+.venda-container span:first-child {
+    display: block;
+}
+
+.venda-container span span {
+    font-weight: 500;
+}
+
+.venda-texto .botao{
+    margin-top: 62px;
+    position: relative;
+}
+
+.setaBtn {
+    display: flex;
+    align-items: center;
+}
+
+.setaBtn::after {
+    content: "";
+    display: inline-block;
+    background: url("../img/seta-azul.svg") no-repeat center;
+    width: 10px;
+    height: 10px;
+    margin-left: 6px;
+    transition: 0.2s;
+}
+
+.setaBtn:hover::after {
+    transform: translate(5px);
+}
+
+.venda-img {
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.venda-img::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 273px;
+    height: 88px;
+    background: url("../img/taxa-zerada.svg") no-repeat center;
+    bottom: 105px;
+    left: -195px;
+}
+
+.venda-img::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 273px;
+    height: 100px;
+    background: url("../img/taxa-credito.svg") no-repeat center;
+    bottom: 126px;
+    right: -174px;
+    z-index: -1;
+}
+
+.venda-pseudoElement {
+    position: relative;
+}
+
+.venda-pseudoElement::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 273px;
+    height: 100px;
+    background: url("../img/taxa-debito.svg") no-repeat center;
+    bottom: 255px;
+    right: -174px;
+    z-index: -1;
+}
+
+.venda-pseudoElement::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1122px;
+    height: 1123px;
+    background: url("../img/arcos.svg") no-repeat;
+    top: -48px;
+    left: -300px;
+    z-index: -1;
+}
+
+.venda-texto p {
+    font: 400 0.875rem/1.250 "IBM Plex Sans", monospace;
+    color: rgba(255, 255, 255, 0.6);
+    max-width: 50ch;
+    margin-top: 30px;
+}
+
+@media(max-width: 1400px) {
+    .venda-container {
+        padding-left: 20px;
+        gap: 20px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .venda-container h1 {
+        position: relative;
+        font: 300 3.26rem/1.1 "IBM Plex Sans", monospace;
+        color: #FFFFFF;
+    }
+
+    .venda-container span:first-child {
+        display: initial;
+    }
+
+    .venda-pseudoElement::before {
+        top: -35px;
+        left: -350px;
+    }
+
+    .venda-img::before {
+        left: -170px;
+    }
+
+    .venda-img {
+        margin-left: calc(35%);
+        transform: translateX(-50%);
+    }
+
+    .venda-img img {
+        max-width: 400px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .venda-pseudoElement::after,
+    .venda-img::after,
+    .venda-img::before,
+    .venda-pseudoElement::before {
+        content: none;
+    }
+
+    .venda-container {
+        grid-template-columns: 1fr;
+        gap: 60px;
+        padding-top: 42px;
+        padding-right: 20px;
+        background: url("../img/arcos.svg") no-repeat;
+        background-position: center bottom;
+    }
+
+    .venda-container h1 {
+        font: 300 3.43rem/1.1 "IBM Plex Sans", monospace;
+    }
+
+    .venda-container span:first-child {
+        display: block;
+    }
+
+    .venda-texto {
+        text-align: center;
+    }
+
+    .venda-texto .botao {
+        margin: 0 auto;
+        margin-top: 26px;
+    }
+
+    .venda-img {
+        transform: none;
+        margin: 0 auto;
+    }
+
+    .venda-img img {
+        max-width: 100%;
+    }
+
+    .venda-texto p {
+        margin: 0 auto;
+        margin-top: 21px;
+    }
+}
+
+@media(max-width: 600px) {
+    .venda-container {
+        padding-top: 42px;
+        grid-template-columns: 1fr;
+        gap: 60px;
+        padding-left: 0px;
+        padding-right: 0px;
+        background: url("../img/arcos.svg") no-repeat;
+        background-position: center bottom -170px;
+    }
+
+    .venda-container span:first-child {
+        display: block;
+    }
+
+    .venda-texto {
+        justify-self: center;
+        text-align: center;
+    }
+
+    .venda-container h1 {
+        font: 300 2.25rem/1.1 "IBM Plex Sans", monospace;
+    }
+
+    .venda-texto .botao {
+        font: 600 0.96rem/1.3 "IBM Plex Sans", monospace;
+        margin-top: 26px;
+        padding: 17px 34px;
+    }
+
+    .venda-img {
+        margin: 0 auto;
+    }
+
+    .venda-texto p {
+        font: 400 0.750rem/1.4 "IBM Plex Sans", monospace;
+        margin-top: 21px;
+    }
+}
+
+@media(max-width: 400px) {
+    .venda-responsivo-um {
+        display: none;
+    }
+
+    .venda-responsivo-dois {
+        display: block;
+    }
+
+    .venda-texto {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .venda-responsivo-dois {
+        padding-right: 10px;
+    }
+}
+
+@media(max-width: 340px) {
+    .venda-container span:first-child {
+        display: initial;
+    }
+}

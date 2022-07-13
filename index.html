@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer type="module" src="js/script.js"></script>
+    <title>SafraPay - Máquina de Cartão</title>
+</head>
+
+<script defer>
+    document.documentElement.className = " js "
+</script>
+
+<body>
+    <header id="header">
+        <nav data-menu="nav" class="header-nav">
+            <img class="logo" src="img/logo.svg" alt="Logo">
+            <ul data-menu="list" class="menu">
+                <li><a class="linkInterno" href="#">Máquinas <svg class="seta" width="12" height="12"
+                            viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="seta" d="M1 10.8208L11 1" stroke="#F4F5F9" stroke-width="1.69749"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path class="seta" d="M1 1H11V10.8208" stroke="#F4F5F9" stroke-width="1.69749"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></a></li>
+                <li><a class="linkInterno" href="#">Taxas <svg class="seta" width="12" height="12" viewBox="0 0 12 12"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="seta" d="M1 10.8208L11 1" stroke="#F4F5F9" stroke-width="1.69749"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path class="seta" d="M1 1H11V10.8208" stroke="#F4F5F9" stroke-width="1.69749"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></a></li>
+                <li><a class="linkInterno" href="#">Conta SafraPay <svg class="seta" width="12" height="12"
+                            viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="seta" d="M1 10.8208L11 1" stroke="#F4F5F9" stroke-width="1.69749"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path class="seta" d="M1 1H11V10.8208" stroke="#F4F5F9" stroke-width="1.69749"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></a></li>
+                <li><a class="linkInterno" href="#">Cartão Safra Empresas <svg class="seta" width="12" height="12"
+                            viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="seta" d="M1 10.8208L11 1" stroke="#F4F5F9" stroke-width="1.69749"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path class="seta" d="M1 1H11V10.8208" stroke="#F4F5F9" stroke-width="1.69749"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></a></li>
+                <li><a class="linkInterno" href="#">App SafraPay Digital <svg class="seta" width="12" height="12"
+                            viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="seta" d="M1 10.8208L11 1" stroke="#F4F5F9" stroke-width="1.69749"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path class="seta" d="M1 1H11V10.8208" stroke="#F4F5F9" stroke-width="1.69749"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></a></li>
+                <li><a class="linkInterno" href="#">Atendimento <svg class="seta" width="12" height="12"
+                            viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="seta" d="M1 10.8208L11 1" stroke="#F4F5F9" stroke-width="1.69749"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path class="seta" d="M1 1H11V10.8208" stroke="#F4F5F9" stroke-width="1.69749"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></a></li>
+                <ul class="container-menuDivs">
+                    <li class="menuDivs seta">
+                        <p>Peça a sua SafraPay</p>
+                    </li>
+                    <li class="menuDivs seta">
+                        <p>Iniciar conversa</p>
+                    </li>
+                    <a href="tel:113175-8248">
+                        <li class="menuDivs telefone">
+                            <p>11 3175-8248</p>
+                        </li>
+                    </a>
+                </ul>
+                <div class="menuMobileFooter">
+                    <p>Banco Safra S.A. ©</p>
+                    <img src="img/logo-menu-mobile.svg" alt="">
+                </div>
+            </ul>
+            <div class="telefone">
+                <div class="telefone-img">
+                    <img src="img/telefone.svg" alt="Ícone Telefone">
+                </div>
+                <div class="telefone-linha"></div>
+                <div class="telefone-numero">
+                    <span>Peça agora</span>
+                    <p>11 3175-8248</p>
+                </div>
+            </div>
+
+            <button class="menuMobileButton" data-menu="button" aria-label="Abrir Menu" aria-controls="menu"
+                aria-haspopup="true" aria-expanded="false">
+                <div class="linha1"></div>
+                <div class="linha2"></div>
+                <div class="linha3"></div>
+            </button>
+        </nav>
+    </header>
+
+    <article id="venda">
+        <div class="venda-container">
+            <div class="venda-texto">
+                <h1>Venda no crédito <span>à vista e receba em <span class="spanBold">apenas 1 dia.</span></span>
+                </h1>
+                <a class="botao setaBtn" href="#">Peça a sua SafraPay</a>
+                <p>Válido para Pessoa Física, MEI ou Pessoa Jurídica
+                    com faturamento até R$ 1 milhão no ano.</p>
+            </div>
+            <div class="venda-img">
+                <div class="venda-pseudoElement">
+                    <picture class="venda-responsivo-um">
+                        <source media="(max-width: 1024px)" srcset="img/maquina-principal.svg">
+                        <img src="img/maquina-desktop.svg" alt="Máquina SafraPay">
+                    </picture>
+                    <div class="venda-responsivo-dois">
+                        <img src="img/maquina-mobile.svg" alt="Máquina SafraPay">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <section id="beneficios">
+        <div class="beneficios-container">
+            <div class="beneficios-texto">
+                <h2>Conheça os <span>benefícios de ser</span> Safra.</h2>
+                <a class="botao setaBtn" href="#">Peça a sua SafraPay</a>
+            </div>
+            <div class="carrossel-container">
+                <ul class="carrossel">
+                    <li class="carrossel-venda">
+                        <img src="./icons/cifrao.svg" alt="">
+                        <h3>Venda pelo Link de Pagamento</h3>
+                        <p>O Link de Pagamento pode ser gerado
+                            nos apps SafraPay Digital ou SafraEmpresas.</p>
+                    </li>
+                    <li class="carrossel-taxas">
+                        <img src="./icons/moedas.svg" alt="">
+                        <h3>Menores taxas no débito e crédito à vista</h3>
+                        <p>Na SafraPay, você pode antecipar o pagamento das
+                            suas vendas no crédito à vista para recebê-lo em 1 dia.</p>
+                    </li>
+                    <li class="carrossel-frete">
+                        <img src="./icons/frete.svg" alt="">
+                        <h3>Frete grátis para todo Brasil</h3>
+                        <p>Com a Safra você recebe sua máquina
+                            sem custo algum. Rápido e fácil.</p>
+                    </li>
+                </ul>
+                <button class="nxt-btn" data-carousel="nxt"><img src="./icons/nxt-btn.svg" alt=""></button>
+                <button class="pre-btn" data-carousel="pre"><img src="./icons/pre-btn.svg" alt=""></button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
