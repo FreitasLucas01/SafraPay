@@ -1,8 +1,6 @@
-#beneficios{
+/* #beneficios{
     background: #F4F5F9;
     padding: 108px 0;
-    /* position: relative;
-    overflow: hidden; */
 }
 
 .beneficios-container{
@@ -52,7 +50,6 @@
     background: #FFFFFF;
     padding: 56px 61px 32px 61px;
     overflow-x: auto;
-    /* padding: 30px 35px 30px 35px; */
 
 }
 
@@ -122,4 +119,111 @@
     .beneficios-container {
         padding-left: 20px;
     }
+} */
+
+#beneficios{
+    background: #F4F5F9;
+    padding: 108px 0;
 }
+
+.beneficios-container{
+    display: grid;
+    grid-template-columns: 3fr 8fr;
+    max-width: 1567px;
+    margin-left: auto;
+}
+
+.beneficios-texto{
+    align-self: center;
+}
+
+.beneficios-texto h2{
+    font: 400 2.5rem/1.13 "IBM Plex Sans" , monospace;
+    color: #182346;
+}
+
+.beneficios-texto span{
+    display: block;
+}
+
+.beneficios-texto .botao{
+    margin-top: 44px;
+}
+
+.carrossel-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    position: relative;
+}
+
+.carrossel{
+    display: flex;
+    gap: 15px;
+    justify-items: end;
+    flex-shrink: 0;
+    transition: 0.5s;
+}
+
+.carrossel li{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: start;
+    justify-content: start;
+    background: #FFFFFF;
+    padding: 56px 61px 32px 61px;
+}
+
+.carrossel h3{
+    font: 300 1.5rem/1.35 "IBM Plex Sans" , monospace;
+    color: #182346;
+    margin-top: 22px;
+}
+
+.carrossel p{
+    font: 300 1.125rem/1.33 "IBM Plex Sans" , monospace;
+    color: #464F6B;
+    margin-top: 15px;
+}
+
+.carrossel-venda h3{
+    max-width: 15ch;
+}
+.carrossel-venda p{
+    max-width: 31ch;
+}
+
+.carrossel-taxas h3{
+    max-width: 20ch;
+}
+.carrossel-taxas p{
+    max-width: 29ch;
+}
+
+.carrossel-frete h3{
+    margin-top: 20px;
+}
+.carrossel-frete p{
+    max-width: 30ch;
+}
+
+.nxt-btn{
+    border: none;
+    background: #FFFFFF;
+    padding: 23px;
+    cursor: pointer;
+    position: absolute;
+    right: 185px;
+    top: 122px;
+    box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+@media(max-width: 1400px) {
+    .beneficios-container {
+        padding-left: 20px;
+    }
+}
+
