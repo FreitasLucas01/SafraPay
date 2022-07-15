@@ -6,9 +6,8 @@
 
 .beneficios-container{
     display: grid;
-    grid-template-columns: 4fr 9fr;
-    gap: 40px;
-    /* max-width: 1270px; */
+    grid-template-columns: 3fr 8fr;
+    max-width: 1270px;
     margin:auto;
 }
 
