@@ -243,7 +243,7 @@
     }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 420px) {
     .venda-responsivo-um {
         display: none;
     }
