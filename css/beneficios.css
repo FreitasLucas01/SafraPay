@@ -17,9 +17,9 @@
     content: "";
     background: url("../img/gradiente.svg");
     position: absolute;
-    width: 218px;
+    width: 170px;
     height: 307px;
-    right: -40px;
+    right: 0px;
 }
 
 .beneficios-texto{
@@ -41,7 +41,7 @@
 }
 
 .carrossel-container{
-    max-width: 62.5%;
+    /* max-width: 62.5%; */
     display: flex;
     justify-content: start;
     overflow: hidden;

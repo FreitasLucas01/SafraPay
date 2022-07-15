@@ -1,8 +1,7 @@
 export default function initCarousel() {
-  const carousel = document.querySelector('.beneficios-container');
-  const slider = document.querySelector('.carrossel');
-
-  const next = document.querySelector("[data-carousel='nxt']");
+  const container = document.querySelector("[data-carousel='container']");
+  const carousel = document.querySelector("[data-carousel='carousel']");
+  const nextBtn = document.querySelector("[data-carousel='nxt']");
 
   if (window.matchMedia("(min-width: 600px)").matches) {
 
@@ -10,25 +9,29 @@ export default function initCarousel() {
 
     function handleNext() {
       direction = -1;
-      carousel.style.justifyContent = 'flex-start';
-      slider.style.transform = 'translate(-25.2%)';
+      container.style.justifyContent = 'flex-start';
+      carousel.style.transform = 'translate(-25.2%)';
     }
-    next.addEventListener('click', handleNext)
+    nextBtn.addEventListener('click', handleNext)
 
     function handleSlide() {
 
       if (direction === 1) {
-        slider.prepend(slider.lastElementChild);
+        carousel.prepend(carousel.lastElementChild);
       } else {
-        slider.appendChild(slider.firstElementChild);
+        carousel.appendChild(carousel.firstElementChild);
       }
 
-      slider.style.transition = 'none';
-      slider.style.transform = 'translate(0)';
+      carousel.style.transition = 'none';
+      carousel.style.transform = 'translate(0)';
       setTimeout(() => {
-        slider.style.transition = '0.5s';
+        carousel.style.transition = '0.5s';
       })
     }
-    slider.addEventListener('transitionend', handleSlide);
+    carousel.addEventListener('transitionend', handleSlide);
+  }
+  
+  if (window.matchMedia("(max-width: 600px)").matches) {
+    
   }
 }
