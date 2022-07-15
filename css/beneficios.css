@@ -13,6 +13,15 @@
     margin: 0 auto;
 }
 
+.beneficios-container::after{
+    content: "";
+    background: url("../img/gradiente.svg");
+    position: absolute;
+    width: 218px;
+    height: 307px;
+    right: 0px;
+}
+
 .beneficios-texto{
     align-self: center;
     padding-left: 20px;
@@ -40,14 +49,14 @@
     /* margin-left: auto; */
 }
 
-.carrossel-container::after{
+/* .carrossel-container::after{
     content: "";
     background: url("../img/gradiente.svg");
     position: absolute;
     width: 218px;
     height: 307px;
     right: 0;
-}
+} */
 
 .carrossel{
     display: flex;
@@ -120,15 +129,6 @@
 }
 
 @media(max-width: 1260px){
-    .carrossel-container::after{
-        content: "";
-        background: url("../img/gradiente.svg");
-        position: absolute;
-        width: 218px;
-        height: 307px;
-        right: -50px;
-    }
-
     .beneficios-container{
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -156,6 +156,10 @@
         gap: 49px;
     }
 
+    .beneficios-container::after{
+        content: none;
+    }
+
     .beneficios-texto{
         margin: 0 auto;
         justify-content: center;
@@ -180,12 +184,8 @@
         padding-left: 20px;
     }
 
-    .carrossel-container::after{
-        content: none;
-    }
-
     .nxt-btn{
-        left: 380px;
+        left: 440px;
     }
 }
 
@@ -207,5 +207,9 @@
 
     .carrossel li{
         padding: 40px 32px 32px 32px;
+    }
+
+    .nxt-btn{
+        left: 380px;
     }
 }

@@ -6,27 +6,29 @@ export default function initCarousel() {
 
   let direction;
 
-  function handleNext() {
-    direction = -1;
-    carousel.style.justifyContent = 'flex-start';
-    slider.style.transform = 'translate(-25.2%)';
-  }
-  next.addEventListener('click', handleNext)
+  if (window.matchMedia("(min-width: 600px)").matches) {
 
-  function handleSlide() {
-
-    if (direction === 1) {
-      slider.prepend(slider.lastElementChild);
-    } else {
-      slider.appendChild(slider.firstElementChild);
+    function handleNext() {
+      direction = -1;
+      carousel.style.justifyContent = 'flex-start';
+      slider.style.transform = 'translate(-25.2%)';
     }
+    next.addEventListener('click', handleNext)
 
-    slider.style.transition = 'none';
-    slider.style.transform = 'translate(0)';
-    setTimeout(() => {
-      slider.style.transition = '0.5s';
-    })
+    function handleSlide() {
+
+      if (direction === 1) {
+        slider.prepend(slider.lastElementChild);
+      } else {
+        slider.appendChild(slider.firstElementChild);
+      }
+
+      slider.style.transition = 'none';
+      slider.style.transform = 'translate(0)';
+      setTimeout(() => {
+        slider.style.transition = '0.5s';
+      })
+    }
+    slider.addEventListener('transitionend', handleSlide);
   }
-  slider.addEventListener('transitionend', handleSlide);
-
 }
