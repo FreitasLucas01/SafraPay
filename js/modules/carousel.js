@@ -4,9 +4,9 @@ export default function initCarousel() {
 
   const next = document.querySelector("[data-carousel='nxt']");
 
-  let direction;
-
   if (window.matchMedia("(min-width: 600px)").matches) {
+
+    let direction;
 
     function handleNext() {
       direction = -1;
