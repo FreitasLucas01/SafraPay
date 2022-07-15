@@ -35,4 +35,5 @@ a{
     background: #C4AD6C;
     padding: 19px 36px;
     cursor: pointer;
+    z-index: 2;
 }

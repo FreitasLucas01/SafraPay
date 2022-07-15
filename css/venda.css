@@ -8,12 +8,13 @@
 }
 
 .venda-container {
-    max-width: 1230px;
+    max-width: 1270px;
     margin: 0 auto;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 5fr 7fr;
     gap: 100px;
+    padding-left: 20px;
     padding-top: 80px;
 }
 
@@ -119,17 +120,14 @@
     margin-top: 30px;
 }
 
-@media(max-width: 1280px) {
+@media(max-width: 1260px) {
     .venda-container {
-        padding-left: 20px;
         gap: 20px;
     }
-}
 
-@media(max-width: 1200px) {
     .venda-container h1 {
         position: relative;
-        font: 300 3.26rem/1.1 "IBM Plex Sans", monospace;
+        font: 300 3.25rem/1.1 "IBM Plex Sans", monospace;
         color: #FFFFFF;
     }
 

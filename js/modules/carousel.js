@@ -9,12 +9,11 @@ export default function initCarousel() {
   function handleNext() {
     direction = -1;
     carousel.style.justifyContent = 'flex-start';
-    slider.style.transform = 'translate(-33.5%)';
+    slider.style.transform = 'translate(-25.2%)';
   }
   next.addEventListener('click', handleNext)
 
   function handleSlide() {
-    // get the last element and append it to the front
 
     if (direction === 1) {
       slider.prepend(slider.lastElementChild);
