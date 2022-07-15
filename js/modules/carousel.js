@@ -3,7 +3,7 @@ export default function initCarousel() {
   const carousel = document.querySelector("[data-carousel='carousel']");
   const nextBtn = document.querySelector("[data-carousel='nxt']");
 
-  if (window.matchMedia("(min-width: 600px)").matches) {
+  // if (window.matchMedia("(min-width: 600px)").matches) {
 
     let direction;
 
@@ -34,4 +34,4 @@ export default function initCarousel() {
   if (window.matchMedia("(max-width: 600px)").matches) {
     
   }
-}
+// }

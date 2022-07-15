@@ -41,7 +41,6 @@
 }
 
 .carrossel-container{
-    /* max-width: 62.5%; */
     display: flex;
     justify-content: start;
     overflow: hidden;
@@ -223,9 +222,9 @@
         padding: 17px 34px;
     }
 
-    .nxt-btn{
+    /* .nxt-btn{
         display: none;
-    }
+    } */
 }
 
 @media(max-width: 380px){
