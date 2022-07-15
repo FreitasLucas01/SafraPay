@@ -8,7 +8,7 @@
 .beneficios-container{
     display: grid;
     grid-template-columns: max-content max-content;
-    gap: 250px;
+    gap: 167px;
     max-width: 1270px;
     margin: 0 auto;
 }
@@ -33,7 +33,7 @@
 }
 
 .carrossel-container{
-    max-width: 100%;
+    max-width: 65%;
     display: flex;
     justify-content: start;
     overflow: hidden;
