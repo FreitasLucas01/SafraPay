@@ -13,7 +13,7 @@
 
 .beneficios-texto{
     align-self: center;
-    justify-self: end;
+    /* justify-self: end; */
     padding-left: 20px;
 }
 
