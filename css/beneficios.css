@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: 3fr 8fr;
     max-width: 1270px;
-    margin:auto;
+    margin: 0 auto;
 }
 
 .beneficios-texto{
@@ -36,7 +36,7 @@
     justify-content: start;
     overflow: hidden;
     position: relative;
-    margin-left: auto;
+    /* margin-left: auto; */
 }
 
 .carrossel-container::after{
