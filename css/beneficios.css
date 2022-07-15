@@ -185,6 +185,12 @@
     }
 
     .nxt-btn{
+        left: 895px;
+    }
+}
+
+@media(max-width: 980px){
+    .nxt-btn{
         left: 440px;
     }
 }
