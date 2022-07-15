@@ -233,15 +233,13 @@
     }
 }
 
-@media(max-width: 400px){
-    .beneficios-texto h2{
-        max-width: 100%;
-    }
-}
-
 @media(max-width: 380px){
     .beneficios-texto{
         padding: 0 0px;
+    }
+
+    .beneficios-texto h2{
+        max-width: 100%;
     }
 }
 
