@@ -222,9 +222,10 @@
         padding: 17px 34px;
     }
 
-    /* .nxt-btn{
-        display: none;
-    } */
+    .nxt-btn{
+        /* display: none; */
+        left: 0;
+    }
 }
 
 @media(max-width: 380px){
