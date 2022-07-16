@@ -187,7 +187,7 @@
     }
 
     .beneficios-container{
-        padding: 0 20px;
+        padding-left: 20px;
     }
     
     .beneficios-texto h2{
@@ -196,6 +196,7 @@
     }
 
     .carrossel-container{
+        padding-right: 20px;
         overflow: auto;
         scroll-snap-type: x;
         scroll-behavior: smooth;
