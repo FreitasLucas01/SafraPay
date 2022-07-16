@@ -192,7 +192,9 @@
     }
 
     .carrossel-container{
-        /* overflow: auto; */
+        overflow: auto;
+        scroll-snap-type: x;
+        scroll-behavior: smooth;
     }
 
     .carrossel h3{
@@ -201,12 +203,13 @@
     }
     
     .carrossel p{
-        font: 300 1rem/1.35 "IBM Plex Sans" , monospace;
+        font: 300 1rem/1.35 "IBM Plex Sans" , monospace; 
         margin-top: 5px;
     }
 
     .carrossel li{
         padding: 40px 3px 36px 32px;
+        scroll-snap-align: start;
     }
 
     .carrossel-venda p{
@@ -223,8 +226,7 @@
     }
 
     .nxt-btn{
-        /* display: none; */
-        left: 0;
+        display: none;
     }
 }
 
