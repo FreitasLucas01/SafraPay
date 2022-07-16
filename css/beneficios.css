@@ -207,14 +207,12 @@
     
     .carrossel-container::-webkit-scrollbar-thumb{
         background: #C4AD6C;
-        border-top: 6px solid #F4F5F9;
-        border-bottom: 6px solid #F4F5F9;
+        border-top: 10px solid #F4F5F9;
     }
     
     .carrossel-container::-webkit-scrollbar-track{
         background: rgba(196,173,108 , 0.3);
-        border-top: 6px solid #F4F5F9;
-        border-bottom: 6px solid #F4F5F9;
+        border-top: 10px solid #F4F5F9;
     }
 
     .carrossel h3{
