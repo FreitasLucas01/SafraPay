@@ -199,6 +199,8 @@
         overflow: auto;
         scroll-snap-type: x;
         scroll-behavior: smooth;
+        background: #F4F5F9;
+        padding-bottom: 34px;
     }
 
     .carrossel-container::-webkit-scrollbar{
@@ -207,12 +209,10 @@
     
     .carrossel-container::-webkit-scrollbar-thumb{
         background: #C4AD6C;
-        /* border-top: 1px solid #F4F5F9; */
     }
     
     .carrossel-container::-webkit-scrollbar-track{
         background: rgba(196,173,108 , 0.3);
-        /* border-top: 1px solid #F4F5F9; */
     }
 
     .carrossel h3{
