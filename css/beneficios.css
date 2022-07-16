@@ -229,7 +229,7 @@
     }
 
     .carrossel li{
-        padding: 40px 12px 36px 32px;
+        padding: 40px 12px 36px 0px;
         scroll-snap-align: start;
     }
 
