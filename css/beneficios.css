@@ -198,7 +198,7 @@
     .carrossel-container{
         overflow: auto;
         scroll-snap-type: x;
-        /* scroll-behavior: smooth; */
+        scroll-behavior: smooth;
     }
 
     .carrossel h3{
@@ -213,7 +213,8 @@
 
     .carrossel li{
         /* padding: 40px 3px 36px 32px; */
-        padding: 0;
+        /* padding: 0; */
+        padding: 20px 0px 20px 40px;
         scroll-snap-align: start;
     }
 
