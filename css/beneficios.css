@@ -187,7 +187,8 @@
     }
 
     .beneficios-container{
-        padding: 0 20px;
+        padding-left: 20px;
+        padding-right: 5px;
     }
     
     .beneficios-texto h2{
