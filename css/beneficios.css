@@ -196,7 +196,7 @@
     }
 
     .carrossel-container{
-        /* overflow: auto; */
+        overflow: auto;
         scroll-snap-type: x;
         scroll-behavior: smooth;
         background: #F4F5F9;
@@ -250,7 +250,7 @@
     }
 
     .nxt-btn{
-        left: 0;
+        display: none;
     }
 }
 
