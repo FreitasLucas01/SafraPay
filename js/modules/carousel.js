@@ -38,7 +38,6 @@ export default function initCarousel() {
     function handleMouseDown(e) {
       pressed = true
       startX = e.clientX
-      this.style.cursor = "grabbing"
     }
     container.addEventListener("mousedown", handleMouseDown)
 
@@ -49,7 +48,6 @@ export default function initCarousel() {
 
     function handleMouseUp(e) {
       pressed = false
-      container.style.cursor = "grab"
     }
     window.addEventListener("mouseup", handleMouseUp)
     
