@@ -1,6 +1,6 @@
 #beneficios{
     background: #F4F5F9;
-    background: brown;
+    /* background: brown; */
     padding: 108px 0;
     overflow: hidden;
 }
@@ -201,6 +201,22 @@
         scroll-behavior: smooth;
     }
 
+    .carrossel-container::-webkit-scrollbar{
+        width: 18px;
+    }
+    
+    .carrossel-container::-webkit-scrollbar-thumb{
+        background: #C4AD6C;
+        border-top: 6px solid #F4F5F9;
+        border-bottom: 6px solid #F4F5F9;
+    }
+    
+    .carrossel-container::-webkit-scrollbar-track{
+        background: rgba(196,173,108 , 0.3);
+        border-top: 6px solid #F4F5F9;
+        border-bottom: 6px solid #F4F5F9;
+    }
+
     .carrossel h3{
         font: 300 1.35rem/1.33 "IBM Plex Sans" , monospace;
         margin-top: 15px;
@@ -212,9 +228,9 @@
     }
 
     .carrossel li{
-        /* padding: 40px 3px 36px 32px; */
+        padding: 40px 3px 36px 32px;
         /* padding: 0; */
-        padding: 20px 0px 20px 40px;
+        /* padding: 20px 0px 20px 10px; */
         scroll-snap-align: start;
     }
 

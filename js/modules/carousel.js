@@ -32,32 +32,32 @@ export default function initCarousel() {
   }
   
   if (window.matchMedia("(max-width: 600px)").matches) {
-    // let pressed = false;
-    // let startX = 0;
+    let pressed = false;
+    let startX = 0;
 
-    // function handleMouseDown(e) {
-    //   pressed = true
-    //   startX = e.clientX
-    //   this.style.cursor = "grabbing"
-    // }
-    // container.addEventListener("mousedown", handleMouseDown)
+    function handleMouseDown(e) {
+      pressed = true
+      startX = e.clientX
+      this.style.cursor = "grabbing"
+    }
+    container.addEventListener("mousedown", handleMouseDown)
 
-    // function handleMouseLeave(e) {
-    //   pressed = false
-    // }
-    // container.addEventListener("mouseleave", handleMouseLeave)
+    function handleMouseLeave(e) {
+      pressed = false
+    }
+    container.addEventListener("mouseleave", handleMouseLeave)
 
-    // function handleMouseUp(e) {
-    //   pressed = false
-    //   container.style.cursor = "grab"
-    // }
-    // window.addEventListener("mouseup", handleMouseUp)
+    function handleMouseUp(e) {
+      pressed = false
+      container.style.cursor = "grab"
+    }
+    window.addEventListener("mouseup", handleMouseUp)
     
-    // function handleMouseMove(e) {
-    //   if (!pressed)
-    //     return
-    //   this.scrollLeft += startX - e.clientX
-    // }
-    // container.addEventListener("mousemove", handleMouseMove)
+    function handleMouseMove(e) {
+      if (!pressed)
+        return
+      this.scrollLeft += startX - e.clientX
+    }
+    container.addEventListener("mousemove", handleMouseMove)
   }
 }
