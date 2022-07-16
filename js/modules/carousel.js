@@ -9,7 +9,7 @@ export default function initCarousel() {
 
     function handleNext() {
       direction = -1;
-      container.style.justifyContent = 'flex-start';
+      container.style.justifyContent = 'start';
       carousel.style.transform = 'translate(-25.2%)';
     }
     nextBtn.addEventListener('click', handleNext)
@@ -39,18 +39,6 @@ export default function initCarousel() {
       pressed = true
       startX = e.clientX
     }
-    // container.addEventListener("mousedown", handleMouseDown)
-
-    // function handleMouseLeave(e) {
-    //   pressed = false
-    // }
-    // container.addEventListener("touchend", handleMouseLeave)
-
-    // function handleMouseUp(e) {
-    //   pressed = false
-    // }
-    // window.addEventListener("mouseup", handleMouseUp)
-    
     function handleMouseMove(e) {
       if (!pressed)
         return
