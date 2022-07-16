@@ -197,8 +197,8 @@
 
     .carrossel-container{
         overflow: auto;
-        /* scroll-snap-type: x; */
-        scroll-behavior: smooth;
+        scroll-snap-type: x;
+        /* scroll-behavior: smooth; */
     }
 
     .carrossel h3{
