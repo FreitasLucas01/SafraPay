@@ -197,7 +197,7 @@
 
     .carrossel-container{
         overflow: auto;
-        scroll-snap-type: x;
+        /* scroll-snap-type: x; */
         scroll-behavior: smooth;
     }
 
