@@ -203,15 +203,15 @@
         padding-bottom: 34px;
     }
 
-    .carrossel-container::-webkit-scrollbar{
-        width: 1px;
+    ::-webkit-scrollbar{
+        width: 2px;
     }
     
-    .carrossel-container::-webkit-scrollbar-thumb{
+    ::-webkit-scrollbar-thumb{
         background: #C4AD6C;
     }
     
-    .carrossel-container::-webkit-scrollbar-track{
+    ::-webkit-scrollbar-track{
         background: rgba(196,173,108 , 0.3);
     }
 
