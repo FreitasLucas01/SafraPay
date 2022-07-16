@@ -185,10 +185,6 @@
     #beneficios{
         padding: 42px 0;
     }
-
-    .beneficios-container{
-        padding-left: 20px;
-    }
     
     .beneficios-texto h2{
         font: 400 2rem/1.25 "IBM Plex Sans" , monospace;
@@ -212,7 +208,7 @@
     }
 
     .carrossel li{
-        padding: 40px 0px 36px 32px;
+        padding: 40px 3px 36px 32px;
         scroll-snap-align: start;
     }
 
