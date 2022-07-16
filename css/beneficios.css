@@ -209,10 +209,12 @@
     }
     
     .carrossel-container::-webkit-scrollbar-thumb{
+        -webkit-appearance: none;
         background: #C4AD6C;
     }
     
     .carrossel-container::-webkit-scrollbar-track{
+        -webkit-appearance: none;
         background: rgba(196,173,108 , 0.3);
     }
 
