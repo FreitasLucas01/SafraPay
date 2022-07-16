@@ -44,7 +44,7 @@ export default function initCarousel() {
     function handleMouseLeave(e) {
       pressed = false
     }
-    container.addEventListener("mouseleave", handleMouseLeave)
+    container.addEventListener("touchend", handleMouseLeave)
 
     function handleMouseUp(e) {
       pressed = false
@@ -56,6 +56,6 @@ export default function initCarousel() {
         return
       this.scrollLeft += startX - e.clientX
     }
-    container.addEventListener("mousemove", handleMouseMove)
+    container.addEventListener("touchmove", handleMouseMove)
   }
 }

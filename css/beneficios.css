@@ -227,12 +227,6 @@
 
     .carrossel li{
         padding: 40px 12px 36px 32px;
-        /* padding: 0;
-        width: 310px;
-        height: 284px;
-        box-sizing: border-box;
-        padding-left: 32px;
-        padding-top: 40px; */
         scroll-snap-align: start;
     }
 
