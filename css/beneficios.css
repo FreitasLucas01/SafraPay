@@ -196,7 +196,6 @@
     }
 
     .carrossel-container{
-        padding-right: 20px;
         overflow: auto;
         scroll-snap-type: x;
         scroll-behavior: smooth;
