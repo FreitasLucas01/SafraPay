@@ -202,7 +202,7 @@
     }
 
     .carrossel-container::-webkit-scrollbar{
-        width: 18px;
+        width: 1px;
     }
     
     .carrossel-container::-webkit-scrollbar-thumb{
