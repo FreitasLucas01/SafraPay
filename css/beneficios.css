@@ -196,22 +196,23 @@
     }
 
     .carrossel-container{
-        overflow: auto;
+        /* overflow: auto; */
         scroll-snap-type: x;
         scroll-behavior: smooth;
         background: #F4F5F9;
         padding-bottom: 34px;
     }
 
-    ::-webkit-scrollbar{
+    .carrossel-container::-webkit-scrollbar{
+        -webkit-appearance: none;
         width: 2px;
     }
     
-    ::-webkit-scrollbar-thumb{
+    .carrossel-container::-webkit-scrollbar-thumb{
         background: #C4AD6C;
     }
     
-    ::-webkit-scrollbar-track{
+    .carrossel-container::-webkit-scrollbar-track{
         background: rgba(196,173,108 , 0.3);
     }
 
