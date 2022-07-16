@@ -185,6 +185,10 @@
     #beneficios{
         padding: 42px 0;
     }
+
+    .beneficios-container{
+        padding-left: 20px;
+    }
     
     .beneficios-texto h2{
         font: 400 2rem/1.25 "IBM Plex Sans" , monospace;
