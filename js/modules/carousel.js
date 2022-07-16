@@ -39,17 +39,17 @@ export default function initCarousel() {
       pressed = true
       startX = e.clientX
     }
-    container.addEventListener("mousedown", handleMouseDown)
+    // container.addEventListener("mousedown", handleMouseDown)
 
-    function handleMouseLeave(e) {
-      pressed = false
-    }
-    container.addEventListener("touchend", handleMouseLeave)
+    // function handleMouseLeave(e) {
+    //   pressed = false
+    // }
+    // container.addEventListener("touchend", handleMouseLeave)
 
-    function handleMouseUp(e) {
-      pressed = false
-    }
-    window.addEventListener("mouseup", handleMouseUp)
+    // function handleMouseUp(e) {
+    //   pressed = false
+    // }
+    // window.addEventListener("mouseup", handleMouseUp)
     
     function handleMouseMove(e) {
       if (!pressed)
