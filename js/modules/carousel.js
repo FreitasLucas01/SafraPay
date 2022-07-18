@@ -7,12 +7,15 @@ export default function initCarousel() {
 
     let direction;
 
-    function handleNext() {
+    function handleNext(e) {
+      if (e.type === "touchstart")
+        e.preventDefault()
       direction = -1;
       container.style.justifyContent = 'start';
       carousel.style.transform = 'translate(-25.2%)';
     }
     nextBtn.addEventListener('click', handleNext)
+    nextBtn.addEventListener('touchstart', handleNext)
 
     function handleSlide() {
 
