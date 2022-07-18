@@ -1,8 +1,7 @@
 #beneficios{
     background: #F4F5F9;
-    /* background: brown; */
     padding: 108px 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .beneficios-container{
@@ -11,15 +10,6 @@
     gap: 167px;
     max-width: 1270px;
     margin: 0 auto;
-}
-
-.beneficios-container::after{
-    content: "";
-    background: url("../img/gradiente.svg");
-    position: absolute;
-    width: 170px;
-    height: 307px;
-    right: 0px;
 }
 
 .beneficios-texto{
@@ -41,6 +31,7 @@
 }
 
 .carrossel-container{
+    max-width: 1200px;
     display: flex;
     justify-content: start;
     overflow: hidden;
@@ -114,6 +105,14 @@
     z-index: 1;
 }
 
+.gradiente{
+    position: absolute;
+    background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 104.3%);
+    width: 170px;
+    height: 307px;
+    right: 0;
+}
+
 @media(max-width: 1600px){
     .nxt-btn{
         left: 445px;
@@ -148,8 +147,8 @@
         gap: 49px;
     }
 
-    .beneficios-container::after{
-        content: none;
+    .gradiente{ 
+        display: none;
     }
 
     .beneficios-texto{
