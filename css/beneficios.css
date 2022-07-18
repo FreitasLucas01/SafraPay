@@ -31,7 +31,6 @@
 }
 
 .carrossel-container{
-    max-width: 1200px;
     display: flex;
     justify-content: start;
     overflow: hidden;
