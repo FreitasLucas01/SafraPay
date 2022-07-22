@@ -400,12 +400,12 @@
         max-width: 335px;
         box-shadow: none;
         margin: 0 auto;
-        padding: 58px 0;
+        padding-top: 58px;
+        padding-bottom: 35px;
     }
 
     .ofertas-img{
         justify-content: center;
-        /* margin-top: 60px; */
     }
 
     .ofertas-info-container {
