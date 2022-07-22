@@ -1,0 +1,339 @@
+#ofertas {
+    padding: 110px 0;
+    color: #182346;
+}
+
+.ofertas-maquinas {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px 80px;
+    margin-top: 56px;
+}
+
+.ofertas {
+    display: flex;
+    justify-content: center;
+    background: #F4F5F9;
+    /* background: brown; */
+    max-width: max-content;
+    box-shadow: inset 0 6px #FFFFFF, inset 165px 0 #FFFFFF;
+
+    position: relative;
+}
+
+.ofertas-smart,
+.ofertas-mini{
+    box-shadow: inset 0 6px #FFFFFF, inset 154px 0 #FFFFFF;
+}
+
+.ofertas-img{
+    display: flex;
+    align-items: center;
+}
+
+.ofertas-img img {
+    min-width: 200px;
+}
+
+.pro-img{
+    align-items: start;
+}
+
+.smart-img{
+    margin-top: 30px;
+}
+
+.mini-img{
+    margin-top: 54px;
+}
+
+.ofertas-info-container {
+    padding-top: 18px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.pro-info-container{
+    padding-left: 17px;
+    padding-right: 61px;
+}
+
+.smart-info-container{
+    padding-left: 24px;
+    padding-right: 73px;
+}
+
+.slim-info-container{
+    padding-left: 4px;
+    padding-right: 43px;
+}
+
+.mini-info-container{
+    padding-left: 0px;
+    padding-right: 71px;
+}
+
+.ofertas-info-container h3 {
+    font: 400 1.5rem/1.35 "IBM Plex Sans", monospace;
+    margin-top: 32px;
+}
+
+.ofertas-info-container h3 span {
+    font-weight: 500;
+}
+
+.ofertas-info-container p:first-child {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font: 500 0.750rem/1.5 "IBM Plex Sans", monospace;
+    color: #FFFFFF;
+    box-shadow: 0px 5.4px 13.5px rgba(196, 173, 108, 0.5);
+    padding: 9px 32px;
+    background: #C4AD6C;
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 0;
+    right: 35px;
+    top: -27px;
+}
+
+.ofertas-info-container ul {
+    font: 400 0.875rem/2.285 "IBM Plex Sans", monospace;
+    margin-top: 24px;
+}
+
+.pro-info-container ul{
+    padding-left: 9px;
+}
+
+.slim-info-container ul{
+    padding-left: 30px;
+}
+
+.mini-info-container ul{
+    padding-left: 61px;
+}
+
+.ofertas-info-container ul li {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.ofertas-info-container ul li:before {
+    content: "";
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.ofertas-info-container .botao {
+    margin: 0 auto;
+    margin-top: 16px;
+    font: 500 0.937rem/1.35 "IBM Plex Sans", monospace;
+    padding: 12px 29px;
+    white-space: nowrap;
+}
+
+.smart-info-container .botao{
+    margin-top: 48px;
+}
+
+.mini-info-container .botao{
+    margin-left: 47px;
+    margin-top: 80px;
+}
+
+.ofertas-info {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ofertas-info p {
+    font: 400 0.750rem/1.35 "IBM Plex Sans", monospace;
+    max-width: 36ch;
+    margin: 0 auto;
+    margin-top: 17px;
+}
+
+.ofertas-info p:first-child::before {
+    content: "";
+    display: inline-block;
+    width: 14px;
+    height: 15px;
+    background-image: url("../icons/veloz-branco.svg");
+    margin-right: 9px;
+}
+
+.smart-info p {
+    max-width: 30ch;
+}
+
+.slim-info p {
+    margin-left: 8px;
+    max-width: 40ch;
+}
+
+.mini-info p {
+    margin-left: 14px;
+}
+
+.mini-info p:first-child{
+    font: 400 0.875rem/1.285 "IBM Plex Sans", monospace;
+    text-transform: capitalize;
+    padding: 8px 21px;
+    color: #182346;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 16px rgba(29, 35, 72, 0.2);
+}
+
+.mini-info p:first-child::before{
+    content: "";
+    position: absolute;
+    display: block;
+    bottom: -10px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+.ofertas-texto {
+    text-align: center;
+    color: #182346;
+}
+
+.ofertas-texto h2 {
+    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;
+    margin-top: 38px;
+}
+
+.ofertas-texto p:not(:last-child) {
+    display: block;
+    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
+    margin-top: 23px;
+}
+
+.ofertas-texto span {
+    text-transform: uppercase;
+    font: 600 0.812rem/1.23 "IBM Plex Sans", monospace;
+}
+
+.ofertas-span {
+    font: 500 0.812rem/1.25 "IBM Plex Sans", monospace;
+}
+
+.nfc::before {
+    width: 13px;
+    height: 15px;
+    background: url("../icons/nfc.svg") no-repeat center;
+}
+
+.bateria::before {
+    width: 14px;
+    height: 10px;
+    background: url("../icons/bateria.svg") no-repeat center;
+}
+
+.app::before {
+    width: 11px;
+    height: 16px;
+    background: url("../icons/app.svg") no-repeat center;
+}
+
+.bluetooth::before {
+    width: 12px;
+    height: 12px;
+    background: url("../icons/bluetooth.svg") no-repeat center;
+}
+
+.bolso::before {
+    width: 13px;
+    height: 13px;
+    background: url("../icons/bolso.svg") no-repeat center;
+}
+
+.impressao::before {
+    width: 12px;
+    height: 15px;
+    background: url("../icons/impressao.svg") no-repeat center;
+}
+
+.sms::before{
+    width: 12px;
+    height: 12px;
+    background: url("../icons/sms.svg") no-repeat center;
+}
+
+.android::before {
+    width: 13px;
+    height: 15px;
+    background: url("../icons/android.svg") no-repeat center;
+}
+
+.veloz::before {
+    width: 14px;
+    height: 15px;
+    background: url("../icons/veloz.svg") no-repeat center;
+}
+
+.touchscreen::before {
+    width: 13px;
+    height: 12px;
+    background: url("../icons/touchscreen.svg") no-repeat center;
+}
+
+.wifi:before {
+    width: 16px;
+    height: 12px;
+    background: url("../icons/wifi.svg") no-repeat center;
+}
+
+.qr::before {
+    width: 12px;
+    height: 13px;
+    background: url("../icons/qr.svg") no-repeat center;
+}
+
+.celular::before {
+    width: 12px;
+    height: 12px;
+    background: url("../icons/celular.svg") no-repeat center;
+}
+
+.borda{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #C4AD6C;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 170px 0 #FFFFFF;
+}
+
+.borda-pro{
+    box-shadow: inset 165px 0 #FFFFFF;
+}
+.borda-smart{
+    box-shadow: inset 154px 0 #FFFFFF , inset -98px 0 #FFFFFF;
+}
+.borda-slim{
+    box-shadow: inset 165px 0 #FFFFFF , inset -194px 0 #FFFFFF;
+}
+.borda-mini{
+    box-shadow: inset 154px 0 #FFFFFF , inset -293px 0 #FFFFFF;
+}
