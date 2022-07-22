@@ -22,7 +22,6 @@
     /* background: brown; */
     max-width: max-content;
     box-shadow: inset 0 6px #FFFFFF, inset 165px 0 #FFFFFF;
-
     position: relative;
 }
 
@@ -76,15 +75,6 @@
 .mini-info-container{
     padding-left: 0px;
     padding-right: 71px;
-}
-
-.ofertas-info-container h3 {
-    font: 400 1.5rem/1.35 "IBM Plex Sans", monospace;
-    margin-top: 32px;
-}
-
-.ofertas-info-container h3 span {
-    font-weight: 500;
 }
 
 .ofertas-info-container p:first-child {
@@ -155,6 +145,19 @@
 .ofertas-info {
     margin: 0 auto;
     text-align: center;
+}
+
+.ofertas-info h3 {
+    font: 400 1.5rem/1.35 "IBM Plex Sans", monospace;
+    margin-top: 32px;
+}
+
+.ofertas-info h3 span {
+    font-weight: 500;
+}
+
+.mini-info h3{
+    margin-left: 13px;
 }
 
 .ofertas-info p {
