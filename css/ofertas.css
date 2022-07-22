@@ -128,7 +128,7 @@
 .ofertas-info-container .botao {
     margin: 0 auto;
     margin-top: 16px;
-    font: 500 0.937rem/1.35 "IBM Plex Sans", monospace;
+    font: 600 0.937rem/1.35 "IBM Plex Sans", monospace;
     padding: 12px 29px;
     white-space: nowrap;
 }
