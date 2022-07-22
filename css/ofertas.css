@@ -21,7 +21,7 @@
     background: #F4F5F9;
     /* background: brown; */
     max-width: max-content;
-    box-shadow: inset 0 6px #FFFFFF, inset 165px 0 #FFFFFF;
+    box-shadow: inset 0 6px #FFFFFF, inset 167px 0 #FFFFFF;
     position: relative;
 }
 
@@ -35,10 +35,6 @@
     align-items: center;
 }
 
-.ofertas-img img {
-    min-width: 200px;
-}
-
 .pro-img{
     align-items: start;
 }
@@ -48,7 +44,7 @@
 }
 
 .mini-img{
-    margin-top: 54px;
+    margin-top: 78px;
 }
 
 .ofertas-info-container {
@@ -59,22 +55,22 @@
 
 .pro-info-container{
     padding-left: 17px;
-    padding-right: 61px;
+    padding-right: 63px;
 }
 
 .smart-info-container{
-    padding-left: 24px;
-    padding-right: 73px;
+    padding-left: 23px;
+    padding-right: 74px;
 }
 
 .slim-info-container{
-    padding-left: 4px;
-    padding-right: 43px;
+    padding-left: 5px;
+    padding-right: 44px;
 }
 
 .mini-info-container{
-    padding-left: 0px;
-    padding-right: 47px;
+    padding-left: 15px;
+    padding-right: 58px;
 }
 
 .ofertas-info-container p:first-child {
@@ -110,7 +106,8 @@
 }
 
 .mini-info-container ul{
-    padding-left: 61px;
+    margin-top: 42px;
+    padding-left: 40px;
 }
 
 .ofertas-info-container ul li {
@@ -139,7 +136,7 @@
 
 .mini-info-container .botao{
     margin-left: 47px;
-    margin-top: 80px;
+    margin-top: 62px;
 }
 
 .ofertas-info {
@@ -154,10 +151,6 @@
 
 .ofertas-info h3 span {
     font-weight: 500;
-}
-
-.mini-info h3{
-    margin-left: 13px;
 }
 
 .ofertas-info p {
@@ -186,7 +179,6 @@
 }
 
 .mini-info p {
-    margin-left: 9px;
     max-width: 40ch;
 }
 
@@ -330,14 +322,148 @@
 }
 
 .borda-pro{
-    box-shadow: inset 165px 0 #FFFFFF;
+    box-shadow: inset 167px 0 #FFFFFF;
 }
 .borda-smart{
     box-shadow: inset 154px 0 #FFFFFF , inset -98px 0 #FFFFFF;
 }
 .borda-slim{
-    box-shadow: inset 165px 0 #FFFFFF , inset -194px 0 #FFFFFF;
+    box-shadow: inset 167px 0 #FFFFFF , inset -194px 0 #FFFFFF;
 }
 .borda-mini{
     box-shadow: inset 154px 0 #FFFFFF , inset -293px 0 #FFFFFF;
+}
+
+
+@media(max-width: 1260px){
+    .ofertas-maquinas {
+        max-width: 100%;
+        gap: 70px 40px;
+    }
+}
+
+@media(max-width: 1100px){
+    .ofertas{
+    box-shadow: inset 0 6px #FFFFFF, inset 100px 0 #FFFFFF;
+    }
+
+    .pro-img{
+        align-items: center;
+    }
+
+    .smart-img{
+        margin: 0px;
+    }
+    
+    .mini-img{
+        margin: 0px;
+    }
+
+    .borda-pro{
+        box-shadow: inset 100px 0 #FFFFFF;
+    }
+    .borda-smart{
+        box-shadow: inset 100px 0 #FFFFFF , inset -98px 0 #FFFFFF;
+    }
+    .borda-slim{
+        box-shadow: inset 100px 0 #FFFFFF , inset -194px 0 #FFFFFF;
+    }
+    .borda-mini{
+        box-shadow: inset 100px 0 #FFFFFF , inset -293px 0 #FFFFFF;
+    }
+}
+
+@media(max-width: 1024px){
+    .ofertas-maquinas {
+        grid-template-columns: 1fr;
+        gap: 58px 0px;
+        margin-top: 56px;
+    }
+
+    .ofertas-maquinas {
+        justify-items: center;
+    }
+
+    .pro-img{
+        align-items: start;
+    }
+}
+
+@media(max-width: 600px){
+    .ofertas {
+        display: block;
+        width: 335px;
+        max-width: 335px;
+        box-shadow: none;
+        margin: 0 auto;
+        padding: 58px 0;
+    }
+
+    .ofertas-img{
+        justify-content: center;
+        /* margin-top: 60px; */
+    }
+
+    .ofertas-info-container {
+        position: initial;
+    }
+
+    .ofertas-info-container p:first-child {
+        font: 600 0.625rem/1.6 "IBM Plex Sans", monospace;
+        padding: 8px 30px;
+        top: -33px;
+        right: 0;
+    }
+
+    .pro-info-container,
+    .smart-info-container,
+    .slim-info-container,
+    .mini-info-container,
+    .ofertas-info-container ul, 
+    .pro-info-container ul,
+    .slim-info-container ul,
+    .mini-info-container ul{
+        padding: 0;
+    }
+
+    .ofertas-info-container ul, 
+    .pro-info-container ul,
+    .slim-info-container ul,
+    .mini-info-container ul{
+        max-width: min-content;
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+
+    .ofertas-info h3 {
+        font: 400 1.32rem/1.38 "IBM Plex Sans", monospace;
+        margin-top: 18px;
+    }
+
+    .ofertas-span{
+        font: 400 0.73rem/1.27 "IBM Plex Sans", monospace;
+    }
+
+    .ofertas-info p {
+        font: 400 0.69rem/1.27 "IBM Plex Sans", monospace;
+    }
+
+    .slim-info p {
+        margin: 0 auto;
+        margin-top: 17px;
+        max-width: 40ch;
+    }
+
+    .borda-pro{
+        box-shadow: inset 0px 0 #FFFFFF;
+    }
+    .borda-smart{
+        box-shadow: inset 0px 0 #FFFFFF , inset -83px 0 #FFFFFF;
+    }
+    .borda-slim{
+        box-shadow: inset 0px 0 #FFFFFF , inset -167px 0 #FFFFFF;
+    }
+    .borda-mini{
+        box-shadow: inset 0px 0 #FFFFFF , inset -251px 0 #FFFFFF;
+    }
 }
