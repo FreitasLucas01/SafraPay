@@ -390,6 +390,10 @@
 }
 
 @media(max-width: 600px){
+    #ofertas {
+        padding: 49px 0;
+    }
+
     .ofertas {
         display: block;
         width: 335px;
