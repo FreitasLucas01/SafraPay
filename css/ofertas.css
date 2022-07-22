@@ -191,7 +191,7 @@
 }
 
 .mini-info p:first-child{
-    font: 500 0.875rem/1.285 "IBM Plex Sans", monospace;
+    font: 600 0.875rem/1.285 "IBM Plex Sans", monospace;
     text-transform: capitalize;
     padding: 8px 21px;
     color: #182346;
