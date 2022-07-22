@@ -74,7 +74,7 @@
 
 .mini-info-container{
     padding-left: 0px;
-    padding-right: 71px;
+    padding-right: 42px;
 }
 
 .ofertas-info-container p:first-child {
@@ -187,6 +187,7 @@
 
 .mini-info p {
     margin-left: 14px;
+    max-width: 40ch;
 }
 
 .mini-info p:first-child{
