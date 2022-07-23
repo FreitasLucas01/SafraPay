@@ -1,13 +1,11 @@
 #ofertas {
-    padding: 110px 0;
+    padding: 110px 20px;
     color: #182346;
 }
 
 .ofertas-maquinas {
     max-width: 1240px;
     margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -375,7 +373,7 @@
 
 @media(max-width: 1024px){
     #ofertas {
-        padding: 49px 0;
+        padding: 49px 20px;
     }
 
     .ofertas-maquinas {
@@ -454,6 +452,14 @@
     .ofertas-info-container ul li {
         display: flex;
         align-items: center;
+    }
+
+    .ofertas-texto h2 {
+        font: 400 2rem/1.25 "IBM Plex Sans", monospace;
+    }
+
+    .ofertas-texto p:not(:last-child) {
+        font: 300 1rem/1.375 "IBM Plex Sans", monospace;
     }
 
     .ofertas-info h3 {
