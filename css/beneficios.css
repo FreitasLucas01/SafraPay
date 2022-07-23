@@ -252,10 +252,6 @@
 }
 
 @media(max-width: 380px){
-    .beneficios-texto{
-        
-    }
-
     .beneficios-texto h2{
         font: 400 1.823rem/1.25 "IBM Plex Sans" , monospace;
         max-width: 100%;
