@@ -249,7 +249,8 @@
 @media(max-width: 380px){
     .beneficios-texto{
         /* padding: 0 0px; */
-        padding: 0 10px;
+        margin: 0 auto;
+        padding: 0 5px;
     }
 
     .beneficios-texto h2{
