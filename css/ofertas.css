@@ -498,12 +498,9 @@
     }
 }
 
-@media(max-width: 400px){
-    .ofertas {
-        /* max-width: max-content; */
-    }
-
-    .ofertas-info p{
-        /* max-width: 100%; */
+@media(max-width: 380px){
+    .ofertas-texto h2 {
+        font: 400 2rem/1.25 "IBM Plex Sans", monospace;
+        max-width: 15ch;
     }
 }
