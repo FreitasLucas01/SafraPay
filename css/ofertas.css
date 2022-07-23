@@ -395,8 +395,8 @@
     }
 
     .ofertas {
-        display: block;
-        width: 335px;
+        display: inline;
+        width: 100%;
         max-width: 335px;
         box-shadow: none;
         margin: 0 auto;
@@ -405,6 +405,7 @@
     }
 
     .ofertas-img{
+        flex-shrink: 1;
         justify-content: center;
     }
 
@@ -450,12 +451,12 @@
 
     .ofertas-info p {
         font: 400 0.69rem/1.27 "IBM Plex Sans", monospace;
+        max-width: 100%;
     }
 
     .slim-info p {
         margin: 0 auto;
         margin-top: 17px;
-        max-width: 40ch;
     }
 
     .borda-pro{
@@ -469,5 +470,27 @@
     }
     .borda-mini{
         box-shadow: inset 0px 0 #FFFFFF , inset -251px 0 #FFFFFF;
+    }
+
+    .ofertas-info-container ul li {
+        display: flex;
+        align-items: center;
+    }
+    
+    .ofertas-info-container .botao {
+        margin: 0 auto;
+        margin-top: 16px;
+        font: 600 0.937rem/1.35 "IBM Plex Sans", monospace;
+        padding: 12px 29px;
+    }
+}
+
+@media(max-width: 400px){
+    .ofertas {
+        /* max-width: max-content; */
+    }
+
+    .ofertas-info p{
+        max-width: 100%;
     }
 }
