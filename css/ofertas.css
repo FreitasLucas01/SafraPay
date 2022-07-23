@@ -394,6 +394,10 @@
         padding: 49px 0;
     }
 
+    .ofertas-img{
+        justify-content: center;
+    }
+
     .ofertas {
         display: inline;
         width: 100%;
@@ -402,11 +406,6 @@
         margin: 0 auto;
         padding-top: 58px;
         padding-bottom: 35px;
-    }
-
-    .ofertas-img{
-        flex-shrink: 1;
-        justify-content: center;
     }
 
     .ofertas-info-container {
@@ -418,6 +417,13 @@
         padding: 8px 30px;
         top: -33px;
         right: 0;
+    }
+
+    .ofertas-info-container .botao {
+        margin: 0 auto;
+        margin-top: 16px;
+        font: 600 0.937rem/1.35 "IBM Plex Sans", monospace;
+        padding: 12px 29px;
     }
 
     .pro-info-container,
@@ -440,6 +446,11 @@
         margin-top: 24px;
     }
 
+    .ofertas-info-container ul li {
+        display: flex;
+        align-items: center;
+    }
+
     .ofertas-info h3 {
         font: 400 1.32rem/1.38 "IBM Plex Sans", monospace;
         margin-top: 18px;
@@ -451,7 +462,7 @@
 
     .ofertas-info p {
         font: 400 0.69rem/1.27 "IBM Plex Sans", monospace;
-        max-width: 100%;
+        /* max-width: 100%; */
     }
 
     .slim-info p {
@@ -471,18 +482,6 @@
     .borda-mini{
         box-shadow: inset 0px 0 #FFFFFF , inset -251px 0 #FFFFFF;
     }
-
-    .ofertas-info-container ul li {
-        display: flex;
-        align-items: center;
-    }
-    
-    .ofertas-info-container .botao {
-        margin: 0 auto;
-        margin-top: 16px;
-        font: 600 0.937rem/1.35 "IBM Plex Sans", monospace;
-        padding: 12px 29px;
-    }
 }
 
 @media(max-width: 400px){
@@ -491,6 +490,6 @@
     }
 
     .ofertas-info p{
-        max-width: 100%;
+        /* max-width: 100%; */
     }
 }
