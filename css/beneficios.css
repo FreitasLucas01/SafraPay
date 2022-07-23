@@ -253,17 +253,11 @@
 
 @media(max-width: 400px){
     .beneficios-texto{
-        /* margin: 0 auto;
-        padding: 0 5px; */
+        
     }
 
     .beneficios-texto h2{
+        font: 400 1.823rem/1.25 "IBM Plex Sans" , monospace;
         max-width: 100%;
     }
 }
-
-/* @media(max-width: 350px){
-    .beneficios-texto{
-        padding: 0 20px;
-    }
-} */
