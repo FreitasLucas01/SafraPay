@@ -501,6 +501,8 @@
 @media(max-width: 380px){
     .ofertas-texto h2 {
         font: 400 2rem/1.25 "IBM Plex Sans", monospace;
+        margin: 0 auto;
+        margin-top: 32px;
         max-width: 15ch;
     }
 }
