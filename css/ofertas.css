@@ -467,12 +467,15 @@
 
     .ofertas-info p {
         font: 400 0.69rem/1.27 "IBM Plex Sans", monospace;
-        /* max-width: 100%; */
     }
 
     .slim-info p {
         margin: 0 auto;
         margin-top: 17px;
+    }
+
+    .mini-info p {
+        max-width: 35ch;
     }
 
     .borda-pro{
