@@ -203,7 +203,6 @@
 
     .carrossel-container::-webkit-scrollbar{
         width: 2px;
-        height: 100px;
     }
     
     .carrossel-container::-webkit-scrollbar-thumb{
