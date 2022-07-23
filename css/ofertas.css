@@ -374,6 +374,10 @@
 }
 
 @media(max-width: 1024px){
+    #ofertas {
+        padding: 49px 0;
+    }
+
     .ofertas-maquinas {
         grid-template-columns: 1fr;
         gap: 58px 0px;
@@ -390,10 +394,6 @@
 }
 
 @media(max-width: 600px){
-    #ofertas {
-        padding: 49px 0;
-    }
-
     .ofertas-img{
         justify-content: center;
     }
@@ -424,6 +424,11 @@
         margin-top: 16px;
         font: 600 0.937rem/1.35 "IBM Plex Sans", monospace;
         padding: 12px 29px;
+    }
+
+    .ofertas-info-container ul {
+        font: 400 0.787rem/2.3 "IBM Plex Sans", monospace;
+        margin-top: 24px;
     }
 
     .pro-info-container,
