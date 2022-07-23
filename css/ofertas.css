@@ -332,7 +332,6 @@
     box-shadow: inset 154px 0 #FFFFFF , inset -293px 0 #FFFFFF;
 }
 
-
 @media(max-width: 1260px){
     .ofertas-maquinas {
         max-width: 100%;
@@ -504,5 +503,11 @@
         margin: 0 auto;
         margin-top: 32px;
         max-width: 15ch;
+    }
+
+    .ofertas-info-container .botao {
+        margin-top: 16px;
+        font: 600 0.843rem/1.35 "IBM Plex Sans", monospace;
+        padding: 12px 26px;
     }
 }
