@@ -332,6 +332,51 @@
     box-shadow: inset 154px 0 #FFFFFF , inset -293px 0 #FFFFFF;
 }
 
+.ofertas-icons-container{
+    max-width: 811px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.ofertas-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.ofertas-icons li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: end;
+}
+
+.ofertas-icons h3{
+    font: 300 1.5rem/1.35 "IBM Plex Sans", monospace;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.ofertas-icons p{
+    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
+    color: #464F6B;
+}
+
+.ofertas-dots{
+    max-width: 72px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.dots{
+    width: 4px;
+    height: 4px;
+    background: #1D2348;
+    border-radius: 50%;
+}
+
 @media(max-width: 1260px){
     .ofertas-maquinas {
         max-width: 100%;
@@ -388,6 +433,38 @@
     .pro-img{
         align-items: start;
     }
+}
+
+@media(max-width: 800px){
+    .ofertas-icons{
+        display: block;
+    }
+    
+    .ofertas-icons li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 46px;
+    }
+    
+    .ofertas-icons h3{
+        font: 300 1.215rem/1.35 "IBM Plex Sans", monospace;
+        margin-bottom: 0;
+    }
+    
+    .ofertas-icons p{
+        font: 300 0.92rem/1.30 "IBM Plex Sans", monospace;
+        color: #464F6B;
+    }
+    
+    .ofertas-dots{
+        max-width: 72px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 0px;
+    }
+    
 }
 
 @media(max-width: 600px){
@@ -458,6 +535,12 @@
         align-items: center;
     }
 
+    .ofertas-info-container .botao {
+        margin-top: 16px;
+        font: 600 0.843rem/1.35 "IBM Plex Sans", monospace;
+        padding: 12px 26px;
+    }
+
     .ofertas-texto h2 {
         font: 400 2rem/1.25 "IBM Plex Sans", monospace;
     }
@@ -508,11 +591,5 @@
         margin: 0 auto;
         margin-top: 32px;
         max-width: 15ch;
-    }
-
-    .ofertas-info-container .botao {
-        margin-top: 16px;
-        font: 600 0.843rem/1.35 "IBM Plex Sans", monospace;
-        padding: 12px 26px;
     }
 }
