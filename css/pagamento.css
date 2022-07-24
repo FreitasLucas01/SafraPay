@@ -1,0 +1,89 @@
+#pagamento {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pagamento-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 630px;
+}
+
+.pagamento-container>span a {
+    display: inline-block;
+    font: 500 0.750rem/1.42 "IBM Plex Sans", monospace;
+    color: #464F6B;
+    margin-top: 38px;
+    border-bottom: 1px solid #464F6B;
+}
+
+.pagamento-texto h2 {
+    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;
+    color: #182346;
+}
+
+.pagamento-texto p {
+    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
+    color: #464F6B;
+    max-width: 60ch;
+    margin: 0 auto;
+    margin-top: 23px;
+}
+
+.pagamento-img {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pagamento-buttons {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 41px;
+}
+
+.pagamento-buttons a:nth-child(2n) {
+    padding: 19px 46px;
+    background: none;
+    border: 1px solid #182346;
+}
+
+@media(max-width: 800px) {
+    .pagamento-buttons {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+@media(max-width: 600px) {
+    .pagamento-texto h2 {
+        font: 400 2rem/1.25 "IBM Plex Sans", monospace;
+    }
+
+    .pagamento-texto p {
+        font: 300 1.01rem/1.35 "IBM Plex Sans", monospace;
+        max-width: 60ch;
+    }
+
+    .pagamento-buttons {
+        margin-top: 34px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .pagamento-buttons a {
+        font: 500 0.96rem/1.31 "IBM Plex Sans", monospace;
+        padding: 17px 34px;
+    }
+
+    .pagamento-buttons a:nth-child(2n) {
+        padding: 17px 38px;
+    }
+}
