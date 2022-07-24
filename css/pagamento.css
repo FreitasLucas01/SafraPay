@@ -61,15 +61,6 @@
 }
 
 @media(max-width: 600px) {
-    #pagamento {
-        padding: 0;
-    }
-
-    .pagamento-texto{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
     .pagamento-texto h2 {
         font: 400 2rem/1.25 "IBM Plex Sans", monospace;
     }
@@ -94,5 +85,11 @@
 
     .pagamento-buttons a:nth-child(2n) {
         padding: 17px 38px;
+    }
+}
+
+@media(max-width: 400px){
+    .pagamento-img img{
+        max-width: 25%;
     }
 }
