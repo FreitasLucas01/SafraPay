@@ -10,7 +10,7 @@
     padding-bottom: 630px;
 }
 
-.pagamento-container>span a {
+.pagamento-container > span a {
     display: inline-block;
     font: 500 0.750rem/1.42 "IBM Plex Sans", monospace;
     color: #464F6B;
@@ -84,7 +84,7 @@
     }
 
     .pagamento-buttons a:nth-child(2n) {
-        padding: 17px 38px;
+        padding: 17px 38.5px;
     }
 }
 
