@@ -61,6 +61,15 @@
 }
 
 @media(max-width: 600px) {
+    #pagamento {
+        padding: 0;
+    }
+
+    .pagamento-texto{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .pagamento-texto h2 {
         font: 400 2rem/1.25 "IBM Plex Sans", monospace;
     }
