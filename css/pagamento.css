@@ -7,7 +7,7 @@
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 630px;
+    padding-bottom: 100px;
 }
 
 .pagamento-container > span a {
@@ -36,6 +36,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .pagamento-buttons {
@@ -88,7 +89,7 @@
     }
 }
 
-@media(max-width: 400px){
+@media(max-width: 500px){
     .pagamento-img img{
         max-width: 25%;
     }
