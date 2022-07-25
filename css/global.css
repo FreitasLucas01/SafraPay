@@ -38,3 +38,36 @@ a{
     text-align: center;
     z-index: 2;
 }
+
+.setaBtn {
+    display: flex;
+    align-items: center;
+}
+
+.setaBtn::after {
+    content: "";
+    display: inline-block;
+    background: url("../icons/seta-azul.svg") no-repeat center;
+    width: 10px;
+    height: 10px;
+    margin-left: 6px;
+    transition: 0.2s;
+}
+
+.setaBtn:hover::after {
+    transform: translate(5px);
+}
+
+.playBtn {
+    display: flex;
+    align-items: center;
+}
+
+.playBtn::after {
+    content: "";
+    display: inline-block;
+    background: url("../icons/play.svg") no-repeat center;
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+}

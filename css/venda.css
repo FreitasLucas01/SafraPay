@@ -37,25 +37,6 @@
     position: relative;
 }
 
-.setaBtn {
-    display: flex;
-    align-items: center;
-}
-
-.setaBtn::after {
-    content: "";
-    display: inline-block;
-    background: url("../img/seta-azul.svg") no-repeat center;
-    width: 10px;
-    height: 10px;
-    margin-left: 6px;
-    transition: 0.2s;
-}
-
-.setaBtn:hover::after {
-    transform: translate(5px);
-}
-
 .venda-img {
     margin-right: auto;
     position: relative;
