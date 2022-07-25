@@ -74,7 +74,6 @@
     position: absolute;
     display: flex;
     align-items: center;
-    text-transform: uppercase;
     font: 600 0.750rem/1.5 "IBM Plex Sans", monospace;
     color: #FFFFFF;
     box-shadow: 0px 5.4px 13.5px rgba(196, 173, 108, 0.5);
@@ -334,52 +333,6 @@
     box-shadow: inset 154px 0 #FFFFFF, inset -293px 0 #FFFFFF;
 }
 
-.ofertas-icons-container {
-    max-width: 811px;
-    margin: 0 auto;
-    margin-top: 60px;
-}
-
-.ofertas-icons {
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-}
-
-.ofertas-icons li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: end;
-}
-
-.ofertas-icons h3 {
-    font: 300 1.5rem/1.35 "IBM Plex Sans", monospace;
-    margin-top: 20px;
-    margin-bottom: 8px;
-}
-
-.ofertas-icons p {
-    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
-    color: #464F6B;
-}
-
-.ofertas-dots {
-    max-width: 72px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    margin-top: 60px;
-}
-
-.dots {
-    width: 4px;
-    height: 4px;
-    background: #1D2348;
-    border-radius: 50%;
-}
-
-
 @media(max-width: 1140px) {
     #ofertas {
         padding: 49px 20px;
@@ -442,37 +395,6 @@
     }
 }
 
-@media(max-width: 800px) {
-    .ofertas-icons {
-        display: block;
-    }
-
-    .ofertas-icons li {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 46px;
-    }
-
-    .ofertas-icons h3 {
-        font: 300 1.215rem/1.35 "IBM Plex Sans", monospace;
-        margin-bottom: 0;
-    }
-
-    .ofertas-icons p {
-        font: 300 0.92rem/1.30 "IBM Plex Sans", monospace;
-        color: #464F6B;
-    }
-
-    .ofertas-dots {
-        max-width: 72px;
-        display: flex;
-        justify-content: space-between;
-        margin: 0 auto;
-        margin-top: 0px;
-    }
-}
-
 @media(max-width: 600px) {
     .ofertas {
         padding: 0;
@@ -499,7 +421,7 @@
     }
 
     .ofertas-info-container p:first-child {
-        font: 600 0.625rem/1.6 "IBM Plex Sans", monospace;
+        font: 600 0.787rem/1.27 "IBM Plex Sans", monospace;
         padding: 8px 30px;
         top: -33px;
         right: 0;
