@@ -275,8 +275,8 @@
 
 @media(max-width: 400px){
     #emegencial{
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 12px;
+        padding-right: 12px;
     }
 
     .emergencial-texto h2{
