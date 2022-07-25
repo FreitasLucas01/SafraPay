@@ -212,6 +212,11 @@
 }
 
 @media(max-width: 800px){
+    #emergencial {
+        margin-top: 72px;
+        margin-bottom: 0;
+    }
+
     .emergencial-container{
         gap: 18px;
     }
