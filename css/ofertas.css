@@ -17,31 +17,31 @@
     display: flex;
     justify-content: center;
     background: #F4F5F9;
-    /* background: brown; */
+    background: brown;
     max-width: max-content;
     box-shadow: inset 0 6px #FFFFFF, inset 167px 0 #FFFFFF;
     position: relative;
 }
 
 .ofertas-smart,
-.ofertas-mini{
+.ofertas-mini {
     box-shadow: inset 0 6px #FFFFFF, inset 154px 0 #FFFFFF;
 }
 
-.ofertas-img{
+.ofertas-img {
     display: flex;
     align-items: center;
 }
 
-.pro-img{
+.pro-img {
     align-items: start;
 }
 
-.smart-img{
+.smart-img {
     margin-top: 30px;
 }
 
-.mini-img{
+.mini-img {
     margin-top: 78px;
 }
 
@@ -51,22 +51,22 @@
     position: relative;
 }
 
-.pro-info-container{
+.pro-info-container {
     padding-left: 17px;
     padding-right: 63px;
 }
 
-.smart-info-container{
+.smart-info-container {
     padding-left: 23px;
     padding-right: 74px;
 }
 
-.slim-info-container{
+.slim-info-container {
     padding-left: 5px;
     padding-right: 44px;
 }
 
-.mini-info-container{
+.mini-info-container {
     padding-left: 15px;
     padding-right: 58px;
 }
@@ -95,15 +95,15 @@
     margin-top: 24px;
 }
 
-.pro-info-container ul{
+.pro-info-container ul {
     padding-left: 9px;
 }
 
-.slim-info-container ul{
+.slim-info-container ul {
     padding-left: 30px;
 }
 
-.mini-info-container ul{
+.mini-info-container ul {
     margin-top: 42px;
     padding-left: 40px;
 }
@@ -128,11 +128,11 @@
     white-space: nowrap;
 }
 
-.smart-info-container .botao{
+.smart-info-container .botao {
     margin-top: 48px;
 }
 
-.mini-info-container .botao{
+.mini-info-container .botao {
     margin-left: 47px;
     margin-top: 62px;
 }
@@ -180,7 +180,7 @@
     max-width: 40ch;
 }
 
-.mini-info p:first-child{
+.mini-info p:first-child {
     font: 600 0.875rem/1.285 "IBM Plex Sans", monospace;
     text-transform: capitalize;
     padding: 8px 21px;
@@ -189,7 +189,7 @@
     box-shadow: 0px 6px 16px rgba(29, 35, 72, 0.2);
 }
 
-.mini-info p:first-child::before{
+.mini-info p:first-child::before {
     content: "";
     position: absolute;
     display: block;
@@ -266,7 +266,7 @@
     background: url("../icons/impressao.svg") no-repeat center;
 }
 
-.sms::before{
+.sms::before {
     width: 12px;
     height: 12px;
     background: url("../icons/sms.svg") no-repeat center;
@@ -308,7 +308,7 @@
     background: url("../icons/celular.svg") no-repeat center;
 }
 
-.borda{
+.borda {
     position: absolute;
     display: block;
     width: 100%;
@@ -319,50 +319,53 @@
     box-shadow: inset 170px 0 #FFFFFF;
 }
 
-.borda-pro{
+.borda-pro {
     box-shadow: inset 167px 0 #FFFFFF;
 }
-.borda-smart{
-    box-shadow: inset 154px 0 #FFFFFF , inset -98px 0 #FFFFFF;
-}
-.borda-slim{
-    box-shadow: inset 167px 0 #FFFFFF , inset -194px 0 #FFFFFF;
-}
-.borda-mini{
-    box-shadow: inset 154px 0 #FFFFFF , inset -293px 0 #FFFFFF;
+
+.borda-smart {
+    box-shadow: inset 154px 0 #FFFFFF, inset -98px 0 #FFFFFF;
 }
 
-.ofertas-icons-container{
+.borda-slim {
+    box-shadow: inset 167px 0 #FFFFFF, inset -194px 0 #FFFFFF;
+}
+
+.borda-mini {
+    box-shadow: inset 154px 0 #FFFFFF, inset -293px 0 #FFFFFF;
+}
+
+.ofertas-icons-container {
     max-width: 811px;
     margin: 0 auto;
     margin-top: 60px;
 }
 
-.ofertas-icons{
+.ofertas-icons {
     display: flex;
     justify-content: space-between;
     align-items: end;
 }
 
-.ofertas-icons li{
+.ofertas-icons li {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: end;
 }
 
-.ofertas-icons h3{
+.ofertas-icons h3 {
     font: 300 1.5rem/1.35 "IBM Plex Sans", monospace;
     margin-top: 20px;
     margin-bottom: 8px;
 }
 
-.ofertas-icons p{
+.ofertas-icons p {
     font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
     color: #464F6B;
 }
 
-.ofertas-dots{
+.ofertas-dots {
     max-width: 72px;
     display: flex;
     justify-content: space-between;
@@ -370,109 +373,114 @@
     margin-top: 60px;
 }
 
-.dots{
+.dots {
     width: 4px;
     height: 4px;
     background: #1D2348;
     border-radius: 50%;
 }
 
-@media(max-width: 1260px){
-    .ofertas-maquinas {
-        max-width: 100%;
-        gap: 70px 40px;
-    }
-}
 
-@media(max-width: 1100px){
-    .ofertas{
-    box-shadow: inset 0 6px #FFFFFF, inset 100px 0 #FFFFFF;
-    }
-
-    .pro-img{
-        align-items: center;
-    }
-
-    .smart-img{
-        margin: 0px;
-    }
-    
-    .mini-img{
-        margin: 0px;
-    }
-
-    .borda-pro{
-        box-shadow: inset 100px 0 #FFFFFF;
-    }
-    .borda-smart{
-        box-shadow: inset 100px 0 #FFFFFF , inset -98px 0 #FFFFFF;
-    }
-    .borda-slim{
-        box-shadow: inset 100px 0 #FFFFFF , inset -194px 0 #FFFFFF;
-    }
-    .borda-mini{
-        box-shadow: inset 100px 0 #FFFFFF , inset -293px 0 #FFFFFF;
-    }
-}
-
-@media(max-width: 1024px){
+@media(max-width: 1140px) {
     #ofertas {
         padding: 49px 20px;
     }
 
     .ofertas-maquinas {
         grid-template-columns: 1fr;
+        justify-items: center;
         gap: 58px 0px;
         margin-top: 56px;
     }
 
-    .ofertas-maquinas {
-        justify-items: center;
+    .ofertas {
+        box-shadow: inset 0 6px #FFFFFF, inset 150px 0 #FFFFFF;
+        width: 540px;
+        max-width: 540px;
     }
 
-    .pro-img{
-        align-items: start;
+    .pro-info-container,
+    .smart-info-container,
+    .slim-info-container,
+    .mini-info-container,
+    .ofertas-info-container ul,
+    .pro-info-container ul,
+    .slim-info-container ul,
+    .mini-info-container ul {
+        padding: 0;
+    }
+
+    .ofertas-info-container ul,
+    .pro-info-container ul,
+    .slim-info-container ul,
+    .mini-info-container ul {
+        max-width: min-content;
+        margin: 0 auto;
+        margin-top: 24px;
+    }
+
+    .ofertas-info-container {
+        padding-top: 18px;
+        padding-right: 20px;
+        padding-left: 10px;
+        padding-bottom: 30px;
+    }
+
+    .borda-pro {
+        box-shadow: inset 150px 0 #FFFFFF;
+    }
+
+    .borda-smart {
+        box-shadow: inset 150px 0 #FFFFFF, inset -98px 0 #FFFFFF;
+    }
+
+    .borda-slim {
+        box-shadow: inset 150px 0 #FFFFFF, inset -194px 0 #FFFFFF;
+    }
+
+    .borda-mini {
+        box-shadow: inset 150px 0 #FFFFFF, inset -293px 0 #FFFFFF;
     }
 }
 
-@media(max-width: 800px){
-    .ofertas-icons{
+@media(max-width: 800px) {
+    .ofertas-icons {
         display: block;
     }
-    
-    .ofertas-icons li{
+
+    .ofertas-icons li {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-bottom: 46px;
     }
-    
-    .ofertas-icons h3{
+
+    .ofertas-icons h3 {
         font: 300 1.215rem/1.35 "IBM Plex Sans", monospace;
         margin-bottom: 0;
     }
-    
-    .ofertas-icons p{
+
+    .ofertas-icons p {
         font: 300 0.92rem/1.30 "IBM Plex Sans", monospace;
         color: #464F6B;
     }
-    
-    .ofertas-dots{
+
+    .ofertas-dots {
         max-width: 72px;
         display: flex;
         justify-content: space-between;
         margin: 0 auto;
         margin-top: 0px;
     }
-    
 }
 
-@media(max-width: 600px){
-    .ofertas-img{
+@media(max-width: 600px) {
+    .ofertas-img {
         justify-content: center;
     }
 
     .ofertas {
+        padding: 0;
         display: inline;
         width: 100%;
         max-width: 335px;
@@ -480,6 +488,10 @@
         margin: 0 auto;
         padding-top: 58px;
         padding-bottom: 35px;
+    }
+
+    .ofertas-img {
+        margin: 0;
     }
 
     .ofertas-info-container {
@@ -493,7 +505,7 @@
         right: 0;
     }
 
-    .mini-info p:first-child{
+    .mini-info p:first-child {
         font: 600 0.787rem/1.27 "IBM Plex Sans", monospace;
         padding: 7px 18px;
     }
@@ -510,24 +522,8 @@
         margin-top: 24px;
     }
 
-    .pro-info-container,
-    .smart-info-container,
-    .slim-info-container,
-    .mini-info-container,
-    .ofertas-info-container ul, 
-    .pro-info-container ul,
-    .slim-info-container ul,
-    .mini-info-container ul{
+    .ofertas-info-container {
         padding: 0;
-    }
-
-    .ofertas-info-container ul, 
-    .pro-info-container ul,
-    .slim-info-container ul,
-    .mini-info-container ul{
-        max-width: min-content;
-        margin: 0 auto;
-        margin-top: 24px;
     }
 
     .ofertas-info-container ul li {
@@ -554,7 +550,7 @@
         margin-top: 18px;
     }
 
-    .ofertas-span{
+    .ofertas-span {
         font: 400 0.73rem/1.27 "IBM Plex Sans", monospace;
     }
 
@@ -571,23 +567,25 @@
         max-width: 35ch;
     }
 
-    .borda-pro{
+    .borda-pro {
         box-shadow: inset 0px 0 #FFFFFF;
     }
-    .borda-smart{
-        box-shadow: inset 0px 0 #FFFFFF , inset -83px 0 #FFFFFF;
+
+    .borda-smart {
+        box-shadow: inset 0px 0 #FFFFFF, inset -83px 0 #FFFFFF;
     }
-    .borda-slim{
-        box-shadow: inset 0px 0 #FFFFFF , inset -167px 0 #FFFFFF;
+
+    .borda-slim {
+        box-shadow: inset 0px 0 #FFFFFF, inset -167px 0 #FFFFFF;
     }
-    .borda-mini{
-        box-shadow: inset 0px 0 #FFFFFF , inset -251px 0 #FFFFFF;
+
+    .borda-mini {
+        box-shadow: inset 0px 0 #FFFFFF, inset -251px 0 #FFFFFF;
     }
 }
 
-@media(max-width: 380px){
+@media(max-width: 380px) {
     .ofertas-texto h2 {
-        font: 400 2rem/1.25 "IBM Plex Sans", monospace;
         margin: 0 auto;
         margin-top: 32px;
         max-width: 15ch;
