@@ -70,6 +70,7 @@
 
 .emergencial-info .cifrao {
     margin: 0;
+    margin-right: 8px;
     align-self: start;
 }
 
@@ -257,6 +258,10 @@
 
     .emergencial-info p span {
         margin-left: 5px;
+    }
+
+    .emergencial-info .cifrao {
+        margin-right: 5px;
     }
 
     .emergencial-buttons {
