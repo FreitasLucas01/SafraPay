@@ -10,7 +10,6 @@
 .venda-container {
     max-width: 1270px;
     margin: 0 auto;
-    box-sizing: border-box;
     display: grid;
     grid-template-columns: 5fr 7fr;
     gap: 100px;
@@ -32,7 +31,7 @@
     font-weight: 500;
 }
 
-.venda-texto .botao{
+.venda-texto .botao {
     margin-top: 62px;
     position: relative;
 }
@@ -136,6 +135,7 @@
 }
 
 @media(max-width: 1024px) {
+
     .venda-pseudoElement::after,
     .venda-img::after,
     .venda-img::before,

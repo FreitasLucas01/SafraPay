@@ -1,7 +1,6 @@
 #emergencial {
     background: #F4F5F9;
     margin-top: 116px;
-    margin-bottom: 200px;
 }
 
 .emergencial-container {
@@ -95,42 +94,42 @@
     border-bottom: 1px solid #464F6B;
 }
 
-@media(max-width: 1400px){
-    .emergencial-container{
+@media(max-width: 1400px) {
+    .emergencial-container {
         gap: 44px;
     }
 
-    .emergencial-info{
+    .emergencial-info {
         margin-top: 31px;
         gap: 26px;
     }
 
-    .emergencial-info p{
+    .emergencial-info p {
         font: 300 2rem/1.02 "IBM Plex Sans", monospace;
     }
-    
-    .emergencial-info p span{
+
+    .emergencial-info p span {
         font: 300 1rem/1.35 "IBM Plex Sans", monospace;
     }
 }
 
-@media(max-width: 1280px){
-    .emergencial-info{
+@media(max-width: 1280px) {
+    .emergencial-info {
         margin-top: 30px;
     }
 
-    .emergencial-texto h2{
+    .emergencial-texto h2 {
         font: 400 2rem/1.125 "IBM Plex Sans", monospace;
         max-width: 20ch;
     }
-    
-    .emergencial-texto p{
+
+    .emergencial-texto p {
         font: 300 1rem/1.35 "IBM Plex Sans", monospace;
         max-width: 45ch;
         margin-top: 17px;
     }
 
-    .emergencial-buttons{
+    .emergencial-buttons {
         margin-top: 40px;
         white-space: nowrap;
     }
@@ -140,104 +139,104 @@
         padding: 17px 34px;
     }
 
-    .emergencial-buttons a:nth-child(2n){
+    .emergencial-buttons a:nth-child(2n) {
         padding: 17px 32px;
     }
 
-    .emergencial-detalhes > span a {
+    .emergencial-detalhes>span a {
         margin-top: 15px;
     }
 }
 
-@media(max-width: 1100px){
-    #emergencial{
+@media(max-width: 1100px) {
+    #emergencial {
         background: linear-gradient(0deg, #F4F5F9 39.58%, rgba(244, 245, 249, 0) 100%);
         padding-left: 20px;
         padding-right: 20px;
         padding-bottom: 24px;
     }
 
-    .emergencial-container{
+    .emergencial-container {
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
     }
 
-    .emergencial-detalhes{
+    .emergencial-detalhes {
         text-align: center;
         align-items: center;
         padding: 0;
     }
 
-    .emergencial-texto h2{
+    .emergencial-texto h2 {
         font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;
         max-width: 17ch;
         margin: 0 auto;
     }
 
-    .emergencial-texto p{
+    .emergencial-texto p {
         font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
         max-width: 65ch;
         margin-top: 14px;
     }
 
-    .emergencial-img{
+    .emergencial-img {
         max-width: 625px;
     }
 
-    .emergencial-info{
+    .emergencial-info {
         margin-top: 50px;
         gap: 60px;
         white-space: inherit;
     }
 
-    .emergencial-info p{
+    .emergencial-info p {
         font: 300 2.25rem/1.02 "IBM Plex Sans", monospace;
         margin-top: 10px;
     }
-    
-    .emergencial-info p span{
+
+    .emergencial-info p span {
         font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
         display: inline-block;
         margin-left: 8px;
     }
 
-    .emergencial-buttons{
+    .emergencial-buttons {
         justify-content: center;
     }
 
-    .emergencial-detalhes > span a {
+    .emergencial-detalhes>span a {
         margin-top: 20px;
     }
 }
 
-@media(max-width: 800px){
+@media(max-width: 800px) {
     #emergencial {
         margin-top: 72px;
         margin-bottom: 0;
     }
 
-    .emergencial-container{
+    .emergencial-container {
         gap: 18px;
     }
 
-    .emergencial-detalhes{
+    .emergencial-detalhes {
         padding-left: 0px;
         padding-right: 0px;
     }
 
-    .emergencial-texto h2{
+    .emergencial-texto h2 {
         font: 400 2rem/1.265 "IBM Plex Sans", monospace;
         max-width: 19ch;
     }
-    
-    .emergencial-texto p{
+
+    .emergencial-texto p {
         font: 300 1rem/1.35 "IBM Plex Sans", monospace;
         max-width: 65ch;
         margin-top: 17px;
     }
 
-    .emergencial-info{
+    .emergencial-info {
         display: grid;
         grid-template-columns: min-content min-content;
         gap: 40px 60px;
@@ -252,16 +251,15 @@
         text-align: left;
     }
 
-    .emergencial-info p{
+    .emergencial-info p {
         font: 300 2.025rem/1.02 "IBM Plex Sans", monospace;
     }
 
-    .emergencial-info p span{
-        font: 300 1.01rem/1.35 "IBM Plex Sans", monospace;
+    .emergencial-info p span {
         margin-left: 5px;
     }
 
-    .emergencial-buttons{
+    .emergencial-buttons {
         display: grid;
         gap: 26px;
         margin-top: 46px;
@@ -273,30 +271,31 @@
     }
 }
 
-@media(max-width: 400px){
-    #emergencial{
+@media(max-width: 400px) {
+    #emergencial {
         padding-left: 16px;
         padding-right: 16px;
     }
 
-    .emergencial-texto h2{
-        max-width: 100%;
-    }
-    
-    .emergencial-texto p{
+    .emergencial-texto h2 {
         max-width: 100%;
     }
 
-    .emergencial-img{
+    .emergencial-texto p {
         max-width: 100%;
     }
-    .emergencial-info{
+
+    .emergencial-img {
+        max-width: 100%;
+    }
+
+    .emergencial-info {
         gap: 40px;
     }
 }
 
-@media(max-width: 300px){
-    .emergencial-info{
+@media(max-width: 300px) {
+    .emergencial-info {
         gap: 20px;
     }
 }
