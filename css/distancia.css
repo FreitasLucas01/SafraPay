@@ -126,3 +126,13 @@
         font: 300 1.01rem/1.35 "IBM Plex Sans", monospace;
     }
 }
+
+@media(max-width: 300px){
+
+    .distancia-info {
+        font: 300 0.875rem/1.61 "IBM Plex Sans", monospace;
+    }
+    .distancia-texto a {
+        font: 500 0.820rem/1.35 "IBM Plex Sans", monospace;
+    }
+}
