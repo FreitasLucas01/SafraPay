@@ -1,6 +1,5 @@
 #distancia {
     margin-top: 120px;
-    margin-bottom: 200px;
 }
 
 .distancia-container {
@@ -61,8 +60,6 @@
 @media(max-width: 1100px) {
     .distancia-container {
         gap: 30px;
-        padding-left: 10px;
-        padding-right: 10px;
     }
 
     .distancia-texto h2 span {
@@ -110,6 +107,8 @@
 
     .distancia-texto p{
         margin-top: 17px;
+        max-width: 30ch;
+        align-self: center;
     }
 
     .distancia-texto a {
@@ -123,12 +122,11 @@
 
     .distancia-texto p,
     .distancia-info {
-        font: 300 1.01rem/1.35 "IBM Plex Sans", monospace;
+        font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
     }
 }
 
-@media(max-width: 300px){
-
+@media(max-width: 340px){
     .distancia-info {
         font: 300 0.875rem/1.61 "IBM Plex Sans", monospace;
     }

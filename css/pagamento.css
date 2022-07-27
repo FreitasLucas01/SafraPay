@@ -1,4 +1,5 @@
 #pagamento {
+    margin-top: 120px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -52,6 +53,10 @@
 }
 
 @media(max-width: 800px) {
+    #pagamento {
+        margin-top: 49px;
+    }
+
     .pagamento-buttons {
         margin-top: 60px;
         display: flex;

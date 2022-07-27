@@ -4,7 +4,6 @@ export default function initCarousel() {
   const nextBtn = document.querySelector("[data-carousel='nxt']");
 
   if (window.matchMedia("(min-width: 600px)").matches) {
-
     let direction;
 
     function handleNext(e) {
@@ -33,7 +32,7 @@ export default function initCarousel() {
     }
     carousel.addEventListener('transitionend', handleSlide);
   }
-  
+
   if (window.matchMedia("(max-width: 600px)").matches) {
     let pressed = false;
     let startX = 0;
@@ -42,6 +41,7 @@ export default function initCarousel() {
       pressed = true
       startX = e.clientX
     }
+
     function handleMouseMove(e) {
       if (!pressed)
         return
