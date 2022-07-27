@@ -1,17 +1,22 @@
 .digital-icons-container{
-    max-width: 1550px;
+    max-width: 81.4%;
     height: 320px;
     display: flex;
     align-items: center;
     box-shadow: 0px 4px 65px rgba(19, 23, 80, 0.1);
     margin-left: auto;
+    background: blue;
+}
+
+.distancia-img{
+    filter: drop-shadow(0px 4px 10px rgba(24, 35, 70, 0.15));
 }
 
 .digital-icons{
     display: flex;
     align-items: center;
     padding-left: 106px;
-    /* gap: 110px; */
+    gap: 110px;
 }
 
 .digital-icons h3{
