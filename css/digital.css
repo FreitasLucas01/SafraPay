@@ -17,6 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-content: start;
+    padding-bottom: 75px;
 }
 
 .digital-texto span {
@@ -50,15 +51,19 @@
     box-shadow: 0px 4px 22px rgba(19, 23, 80, 0.1);
 }
 
-@media(max-width: 1100px){
+@media(max-width: 1100px) {
     .digital-container {
         gap: 100px;
+    }
+
+    .digital-texto {
+        padding-bottom: 0;
     }
 }
 
 @media(max-width: 900px) {
     #digital {
-    margin-top: 58px;
+        margin-top: 58px;
     }
 
     .digital-container {
@@ -74,21 +79,21 @@
         text-align: center;
     }
 
-    .digital-buttons{
+    .digital-buttons {
         display: grid;
     }
 }
 
-@media(max-width: 400px){
+@media(max-width: 600px) {
     .digital-texto h2 {
         font: 400 2rem/1.1 "IBM Plex Sans", monospace;
     }
- 
+
     .digital-texto p {
         font: 300 1.01rem/1.35 "IBM Plex Sans", monospace;
     }
 
-    .digital-buttons{
+    .digital-buttons {
         margin-top: 36px;
     }
 }

@@ -58,22 +58,22 @@
 }
 
 @media(max-width: 1100px) {
-
     .distancia-container {
+        max-width: 100%;
+        display: grid;
         gap: 30px;
+        justify-items: center;
+        text-align: center;
     }
 
-    .distancia-texto h2 span {
-        display: initial;
-    }
-
-    .distancia-texto h2 {
-        font: 400 2rem/1.265 "IBM Plex Sans", monospace;
-        max-width: 20ch;
+    .distancia-info,
+    .distancia-texto a {
+        margin: 0 auto;
+        margin-top: 30px;
     }
 }
 
-@media(max-width: 900px) {
+@media(max-width: 600px) {
     .distancia-texto h2,
     .distancia-texto a,
     .distancia-img img,
@@ -88,13 +88,8 @@
 
     #distancia {
         margin-top: 76px;
-    }
-
-    .distancia-container {
-        max-width: 100%;
-        display: block;
-        justify-items: center;
-        text-align: center;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .distancia-img {
@@ -103,10 +98,17 @@
     }
 
     .distancia-texto h2 {
-        margin-top: 37px;
+        font: 400 2rem/1.25 "IBM Plex Sans", monospace;
+        margin-top: 0px;
     }
 
-    .distancia-texto p{
+    .distancia-texto h2 span {
+        display: initial;
+    }
+
+    .distancia-texto p,
+    .distancia-info {
+        font: 300 1.01rem/1.35 "IBM Plex Sans", monospace;
         margin-top: 17px;
         max-width: 30ch;
         align-self: center;
@@ -120,24 +122,13 @@
     .distancia-info {
         margin-top: 25px;
     }
-
-    .distancia-texto p,
-    .distancia-info {
-        font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
-    }
 }
 
-@media(max-width: 400px){
-    #distancia{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-}
-
-@media(max-width: 340px){
+@media(max-width: 340px) {
     .distancia-info {
         font: 300 0.875rem/1.61 "IBM Plex Sans", monospace;
     }
+
     .distancia-texto a {
         font: 500 0.820rem/1.35 "IBM Plex Sans", monospace;
     }
