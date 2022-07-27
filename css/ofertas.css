@@ -76,6 +76,7 @@
     display: flex;
     align-items: center;
     font: 600 0.750rem/1.5 "IBM Plex Sans", monospace;
+    text-transform: uppercase;
     color: #FFFFFF;
     box-shadow: 0px 5.4px 13.5px rgba(196, 173, 108, 0.5);
     padding: 9px 32px;
