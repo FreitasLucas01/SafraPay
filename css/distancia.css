@@ -58,11 +58,7 @@
 }
 
 @media(max-width: 1100px) {
-    #distancia{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    
+
     .distancia-container {
         gap: 30px;
     }
@@ -128,6 +124,13 @@
     .distancia-texto p,
     .distancia-info {
         font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
+    }
+}
+
+@media(max-width: 400px){
+    #distancia{
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
