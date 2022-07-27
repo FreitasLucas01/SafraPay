@@ -1,11 +1,11 @@
 #distancia {
     margin-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .distancia-container {
     max-width: 1200px;
-    padding-left: 20px;
-    padding-right: 20px;
     display: flex;
     gap: 63px;
     margin: 0 auto;
@@ -58,6 +58,11 @@
 }
 
 @media(max-width: 1100px) {
+    #distancia{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
     .distancia-container {
         gap: 30px;
     }
