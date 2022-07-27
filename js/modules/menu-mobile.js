@@ -10,7 +10,7 @@ export default function initMenuMobile() {
     nav.classList.toggle("ativo")
     menuList.classList.toggle("ativo")
     menuBtn.classList.toggle("ativo")
-    // document.body.classList.toggle("ativo")
+    document.body.classList.toggle("ativo")
     const ativo = nav.classList.contains("ativo")
     e.currentTarget.setAttribute("aria-expanded", ativo)
     if (ativo)
