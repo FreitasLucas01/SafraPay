@@ -23,7 +23,7 @@
     position: relative;
 }
 
-.ofertas-smart,
+.ofertas-pro,
 .ofertas-mini {
     box-shadow: inset 0 6px #FFFFFF, inset 154px 0 #FFFFFF;
 }
@@ -33,11 +33,11 @@
     align-items: center;
 }
 
-.pro-img {
+.smart-img {
     align-items: start;
 }
 
-.smart-img {
+.pro-img {
     margin-top: 30px;
 }
 
@@ -51,12 +51,12 @@
     position: relative;
 }
 
-.pro-info-container {
+.smart-info-container {
     padding-left: 17px;
     padding-right: 63px;
 }
 
-.smart-info-container {
+.pro-info-container {
     padding-left: 23px;
     padding-right: 74px;
 }
@@ -95,7 +95,7 @@
     margin-top: 24px;
 }
 
-.pro-info-container ul {
+.smart-info-container ul {
     padding-left: 9px;
 }
 
@@ -128,7 +128,7 @@
     white-space: nowrap;
 }
 
-.smart-info-container .botao {
+.pro-info-container .botao {
     margin-top: 48px;
 }
 
@@ -167,7 +167,7 @@
     margin-right: 9px;
 }
 
-.smart-info p {
+.pro-info p {
     max-width: 30ch;
 }
 
@@ -319,11 +319,11 @@
     box-shadow: inset 170px 0 #FFFFFF;
 }
 
-.borda-pro {
+.borda-smart {
     box-shadow: inset 167px 0 #FFFFFF;
 }
 
-.borda-smart {
+.borda-pro {
     box-shadow: inset 154px 0 #FFFFFF, inset -98px 0 #FFFFFF;
 }
 
@@ -355,19 +355,19 @@
         max-width: 540px;
     }
 
-    .pro-info-container,
     .smart-info-container,
+    .pro-info-container,
     .slim-info-container,
     .mini-info-container,
     .ofertas-info-container ul,
-    .pro-info-container ul,
+    .smart-info-container ul,
     .slim-info-container ul,
     .mini-info-container ul {
         padding: 0;
     }
 
     .ofertas-info-container ul,
-    .pro-info-container ul,
+    .smart-info-container ul,
     .slim-info-container ul,
     .mini-info-container ul {
         max-width: min-content;
@@ -382,11 +382,11 @@
         padding-bottom: 30px;
     }
 
-    .borda-pro {
+    .smart-pro {
         box-shadow: inset 150px 0 #FFFFFF;
     }
 
-    .borda-smart {
+    .borda-pro {
         box-shadow: inset 150px 0 #FFFFFF, inset -98px 0 #FFFFFF;
     }
 
@@ -487,11 +487,11 @@
         max-width: 35ch;
     }
 
-    .borda-pro {
+    .borda-smart {
         box-shadow: inset 0px 0 #FFFFFF;
     }
 
-    .borda-smart {
+    .borda-pro {
         box-shadow: inset 0px 0 #FFFFFF, inset -83px 0 #FFFFFF;
     }
 
