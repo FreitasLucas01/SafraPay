@@ -1,0 +1,28 @@
+.digital-icons-container{
+    max-width: 1550px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 65px rgba(19, 23, 80, 0.1);
+    margin-left: auto;
+}
+
+.digital-icons{
+    display: flex;
+    align-items: center;
+    padding-left: 106px;
+    /* gap: 110px; */
+}
+
+.digital-icons h3{
+    font: 300 1.5rem/1.35 "IBM Plex Sans", monospace;
+    color: #182346;
+    margin-top: 22px;
+}
+
+.digital-icons p{
+    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
+    max-width: 18ch;
+    color: #454E6A;
+    margin-top: 13px;
+}

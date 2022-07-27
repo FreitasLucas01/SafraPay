@@ -1,12 +1,12 @@
 #digital {
     margin-top: 120px;
-    padding-left: 20px;
-    padding-right: 20px;
     background: linear-gradient(180deg, rgba(244, 245, 249, 0) 0%, rgba(244, 245, 249, 0) 0.01%, #F4F5F9 100%);
 }
 
 .digital-container {
     max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
     display: flex;
     gap: 158px;
     margin: 0 auto;
