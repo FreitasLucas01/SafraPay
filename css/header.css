@@ -168,8 +168,7 @@
     }
 
     .js [data-menu="list"].ativo {
-        /* height: calc(100vh - 79px); */
-        height: 100vh;
+        height: calc(100vh - 60px);
         visibility: visible;
         overflow-y: auto;
     }
