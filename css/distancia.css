@@ -11,6 +11,10 @@
     margin: 0 auto;
 }
 
+.distancia-img{
+    filter: drop-shadow(0px 4px 10px rgba(24, 35, 70, 0.15));
+}
+
 .distancia-texto {
     display: flex;
     flex-direction: column;

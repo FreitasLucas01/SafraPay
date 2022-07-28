@@ -15,6 +15,7 @@
     gap: 100px;
     padding-left: 20px;
     padding-top: 80px;
+    box-sizing: border-box;
 }
 
 .venda-container h1 {
@@ -236,10 +237,6 @@
     .venda-texto {
         padding-left: 20px;
         padding-right: 20px;
-    }
-
-    .venda-responsivo-dois {
-        /* padding-right: 10px; */
     }
 }
 

@@ -123,8 +123,8 @@
     }
 
     .menu {
-        display: block;
         position: absolute;
+        display: block;
         max-width: 100%;
         width: 100vw;
         top: 79px;
@@ -168,7 +168,8 @@
     }
 
     .js [data-menu="list"].ativo {
-        height: calc(100vh - 79px);
+        /* height: calc(100vh - 79px); */
+        height: 100vh;
         visibility: visible;
         overflow-y: auto;
     }
