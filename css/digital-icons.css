@@ -13,7 +13,7 @@
 .cu{
     position: absolute;
     background: #FFFFFF;
-    box-shadow: 0px 4px 65px rgba(19, 23, 80, 0.1);
+    box-shadow: 50px 4px 65px rgba(19, 23, 80, 0.1);
     height: 100%;
     width: 1000px;
     right: -1000px;
