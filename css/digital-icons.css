@@ -4,8 +4,8 @@
     height: 320px;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
     align-items: center;
+    margin: 0 auto;
     background: #FFFFFF;
     box-shadow: 0px 4px 65px rgba(19, 23, 80, 0.1);
 }
