@@ -78,11 +78,11 @@
 @media(max-width: 600px) {
     .digital-icons-container {
         margin-left: 20px;
-        margin-right: 10px;
+        margin-right: 5px;
     }
 
     .digital-icons img {
-        max-width: 30%;
+        max-width: 25%;
     }
 
     .digital-icons h3 {
