@@ -89,11 +89,11 @@
 
     .digital-icons h3 {
         font: 300 1.215rem/1.35 "IBM Plex Sans", monospace;
-        margin-top: 22px;
+        margin-top: 8px;
     }
     
     .digital-icons p {
         font: 300 0.911rem/1.35 "IBM Plex Sans", monospace;
-        margin-top: 13px;
+        margin-top: 3px;
     }
 }
