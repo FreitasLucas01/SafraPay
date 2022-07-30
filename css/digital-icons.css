@@ -77,7 +77,8 @@
 
 @media(max-width: 600px) {
     .digital-icons-container {
-        margin: 0 20px;
+        margin-left: 20px;
+        margin-right: 10px;
     }
 
     .digital-icons img {
