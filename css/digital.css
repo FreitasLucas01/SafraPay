@@ -87,6 +87,10 @@
 }
 
 @media(max-width: 600px) {
+    #digital {
+        padding: 0;
+    }
+
     .digital-texto h2 {
         font: 400 2rem/1.1 "IBM Plex Sans", monospace;
     }
@@ -97,5 +101,10 @@
 
     .digital-buttons {
         margin-top: 36px;
+    }
+
+    .digital-img{
+        margin-left: auto;
+        padding-left: 50px;
     }
 }
