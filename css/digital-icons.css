@@ -15,6 +15,7 @@
     align-items: center;
     gap: 105px;
     padding-left: 106px;
+    position: relative;
 }
 
 .digital-icons h3 {
@@ -46,7 +47,7 @@
     background: #C4AD6C;
     box-shadow: inset -885px 0 #FFFFFF;
     left: 0;
-    bottom: 0;
+    bottom: -75px;
 }
 
 @media(max-width: 1200px) {
@@ -64,11 +65,6 @@
     }
 
     .digital-icons {
-        /* max-width: 400px;
-        flex-wrap: wrap;
-        gap: 36px 40px;
-        padding: 0;
-        margin: 0 auto; */
         gap: 0;
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -76,6 +72,10 @@
         margin: 0 auto;
         padding: 40px 0;
     }
+
+    /* .borda-digital {
+        width: 1300px;
+    } */
 }
 
 @media(max-width: 600px) {
@@ -83,7 +83,7 @@
         margin: 0 20px;
     }
 
-    .digital-icons img{
+    .digital-icons img {
         max-width: 30%;
     }
 
@@ -91,9 +91,13 @@
         font: 300 1.215rem/1.35 "IBM Plex Sans", monospace;
         margin-top: 8px;
     }
-    
+
     .digital-icons p {
         font: 300 0.911rem/1.35 "IBM Plex Sans", monospace;
         margin-top: 3px;
     }
+
+    /* .borda-digital {
+        width: 1100px;
+    } */
 }
