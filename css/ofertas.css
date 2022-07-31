@@ -513,7 +513,7 @@
     }
 }
 
-@media(max-width: 380px) {
+@media(max-width: 400px) {
     .ofertas-texto h2 {
         margin: 0 auto;
         margin-top: 32px;
