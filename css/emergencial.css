@@ -114,42 +114,7 @@
     }
 }
 
-@media(max-width: 1280px) {
-    .emergencial-info {
-        margin-top: 30px;
-    }
-
-    .emergencial-texto h2 {
-        font: 400 2rem/1.125 "IBM Plex Sans", monospace;
-        max-width: 20ch;
-    }
-
-    .emergencial-texto p {
-        font: 300 1rem/1.35 "IBM Plex Sans", monospace;
-        max-width: 45ch;
-        margin-top: 17px;
-    }
-
-    .emergencial-buttons {
-        margin-top: 40px;
-        white-space: nowrap;
-    }
-
-    .emergencial-buttons a {
-        font: 500 0.96rem/1.31 "IBM Plex Sans", monospace;
-        padding: 17px 34px;
-    }
-
-    .emergencial-buttons a:nth-child(2n) {
-        padding: 17px 32px;
-    }
-
-    .emergencial-detalhes>span a {
-        margin-top: 15px;
-    }
-}
-
-@media(max-width: 1100px) {
+@media(max-width: 1260px) {
     #emergencial {
         background: linear-gradient(0deg, #F4F5F9 39.58%, rgba(244, 245, 249, 0) 100%);
         padding-left: 20px;
@@ -170,19 +135,13 @@
     }
 
     .emergencial-texto h2 {
-        font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;
         max-width: 17ch;
         margin: 0 auto;
     }
 
     .emergencial-texto p {
-        font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
         max-width: 65ch;
         margin-top: 14px;
-    }
-
-    .emergencial-img {
-        max-width: 625px;
     }
 
     .emergencial-info {
@@ -210,6 +169,7 @@
         margin-top: 20px;
     }
 }
+
 
 @media(max-width: 800px) {
     #emergencial {
@@ -239,8 +199,6 @@
         display: grid;
         grid-template-columns: min-content min-content;
         gap: 40px 60px;
-        justify-content: center;
-        justify-items: start;
         margin: 0 auto;
         margin-top: 50px;
     }
@@ -258,7 +216,7 @@
         gap: 26px;
         margin-top: 46px;
     }
-}
+} 
 
 @media(max-width: 600px) {
     #emergencial {
@@ -293,13 +251,12 @@
         gap: 40px;
     }
 
-    .emergencial-buttons a:nth-child(2) {
-        font: 500 0.96rem/1.31 "IBM Plex Sans", monospace;
-        padding: 17px 30px;
+    .emergencial-buttons a {
+        font: 600 0.96rem/1.3 "IBM Plex Sans", monospace;
     }
 }
 
-@media(max-width: 300px) {
+@media(max-width: 310px) {
     .emergencial-info {
         gap: 20px;
     }

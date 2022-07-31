@@ -92,6 +92,11 @@
         padding-right: 0px;
     }
 
+    .digital-texto{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
     .digital-texto h2 {
         font: 400 2rem/1.1 "IBM Plex Sans", monospace;
     }
