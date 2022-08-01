@@ -99,7 +99,7 @@
     }
 
     .cartao-container h2 {
-        font: 400 1.8rem/1.1 "IBM Plex Sans", monospace;
+        font: 400 1.9rem/1.1 "IBM Plex Sans", monospace;
     }
 
     .cartao-container p {
@@ -107,12 +107,18 @@
     }
 
     .cartao-info {
-        font: 300 1.01rem/1.35 "IBM Plex Sans", monospace;
+        font: 300 1rem/1.35 "IBM Plex Sans", monospace;
     }
 
     .cartao-container>a {
         font: 600 0.96rem/1.3 "IBM Plex Sans", monospace;
         padding: 17px 34px;
         margin-top: 40px;
+    }
+}
+
+@media(max-width: 360px){
+    .cartao-info {
+        font: 300 0.775rem/1.35 "IBM Plex Sans", monospace;
     }
 }
