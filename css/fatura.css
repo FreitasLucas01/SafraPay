@@ -1,0 +1,66 @@
+#fatura {
+    max-width: 1230px;
+    height: 540px;
+    background: url("../img/fatura.svg") no-repeat center;
+    margin: 0 auto;
+    margin-top: 141px;
+    margin-bottom: 150px;
+    position: relative;
+}
+
+.fatura-gradiente1,
+.fatura-gradiente2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(29, 35, 72, 0.2);
+}
+
+.fatura-gradiente2 {
+    background: linear-gradient(90deg, rgba(29, 35, 72, 0.4) 0%, rgba(29, 35, 72, 0.395833) 0.01%, rgba(29, 35, 72, 0.371131) 42.86%, rgba(29, 35, 72, 0) 57.86%);
+    transform: rotate(-180deg);
+}
+
+.fatura-container {
+    position: absolute;
+    right: 110px;
+    top: 120px;
+    z-index: 1;
+}
+
+.fatura-container h2 {
+    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;
+    color: #FFFFFF;
+}
+
+.fatura-container h2 span {
+    display: block;
+}
+
+.fatura-container>p {
+    font: 400 1.125rem/1.35 "IBM Plex Sans", monospace;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.fatura-container a {
+    margin-top: 30px;
+}
+
+.fatura-protecao {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+
+.fatura-protecao p {
+    max-width: 20ch;
+}
+
+.fatura-linha {
+    width: 1px;
+    height: 45px;
+    background: #FFFFFF;
+    margin: 0 10px;
+}
