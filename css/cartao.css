@@ -1,0 +1,118 @@
+#cartao {
+    margin-top: 120px;
+    margin-bottom: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cartao-container {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: minmax(200px, 658px) 1fr;
+    gap: 0 67px;
+    margin: 0 auto;
+}
+
+.cartao-container span {
+    grid-area: 1/2;
+    display: inline-block;
+    font: 600 0.812rem/1.3 "IBM Plex Sans", monospace;
+    text-transform: uppercase;
+    color: #182346;
+}
+
+.cartao-container h2 {
+    grid-area: 2/2;
+    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;
+    color: #182346;
+    margin-top: 25px;
+    white-space: nowrap;
+}
+
+.cartao-container p {
+    grid-area: 3/2;
+    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
+    color: #182346;
+    max-width: 35ch;
+    margin-top: 18px;
+}
+
+.cartao-container>a {
+    grid-area: 6/2;
+    margin-top: 50px;
+}
+
+.cartao-img {
+    grid-row: span 6;
+    display: flex;
+    align-items: end;
+}
+
+.cartao-info {
+    grid-area: 5/2;
+    font: 300 1.125rem/1.61 "IBM Plex Sans", monospace;
+    color: #182346;
+    margin-top: 30px;
+}
+
+.cartao-info li {
+    display: flex;
+    align-items: center;
+}
+
+.cartao-info li::before {
+    content: "";
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background: url("../icons/check.svg") no-repeat center;
+    margin-right: 5px;
+}
+
+@media(max-width: 1200px) {
+    .cartao-img {
+        align-items: center;
+    }
+}
+
+@media(max-width: 900px) {
+    .cartao-container {
+        grid-template-columns: max-content;
+        justify-items: center;
+        gap: 0;
+        text-align: center;
+    }
+
+    .cartao-container h2 {
+        white-space: inherit;
+    }
+
+    .cartao-img {
+        grid-area: 4/2;
+        margin-top: 35px;
+    }
+}
+
+@media(max-width: 600px) {
+    #cartao {
+        margin-top: 50px;
+    }
+
+    .cartao-container h2 {
+        font: 400 2rem/1.1 "IBM Plex Sans", monospace;
+    }
+
+    .cartao-container p {
+        font: 300 1.01rem/1.35 "IBM Plex Sans", monospace;
+    }
+
+    .cartao-info {
+        font: 300 0.875rem/1.61 "IBM Plex Sans", monospace;
+    }
+
+    .cartao-container>a {
+        font: 600 0.96rem/1.3 "IBM Plex Sans", monospace;
+        padding: 17px 34px;
+        margin-top: 40px;
+    }
+}
