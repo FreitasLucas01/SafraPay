@@ -116,9 +116,3 @@
         margin-top: 40px;
     }
 }
-
-@media(max-width: 360px){
-    .cartao-info {
-        font: 300 0.775rem/1.35 "IBM Plex Sans", monospace;
-    }
-}
