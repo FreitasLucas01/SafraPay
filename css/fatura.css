@@ -123,7 +123,7 @@
         font: 500 0.850rem/1.35 "IBM Plex Sans", monospace;
         padding: 15px 20px;
         margin: 0 auto;
-        margin-top: 20px;
+        margin-top: 12px;
     }
 
     .fatura-protecao img {
@@ -131,7 +131,7 @@
     }
 
     .fatura-protecao {
-        margin-top: 17px;
+        margin-top: 16px;
     }
 
     .fatura-protecao p {
