@@ -127,7 +127,7 @@
     }
 
     .fatura-protecao img {
-        max-width: 15px;
+        max-width: 11px;
     }
 
     .fatura-protecao {
@@ -150,9 +150,5 @@
 
     .fatura-container {
         max-width: 100%;
-        position: absolute;
-        /* top: 0;
-        right: 0; */
-        z-index: 1;
     }
 }
