@@ -93,7 +93,6 @@
 
     .fatura-protecao {
         justify-content: center;
-        /* margin-top: 6px; */
     }
 
     .fatura-protecao p {
@@ -141,9 +140,21 @@
 
 @media(max-width: 375px){
     #fatura {
+        /* max-width: 375px;
+        height: 355px; */
         max-width: 100%;
-        height: 355px;
-        background: url("../img/teste.svg") no-repeat center;
+        height: 540px;
+        max-height: 540px;
+        background: url("../img/teste.svg") no-repeat center, blue;
         position: relative;
+    }
+
+    .fatura-container {
+        max-width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        display: none;
     }
 }
