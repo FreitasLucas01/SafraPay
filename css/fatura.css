@@ -139,9 +139,9 @@
     }
 }
 
-@media(max-width: 375px){
+@media(max-width: 400px){
     #fatura {
-        max-width: 375px;
+        max-width: 400px;
         height: 355px;
         max-height: 540px;
         background: url("../img/teste.svg") no-repeat center;
