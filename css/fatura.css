@@ -4,7 +4,6 @@
     background: url("../img/fatura.svg") no-repeat center;
     margin: 0 auto;
     margin-top: 141px;
-    margin-bottom: 150px;
     position: relative;
 }
 
@@ -113,7 +112,7 @@
 
 @media(max-width: 600px) {
     #fatura{
-        margin-top: 60px;
+        margin-top: 70px;
     }
 
     .fatura-container h2 {
