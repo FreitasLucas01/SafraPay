@@ -82,7 +82,7 @@
 }
 
 .emergencial-buttons a:last-child {
-    padding: 19px 33px;
+    padding: 19px 30px;
     background: none;
     border: 1px solid #182346;
 }
@@ -260,4 +260,4 @@
     .emergencial-info {
         gap: 20px;
     }
-}
+} 
