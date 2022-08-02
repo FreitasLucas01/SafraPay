@@ -66,6 +66,12 @@
     margin: 0 14px;
 }
 
+@media(max-width: 1260px){
+    .fatura-container {
+        right: 40px;
+    }
+}
+
 @media(max-width: 900px) {
     #fatura {
         background-position: calc(-200px);
