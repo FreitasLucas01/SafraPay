@@ -38,7 +38,7 @@
 }
 
 .fatura-container>p {
-    font: 400 1.125rem/1.35 "IBM Plex Sans", monospace;
+    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
     color: #FFFFFF;
     margin-top: 30px;
 }
@@ -115,7 +115,7 @@
     }
 
     .fatura-container>p {
-        font: 400 0.9rem/1.35 "IBM Plex Sans", monospace;
+        font: 300 0.9rem/1.35 "IBM Plex Sans", monospace;
         margin-top: 6px;
     }
 
