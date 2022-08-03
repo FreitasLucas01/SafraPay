@@ -78,7 +78,7 @@
 }
 
 .ajudar-atendimento {
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .ajudar-atendimento span {
@@ -92,7 +92,7 @@
     color: #FFFFFF;
     border-bottom: 1px solid #FFFFFF;
     max-width: max-content;
-    margin-top: 15px;
+    margin-top: 4px;
 }
 
 .ajudar-perguntas {
@@ -312,13 +312,31 @@
     .ajudar-online {
         justify-items: center;
         text-align: center;
-        margin-top: 60px;
+        margin-top: 32px;
     }
     
     .ajudar-online span {
-        display: flex;
-        align-items: center;
-        font: 400 1rem/2.125 "IBM Plex Sans", monospace;
-        color: #C4AD6C;
+        justify-content: center;
+        font: 400 1rem/1.7 "IBM Plex Sans", monospace;
+    }
+
+    .ajudar-online a{
+        font: 600 0.875rem/1.3 "IBM Plex Sans", monospace;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .ajudar-perguntas{
+        margin-top: 28px;
+    }
+
+    .ajudar-perguntas span {
+        justify-content: center;
+        font: 400 0.875rem/1.93 "IBM Plex Sans", monospace;
+        margin-bottom: 20px;
+    }
+
+    .ajudar-perguntas li {
+        font: 300 1.187rem/2.10 "IBM Plex Sans", monospace;
     }
 }
