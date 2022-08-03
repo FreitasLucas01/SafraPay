@@ -3,6 +3,8 @@
     margin-top: 120px;
     padding-left: 20px;
     padding-right: 20px;
+    box-shadow: inset 0 -85px #FFFFFF;
+    margin-bottom: 200px;
 }
 
 .ajudar-container{
@@ -173,6 +175,29 @@
     margin-top: 20px;
 }
 
+.ajudar-comecar{
+    max-width: 1230px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 65px rgba(19, 23, 80, 0.25);
+    margin: 0 auto;
+    padding: 50px 75px;
+    margin-top: 120px;
+}
+
+.ajudar-comecar h2{
+    font: 400 2.187rem/1.285 "IBM Plex Sans", monospace;
+    color: #1D2348;
+}
+
+.ajudar-comecar P{
+    font: 400 1.125rem/1.35 "IBM Plex Sans", monospace;
+    color: #4A4F6D;
+}
+
 @media(max-width: 1200px){
     .ajudar-container{
         display: grid;
@@ -200,6 +225,11 @@
 
     .ajudar-online{
         grid-row: 2;
+    }
+
+    .ajudar-comecar{
+        max-width: 800px;
+        padding: 0;
     }
 }
 
