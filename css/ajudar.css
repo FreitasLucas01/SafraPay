@@ -297,10 +297,13 @@
         padding-left: 31px;
     }
 
+    .ajudar-atendimento{
+        margin-top: 35px;
+    }
+
     .ajudar-atendimento span {
         font: 400 0.875rem/1 "IBM Plex Sans", monospace;
         text-align: center;
-        margin-top: 35px;
     }
 
     .ajudar-atendimento p {
