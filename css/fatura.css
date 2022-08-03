@@ -65,7 +65,7 @@
     margin: 0 14px;
 }
 
-@media(max-width: 1260px){
+@media(max-width: 1260px) {
     .fatura-container {
         right: 40px;
     }
@@ -111,7 +111,7 @@
 }
 
 @media(max-width: 600px) {
-    #fatura{
+    #fatura {
         margin-top: 70px;
     }
 
@@ -144,16 +144,10 @@
     }
 }
 
-@media(max-width: 400px){
+@media(max-width: 400px) {
     #fatura {
         max-width: 400px;
         height: 355px;
-        max-height: 540px;
         background: url("../img/teste.svg") no-repeat center;
-        position: relative;
-    }
-
-    .fatura-container {
-        max-width: 100%;
     }
 }
