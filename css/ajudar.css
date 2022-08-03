@@ -329,10 +329,15 @@
         font: 400 1rem/1.7 "IBM Plex Sans", monospace;
     }
 
+    .ajudar-online p {
+        font: 300 0.875rem/0.875 "IBM Plex Sans", monospace;
+        margin-top: 6px;
+    }
+
     .ajudar-online a{
         font: 600 0.875rem/1.3 "IBM Plex Sans", monospace;
         margin: 0 auto;
-        margin-top: 20px;
+        margin-top: 27px;
     }
 
     .ajudar-perguntas{
