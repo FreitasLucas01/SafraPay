@@ -75,6 +75,10 @@
         max-width: 60ch;
     }
 
+    .pagamento-img{
+        margin-top: 30px;
+    }
+
     .pagamento-buttons {
         margin-top: 34px;
         display: flex;
