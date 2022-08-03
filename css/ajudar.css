@@ -1,4 +1,210 @@
 #ajudar{
     background: #182446;
     margin-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ajudar-container{
+    max-width: 1230px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0 auto;
+    padding-top: 112px;
+}
+
+.ajudar-texto{
+    max-width: 743px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ajudar-texto h2{
+    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;
+    color: #FFFFFF;
+}
+
+.ajudar-texto > span{
+    display: inline-block;
+    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
+    color: #D1D3DA;
+    margin-top: 20px;
+}
+
+.ajudar-numbers{
+    display: flex;
+    margin-top: 60px;
+}
+
+.ajudar-numbers li{
+    padding-top: 10px;
+    padding-right: 35px;
+    padding-left: 30px;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ajudar-numbers li:first-child{
+    padding-left: 0;
+}
+
+.ajudar-numbers li:last-child{
+    border: none;
+    padding-right: 0;
+}
+
+.ajudar-numbers p{
+    display: flex;
+    align-items: center;
+    font: 400 1.5rem/1.35 "IBM Plex Sans", monospace;
+    color: #FFFFFF;
+}
+
+.ajudar-numbers p:before{
+    content: "";
+    display: inline-block;
+    background: url("../icons/telefone-pequeno.svg") no-repeat center;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.ajudar-numbers span{
+    display: inline-block;
+    font: 400 0.750rem/1.416 "IBM Plex Sans", monospace;
+    color: #D1D3DA;
+    padding-left: 31px;
+}
+
+.ajudar-atendimento{
+    margin-top: 26px;
+}
+
+.ajudar-atendimento span{
+    display: inline-block;
+    font: 400 0.875rem/1.285 "IBM Plex Sans", monospace;
+    color: #D1D3DA;
+}
+
+.ajudar-atendimento p{
+    font: 400 0.937rem/1.3 "IBM Plex Sans", monospace;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    max-width: max-content;
+    margin-top: 6px;
+}
+
+.ajudar-perguntas{
+    max-width: 270px;
+    grid-row: span 2;
+    align-self: center;
+    padding-left: 80px;
+}
+
+.ajudar-perguntas span{
+    display: flex;
+    align-items: center;
+    font: 400 1rem/2.125 "IBM Plex Sans", monospace;
+    color: #C4AD6C;
+    margin-bottom: 20px;
+}
+
+.ajudar-perguntas span:before{
+    content: "";
+    display: inline-block;
+    background: url("../icons/pergunta.svg") no-repeat center;
+    width: 17px;
+    height: 17px;
+    margin-right: 4px;
+}
+
+.ajudar-perguntas li{
+    font: 300 1.5rem/2.08 "IBM Plex Sans", monospace;
+    color: #FFFFFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    white-space: nowrap;
+}
+
+.ajudar-perguntas li:hover{
+    color: #C4AD6C;
+}
+
+.ajudar-perguntas li:last-child{
+    border: none;
+}
+
+.ajudar-perguntas a{
+    display: flex;
+    align-items: center;
+}
+
+.ajudar-perguntas svg{
+    margin-left: 7px;
+}
+
+.ajudar-online{
+    margin-top: 60px;
+}
+
+.ajudar-online span{
+    display: flex;
+    align-items: center;
+    font: 400 1rem/2.125 "IBM Plex Sans", monospace;
+    color: #C4AD6C;
+}
+
+.ajudar-online span::before{
+    content: "";
+    display: inline-block;
+    background: url("../icons/chat.svg") no-repeat center;
+    width: 14px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.ajudar-online p{
+    font: 300 1rem/2.125 "IBM Plex Sans", monospace;
+    color: #D1D3DA;
+}
+
+.ajudar-online a{
+    background: none;
+    color: #C4AD6C;
+    border: 2px solid #C4AD6C;
+    margin-top: 20px;
+}
+
+@media(max-width: 1200px){
+    .ajudar-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 800px;
+    }
+
+    .ajudar-texto{
+        max-width: 800px;
+    }
+
+    .ajudar-perguntas{
+        max-width: 100%;
+        padding: 0;
+        margin-top: 60px;
+    }
+
+    .ajudar-perguntas li{
+        white-space: wrap;
+    }
+
+    .ajudar-perguntas a{
+        justify-content: space-between;
+    }
+
+    .ajudar-online{
+        grid-row: 2;
+    }
+}
+
+@media(max-width: 600px){
+    .ajudar-perguntas span{
+        justify-content: center;
+    }
 }
