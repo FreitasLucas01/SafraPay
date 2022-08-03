@@ -229,13 +229,37 @@
     }
 
     .ajudar-comecar{
-        max-width: 800px;
-        padding: 0;
+        padding: 50px 30px;
     }
 }
 
-@media(max-width: 600px){
-    .ajudar-perguntas span{
-        justify-content: center;
+@media(max-width: 800px){
+    #ajudar{
+        box-shadow: inset 0 -135px #FFFFFF;
+    }
+    
+    .ajudar-numbers{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .ajudar-numbers li{
+        padding: 0;
+        margin-bottom: 15px;
+        border: none;
+    }
+
+    .ajudar-numbers li:last-child{
+        margin: 0;
+    }
+
+    .ajudar-comecar{
+        flex-direction: column;
+    }
+    
+    .ajudar-comecar P{
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 26px;
     }
 }
