@@ -268,7 +268,7 @@
     #ajudar {
         padding-top: 50px;
         margin-top: 0px;
-        box-shadow: inset 0 -85px #FFFFFF;
+        box-shadow: inset 0 -105px #FFFFFF;
     }
 
     .ajudar-texto h2 {
@@ -313,6 +313,8 @@
         justify-items: center;
         text-align: center;
         margin-top: 32px;
+        padding-bottom: 37px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
     
     .ajudar-online span {
@@ -327,6 +329,7 @@
     }
 
     .ajudar-perguntas{
+        padding: 0 30px;
         margin-top: 28px;
     }
 
@@ -338,5 +341,24 @@
 
     .ajudar-perguntas li {
         font: 300 1.187rem/2.10 "IBM Plex Sans", monospace;
+    }
+
+    .ajudar-comecar {
+        padding: 36px 55px;
+        margin-top: 40px;
+    }
+
+    .ajudar-comecar h2 {
+        font: 400 1.56rem/1.28 "IBM Plex Sans", monospace;
+        text-align: center;
+    }
+    
+    .ajudar-comecar P {
+        font: 400 0.812rem/1.30 "IBM Plex Sans", monospace;
+        margin-top: 8px;
+    }
+
+    .ajudar-comecar a{
+        font: 600 0.875rem/1.3 "IBM Plex Sans", monospace;
     }
 }
