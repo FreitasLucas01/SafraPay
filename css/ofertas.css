@@ -382,6 +382,10 @@
         padding-bottom: 30px;
     }
 
+    .smart-info-container p:first-child{
+        right: 0;
+    }
+
     .smart-pro {
         box-shadow: inset 150px 0 #FFFFFF;
     }
