@@ -1,0 +1,48 @@
+#footer{
+    max-width: 1230px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 113px;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-bottom: 60px;
+    border-bottom: 1px solid rgba(24,35,70, 0.1);
+}
+
+.footer-container .footer-info{
+    margin-left: auto;
+}
+.footer-container .footer-info:first-child{
+    margin: 0;
+}
+
+.footer-info h3{
+    font: 300 1.5rem/1.35 "IBM Plex Sans", monospace;
+    color: #182346;
+}
+
+.footer-info p{
+    font: 300 1rem/2.125 "IBM Plex Sans", monospace;
+    color: #182346;
+    white-space: nowrap;
+}
+
+.footer-app{
+    grid-column: 1/-1;
+    margin-top: 50px;
+}
+
+.footer-app p{
+    font: 300 1rem/2.125 "IBM Plex Sans", monospace;
+    color: #182346;
+}
+
+.footer-buttons{
+    display: flex;
+    margin-top: 19px;
+    gap: 21px;
+}

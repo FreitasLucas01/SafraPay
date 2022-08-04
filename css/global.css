@@ -40,7 +40,8 @@ a{
 }
 
 .setaBtn,
-.setaBtn-dourada {
+.setaBtn-dourada,
+.setaBtn-footer {
     align-items: center;
     max-width: max-content;
 }
@@ -65,8 +66,19 @@ a{
     transition: 0.2s;
 }
 
+.setaBtn-footer::after {
+    content: "";
+    display: inline-block;
+    background: url("../icons/seta-footer.svg") no-repeat center;
+    width: 8px;
+    height: 8px;
+    margin-left: 6px;
+    transition: 0.2s;
+}
+
 .setaBtn:hover::after,
-.setaBtn-dourada:hover::after {
+.setaBtn-dourada:hover::after,
+.setaBtn-footer:hover::after {
     transform: translate(5px);
 }
 
