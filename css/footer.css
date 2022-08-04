@@ -48,6 +48,11 @@
     gap: 21px;
 }
 
+.footer-final p{
+    font: 400 0.750rem/1.42 "IBM Plex Sans", monospace;
+    color: rgba(24,35,70, 0.6);
+}
+
 @media(max-width: 1100px){
     .footer-container{
         grid-template-columns: repeat(3, 1fr);
