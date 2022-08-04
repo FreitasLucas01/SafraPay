@@ -88,6 +88,10 @@
         margin-top: 50px;
     }
 
+    .footer-container{
+        gap: 25px 0;
+    }
+
     .footer-info h3{
         font: 300 1.2rem/1.35 "IBM Plex Sans", monospace;
         margin-bottom: 11px;
@@ -96,5 +100,9 @@
     .footer-info a,
     .footer-app p{
         font: 300 0.875rem/1.94 "IBM Plex Sans", monospace;
+    }
+
+    .footer-app p{
+        margin-top: 15px;
     }
 }
