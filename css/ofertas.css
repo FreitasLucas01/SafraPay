@@ -153,6 +153,7 @@
 
 .ofertas-info p {
     font: 400 0.750rem/1.35 "IBM Plex Sans", monospace;
+    max-width: 36ch;
     margin: 0 auto;
     margin-top: 17px;
 }
@@ -166,12 +167,8 @@
     margin-right: 9px;
 }
 
-.smart-info p {
-    max-width: 30ch;
-}
-
 .pro-info p {
-    max-width: 36ch;
+    max-width: 30ch;
 }
 
 .slim-info p {
@@ -385,10 +382,6 @@
         padding-bottom: 30px;
     }
 
-    .smart-info-container p:first-child {
-        right: 0px;
-    }
-
     .smart-pro {
         box-shadow: inset 150px 0 #FFFFFF;
     }
@@ -406,7 +399,7 @@
     }
 }
 
-@media(max-width: 800px) {
+@media(max-width: 800px){
     .ofertas-texto h2 {
         max-width: 25ch;
         margin: 0 auto;
