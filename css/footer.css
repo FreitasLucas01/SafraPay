@@ -53,6 +53,7 @@
     max-width: 1230px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font: 400 0.750rem/1.42 "IBM Plex Sans", monospace;
     color: rgba(24,35,70, 0.6);
     margin-top: 30px;
@@ -86,7 +87,7 @@
     border-bottom: 1px solid currentColor;
 }
 
-.cu{
+.footer-final-logo{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -123,6 +124,27 @@
 
     .footer-info a{
         margin: 0 auto;
+    }
+
+    .footer-final{
+        display: block;
+        text-align: center;
+        font: 400 0.750rem/1.42 "IBM Plex Sans", monospace;
+        margin-top: 30px;
+    }
+
+    .footer-final-info{
+        display: flex;
+        justify-content: center;
+        gap: 0 10px;
+        flex-wrap: wrap;
+    }
+
+    .footer-final-logo{
+        display: flex;
+        justify-content: center;
+        gap: 26px;
+        margin-top: 37px;
     }
 }
 
