@@ -153,7 +153,6 @@
 
 .ofertas-info p {
     font: 400 0.750rem/1.35 "IBM Plex Sans", monospace;
-    max-width: 36ch;
     margin: 0 auto;
     margin-top: 17px;
 }
@@ -167,8 +166,12 @@
     margin-right: 9px;
 }
 
-.pro-info p {
+.smart-info p{
     max-width: 30ch;
+}
+
+.pro-info p {
+    max-width: 36ch;
 }
 
 .slim-info p {
@@ -380,6 +383,10 @@
         padding-right: 20px;
         padding-left: 10px;
         padding-bottom: 30px;
+    }
+
+    .smart-info-container p:first-child {
+        right: 0px;
     }
 
     .smart-pro {
