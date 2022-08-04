@@ -86,9 +86,9 @@
     border-bottom: 1px solid currentColor;
 }
 
-.footner-final-logo{
-    display: flex;
-    /* gap: 32px; */
+.cu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 @media(max-width: 1100px){
