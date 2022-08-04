@@ -155,6 +155,7 @@
 
     .footer-container{
         gap: 25px 0;
+        padding-bottom: 34px;
     }
 
     .footer-info h3{
