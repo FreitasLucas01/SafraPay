@@ -78,6 +78,7 @@
     padding: 9px 38px;
     text-transform: uppercase;
     max-width: max-content;
+    box-shadow: 0px 6px 15px #DBDCDF;
 }
 
 .taxas-simulador>span::before {
@@ -98,6 +99,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
+    gap: 30px 0;
+    padding-bottom: 47px;
+    margin-top: 25px;
 }
 
 .taxas-radio {
@@ -114,6 +118,7 @@
     flex-direction: column;
     max-width: 230px;
     padding: 12px 0;
+    position: relative;
 }
 
 .taxas-input span{
@@ -137,9 +142,8 @@
     transition: 0.2s;
 }
 
-.taxas-input p.ativo{
+.js .taxas-input p.ativo{
     border-color: #182346;
-    /* background: #E9F5F9; */
 }
 
 .taxas-input p:hover{
@@ -156,7 +160,7 @@
     transition: 0.2s;
 }
 
-.taxas-input p.ativo::after{
+.js .taxas-input p.ativo::after{
     transform: rotate(180deg);
 }
 
@@ -169,8 +173,7 @@
 .taxas-input label{
     font: 500 0.875rem/1.285 "IBM Plex Sans", monospace;
     text-align: center;
-    /* background-color: #F4F5F9; */
-    background: green;
+    background: #F4F5F9;
     border-top: none;
     padding: 10px 0;
     border-radius: 5px;
@@ -179,13 +182,44 @@
     display: none;
 }
 
+.taxas-input label.ativo{
+    display: block;
+}
+
 input[type="radio"]{
     display: none;
+}
+
+.taxas-resultado-container{
+    display: grid;
+    gap: 40px;
 }
 
 .taxas-resultado-container p {
     font: 500 0.875rem/1.285 "IBM Plex Sans", monospace;
     color: #182346;
+}
+
+.taxas-resultado{
+    border: 1px solid #E7E9EC;
+    border-left: 1px solid #C4AD6C;
+    padding: 18px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.taxas-resultado.cifrao::before,
+.taxas-resultado.porcentagem::before{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 18px;
+    height: 19px;
+    background: url(../icons/cifrao.svg) no-repeat center;
+    top: -9px;
+}
+.taxas-resultado.porcentagem::before{
+    background: url(../icons/porcentagem.svg) no-repeat center;
 }
 
 .taxas-resultado>span {
