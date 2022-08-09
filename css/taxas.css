@@ -1,0 +1,210 @@
+#taxas {
+    margin-top: 120px;
+}
+
+.taxas-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 31px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.taxas-containerinput::-webkit-outer-spin-button,
+.taxas-container input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.taxas-container input[type="number"] {
+    -moz-appearance: textfield;
+    border: 1px solid #BBBDC8;
+    padding: 9px 16px;
+}
+
+.taxas-container input[type=number]:focus{
+    outline: 1.5px solid #C4AD6C;
+}
+
+.taxas-container h2 {
+    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;
+    color: #182346;
+    max-width: 23ch;
+    grid-column: 1/-1;
+}
+
+.taxas-container h2 span {
+    font-weight: 500;
+}
+
+.taxas-container>p {
+    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
+    color: #464F6B;
+    grid-column: 1/-1;
+    max-width: 45ch;
+    margin-top: 23px;
+}
+
+.taxas-simulador {
+    padding-top: 50px;
+    box-shadow: 0px 3px 22px rgba(19, 23, 80, 0.15);
+    margin-top: 71px;
+}
+
+.taxas-simulador h3{
+    text-align: center;
+}
+
+.taxas-simulador.absolute {
+    position: relative;
+}
+
+.taxas-simulador.absolute>span {
+    position: absolute;
+    max-width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    top: -18px;
+    left: 0;
+    right: 0;
+}
+
+.taxas-simulador>span {
+    display: flex;
+    align-items: center;
+    font: 500 0.72rem/1.56 "IBM Plex Sans", monospace;
+    color: #FFFFFF;
+    background: #C4AD6C;
+    padding: 9px 38px;
+    text-transform: uppercase;
+    max-width: max-content;
+}
+
+.taxas-simulador>span::before {
+    content: "";
+    display: inline-block;
+    width: 17px;
+    height: 18px;
+    background: url("../icons/calculadora.svg");
+    margin-right: 10px;
+}
+
+.taxas-simulador h3 {
+    font: 300 1.5rem/1.35 "IBM Plex Sans", monospace;
+    color: #182346;
+}
+
+.taxas-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.taxas-radio {
+    grid-column: 1/-1;
+}
+
+.taxas-radio label {
+    font: 600 1rem/1 "IBM Plex Sans", monospace;
+    color: #182346;
+}
+
+.taxas-input{
+    display: flex;
+    flex-direction: column;
+    max-width: 230px;
+    padding: 12px 0;
+}
+
+.taxas-input span{
+    display: block;
+    margin-bottom: 7px;
+    font: 600 0.875rem/1.142 "IBM Plex Sans", monospace;
+    color: #464F6B;
+}
+
+.taxas-input p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 500 0.875rem/1.285 "IBM Plex Sans", monospace;
+    color: #182346;
+    background: #F4F5F9;
+    border: 1px solid #F4F5F9;
+    max-width: 230px;
+    padding: 12px 0;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.taxas-input p.ativo{
+    border-color: #182346;
+    /* background: #E9F5F9; */
+}
+
+.taxas-input p:hover{
+    background: #E9F5F9;
+}
+
+.taxas-input p::after{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 6px;
+    background: url("../icons/input-seta.svg") no-repeat center;
+    margin-left: 7px;
+    transition: 0.2s;
+}
+
+.taxas-input p.ativo::after{
+    transform: rotate(180deg);
+}
+
+.taxas-input input,
+::placeholder {
+    font: 600 1.125rem/1.3 "IBM Plex Sans", monospace;
+    color: #182346;
+}
+
+.taxas-input label{
+    font: 500 0.875rem/1.285 "IBM Plex Sans", monospace;
+    text-align: center;
+    /* background-color: #F4F5F9; */
+    background: green;
+    border-top: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.taxas-resultado-container p {
+    font: 500 0.875rem/1.285 "IBM Plex Sans", monospace;
+    color: #182346;
+}
+
+.taxas-resultado>span {
+    font: 700 0.687rem/1.3 "IBM Plex Sans", monospace;
+    color: #464F6B;
+    text-transform: uppercase;
+}
+
+.taxas-resultado p {
+    display: flex;
+    align-items: start;
+    font: 300 2.625rem/1.3 "IBM Plex Sans", monospace;
+    color: #182346;
+}
+
+.taxas-resultado p span {
+    font: 400 1.5rem/1.3 "IBM Plex Sans", monospace;
+}
+
+.taxas-resultado-container{
+    align-self: center;
+}

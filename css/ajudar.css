@@ -60,7 +60,7 @@
     color: #FFFFFF;
 }
 
-.ajudar-numbers p:before {
+.ajudar-numbers p::before {
     content: "";
     display: inline-block;
     background: url("../icons/telefone-pequeno.svg") no-repeat center;
@@ -109,7 +109,7 @@
     margin-bottom: 20px;
 }
 
-.ajudar-perguntas span:before {
+.ajudar-perguntas span::before {
     content: "";
     display: inline-block;
     background: url("../icons/pergunta.svg") no-repeat center;
