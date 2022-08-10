@@ -421,16 +421,17 @@
                 <span>simulador</span>
                 <h3>Simule aqui suas vendas</h3>
                 <form action="./" class="taxas-form">
-                    <div data-radio class="taxas-radio">
+                    <div data-radio="primeiro" class="taxas-radio">
                         <input type="radio" name="taxa" id="pessoa">
                         <label for="pessoa">Taxas para Pessoa Jurídica</label>
                         <input type="radio" name="taxa" id="fisica">
                         <label for="fisica">Taxas para Pessoa Física</label>
                     </div>
                     <div>
-                        <div data-input class="taxas-input">
+                        <div data-input class="taxas-input money">
                             <span for="money">Digite abaixo o valor de venda</span>
-                            <input type="number" id="money" placeholder="R$ 100,00">
+                            <input type="number" id="money" placeholder="100,00">
+                            <span class="taxa-texto-fixo">R$</span>
                         </div>
                         <div data-input class="taxas-input">
                             <span>Escolha o tipo de venda</span>
@@ -465,22 +466,22 @@
                 </form>
             </div>
             <div class="taxas-simulador">
-                <p>Nossas taxas para receber em:</p>
+                <h3>Nossas taxas para receber em:</h3>
                 <form class="taxas-form">
-                    <div class="taxas-radio">
+                    <div data-radio="segundo" class="taxas-radio">
                         <input type="radio" name="taxa2" id="pessoa2">
                         <label for="pessoa2">Taxas para Pessoa Jurídica</label>
                         <input type="radio" name="taxa2" id="fisica2">
                         <label for="fisica2">Taxas para Pessoa Física</label>
                     </div>
                 </form>
-                <ul class="taxas-tempo">
+                <ul data-tempo class="taxas-tempo">
                     <li>Na hora</li>
                     <li>1 dia</li>
                     <li>30 dias</li>
                     <li>Sem antecipação</li>
                 </ul>
-                <div>
+                <div class="taxas-form">
                     <div>
                         <div>
                             <p>Crédito Parcelado</p>
@@ -500,20 +501,21 @@
                         </div>
                     </div>
                     <div>
-                        <div>
-                            <span>Débito</span>
-                            <p>1,98 <span>%</span></p>
+                        <div class="taxas-resultado-container">
+                            <div class="taxas-resultado cifrao">
+                                <span>Débito</span>
+                                <p>1,98<span>%</span></p>
+                            </div>
+                            <div class="taxas-resultado cartao">
+                                <span>crédito à vista</span>
+                                <p data-taxa>3,79<span>%</span></p>
+                            </div>
                         </div>
-                        <div>
-                            <span>crédito à vista</span>
-                            <p>3,79 <span>%</span></p>
-                        </div>
+                        <a href="./">Confira todas as taxas</a>
                     </div>
-                    <a href="./">Confira todas as taxas</a>
                 </div>
-            </div>
 
-        </div>
+            </div>
     </section>
 
     <article id="digital">
