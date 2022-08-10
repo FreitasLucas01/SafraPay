@@ -110,6 +110,26 @@
     display: none;
 }
 
+.taxa-credito{
+    display: grid;
+}
+
+.taxa-credito p:first-child,
+.taxa-credito span{
+    font: 600 0.875rem/1.285 "IBM Plex Sans", monospace;
+    color: #182346;
+}
+
+.taxa-credito span{
+    font-weight: 400;
+    color: #747B90;
+}
+
+.taxa-credito p{
+    font: 500 1.375rem/1.54 "IBM Plex Sans", monospace;
+    color: #182346;
+}
+
 .taxa-debito > p {
     display: flex;
     align-items: center;
@@ -127,7 +147,7 @@
     background: url("../icons/seta-baixo.svg") no-repeat center;
 }
 
-.taxa-debito > a{
+.taxa-debito p a{
     border-bottom: 1px solid #464F6B;
 }
 
