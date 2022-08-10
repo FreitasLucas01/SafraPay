@@ -1,5 +1,7 @@
 #taxas {
     margin-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .taxas-container {
@@ -177,7 +179,7 @@
     margin-right: 8px;
 }
 
-.taxas-radio label.ativo::before {
+.js .taxas-radio label.ativo::before {
     background-color: #FFFFFF;
     box-shadow: inset 0 0 0 3px #EBECF1;
 }
@@ -264,7 +266,7 @@
     display: none;
 }
 
-.taxas-input label.ativo {
+.js .taxas-input label.ativo {
     display: block;
 }
 
@@ -349,10 +351,27 @@
     cursor: pointer;
 }
 
-.taxas-tempo li.ativo {
+.js .taxas-tempo li.ativo {
     font-weight: 600;
     padding: 6px 17px;
     color: #182346;
     background: #FFFFFF;
     box-shadow: 0px 4px 12px #DDDEE4;
+}
+
+@media(max-width: 1024px){
+    .taxas-container {
+        grid-template-columns: 1fr;
+    }
+
+    .taxas-container h2 {
+        text-align: center;
+        justify-self: center;
+    }
+    
+    .taxas-container>p {
+        max-width: 45ch;
+        text-align: center;
+        justify-self: center;
+    }
 }
