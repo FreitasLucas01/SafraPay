@@ -11,9 +11,7 @@ export default function initRadio() {
     primeiroRadio.forEach((itens) => {
       itens.classList.remove(ativoClass)
     })
-    if (!classChecked) {
-      this.classList.toggle(ativoClass)
-    }
+    this.classList.add(ativoClass)
   }
 
   primeiroRadio.forEach(itens => {
@@ -31,9 +29,7 @@ export default function initRadio() {
     segundoRadio.forEach((itens) => {
       itens.classList.remove(ativoClass)
     })
-    if (!classChecked) {
-      this.classList.toggle(ativoClass)
-    }
+    this.classList.add(ativoClass)
   }
 
   segundoRadio.forEach(itens => {

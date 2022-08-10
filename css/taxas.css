@@ -110,6 +110,22 @@
     display: none;
 }
 
+.taxas-form a{
+    font: 400 0.875rem/1.285 "IBM Plex Sans", monospace;
+    border-bottom: 1px solid #464F6B;
+    color: #464F6B;
+    margin-top: 23px;
+}
+
+.taxas-form a::after{
+    content: "";
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: url("../icons/seta-baixo.svg");
+    margin-left: 10px;
+}
+
 .taxas-radio {
     display: flex;
     gap: 30px;
