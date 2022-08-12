@@ -53,7 +53,9 @@
 }
 
 .taxas-simulador h3 {
-    text-align: center;
+    font: 300 1.5rem/1.35 "IBM Plex Sans", monospace;
+    color: #182346;
+    text-align: center
 }
 
 .taxas-simulador.absolute {
@@ -90,11 +92,6 @@
     height: 18px;
     background: url("../icons/calculadora.svg");
     margin-right: 10px;
-}
-
-.taxas-simulador h3 {
-    font: 300 1.5rem/1.35 "IBM Plex Sans", monospace;
-    color: #182346;
 }
 
 .taxas-form {
