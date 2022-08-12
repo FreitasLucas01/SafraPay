@@ -149,6 +149,10 @@
     background: url("../icons/seta-baixo.svg") no-repeat center;
 }
 
+.taxa-debito{
+    width: 202px;
+}
+
 .taxa-debito p a {
     border-bottom: 1px solid #464F6B;
 }
@@ -351,12 +355,12 @@
 }
 
 .taxas-tempo li {
+    padding: 6px 17px;
     cursor: pointer;
 }
 
 .js .taxas-tempo li.ativo {
     font-weight: 600;
-    padding: 6px 17px;
     color: #182346;
     background: #FFFFFF;
     box-shadow: 0px 4px 12px #DDDEE4;
@@ -385,6 +389,10 @@
     .taxas-simulador {
         width: 100%;
     }
+
+    .taxa-debito{
+        width: 170px;
+    }
 }
 
 @media(max-width: 600px) {
@@ -411,6 +419,9 @@
 
     .taxas-input.money input {
         padding-left: 90px;
+        background: #F4F5F9;
+        border: 1px solid #F4F5F9;
+        border: none;
     }
 
     .taxa-texto-fixo {
@@ -419,5 +430,32 @@
         left: 65px;
         top: 33px;
         z-index: 9;
+    }
+
+    .taxas-input p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font: 500 0.875rem/1.285 "IBM Plex Sans", monospace;
+        color: #182346;
+        background: #F4F5F9;
+        max-width: 230px;
+        padding: 12px 0;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+
+    .taxa-credito{
+        grid-area: 2/1;
+    }
+
+    .taxa-debito{
+        grid-area: 1/1;
+    }
+
+    .taxa-debito,
+    .taxas-resultado-container{
+        width: 400px;
+        gap: 28px;
     }
 }
