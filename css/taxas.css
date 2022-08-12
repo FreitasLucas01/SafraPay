@@ -390,6 +390,7 @@
 
     .taxas-simulador {
         width: 100%;
+        margin-top: 46px;
     }
 
     .taxa-debito {
@@ -425,6 +426,7 @@
     }
 
     .taxas-resultado-container p {
+        font: 400 0.750rem/1.08 "IBM Plex Sans", monospace;
         grid-column: 1/-1;
         text-align: center;
         margin-top: 4px;
@@ -466,8 +468,6 @@
     }
 
     .taxa-texto-fixo {
-        position: absolute;
-        display: block;
         left: 80px;
         top: 33px;
         z-index: 9;
