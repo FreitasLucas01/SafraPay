@@ -50,6 +50,9 @@
     padding-top: 50px;
     box-shadow: 0px 3px 22px rgba(19, 23, 80, 0.15);
     margin-top: 71px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .taxas-simulador h3 {
@@ -137,7 +140,8 @@
     width: 202px;
 }
 
-.taxa-debito>p {
+.taxa-debito>p,
+.taxas-text-footer {
     display: flex;
     align-items: center;
     font: 400 0.875rem/1.285 "IBM Plex Sans", monospace;
@@ -146,7 +150,8 @@
     gap: 10px;
 }
 
-.taxa-debito>p::after {
+.taxa-debito>p::after,
+.taxas-text-footer::after {
     content: "";
     display: inline-block;
     width: 13px;
@@ -154,7 +159,8 @@
     background: url("../icons/seta-baixo.svg") no-repeat center;
 }
 
-.taxa-debito p a {
+.taxa-debito p a,
+.taxas-text-footer a {
     border-bottom: 1px solid #464F6B;
 }
 
@@ -341,14 +347,14 @@
 }
 
 .taxas-tempo {
+    font: 400 1rem/1.5 "IBM Plex Sans", monospace;
+    color: #6F778C;
+    background: #F3F4F6;
     max-width: 520px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    font: 400 1rem/1.5 "IBM Plex Sans", monospace;
-    color: #6F778C;
-    background: #F3F4F6;
     padding: 8px 32px;
     margin: 0 auto;
     margin-bottom: 40px;
@@ -364,6 +370,10 @@
     color: #182346;
     background: #FFFFFF;
     box-shadow: 0px 4px 12px #DDDEE4;
+}
+
+.taxas-text-footer{
+    display: none;
 }
 
 @media(max-width: 1100px) {
@@ -457,6 +467,14 @@
         margin-top: 25px;
     }
 
+    .taxas-radio {
+        display: block;
+    }
+
+    .taxas-radio input{
+        display: none;
+    }
+
     .taxas-input.money input {
         padding-left: 110px;
         background: #F4F5F9;
@@ -473,19 +491,6 @@
     .taxas-input{
         max-width: 280px;
     }
-
-    /* .taxas-input p {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font: 500 0.875rem/1.285 "IBM Plex Sans", monospace;
-        color: #182346;
-        background: #F4F5F9;
-        max-width: 100%;
-        padding: 12px 0;
-        cursor: pointer;
-        transition: 0.2s;
-    } */
 
     .taxa-credito {
         grid-area: 2/1;
@@ -521,5 +526,27 @@
 
     .taxa-debito {
         grid-area: 1/1;
+    }
+
+    .taxa-debito>p{
+        display: none;
+    }
+
+    .taxas-tempo{
+        font: 400 0.812rem/1.250 "IBM Plex Sans", monospace;
+        padding: 8px 12px;
+    }
+
+    .taxas-tempo li {
+        padding: 6px 10px;
+        cursor: pointer;
+    }
+
+    .taxas-text-footer{
+        font: 400 0.750rem/1 "IBM Plex Sans", monospace;
+        display: flex;
+        gap: 5px;
+        grid-area: 3/1;
+        margin-top: 20px;
     }
 }
