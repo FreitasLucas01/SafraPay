@@ -9,3 +9,13 @@ initCarousel();
 initDropDown();
 initRadio();
 initTempo();
+
+const cu = document.querySelector("[data-cu]")
+const xota = document.querySelector("[data-cu='taxa']")
+
+cu.addEventListener("keyup", (e) => {
+  if (xota.innerText !== "")
+    xota.innerText = e.target.value
+  else if (xota.innerText === "")
+    xota.innerText = "1,48"
+})

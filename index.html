@@ -430,7 +430,7 @@
                     <div>
                         <div data-input class="taxas-input money">
                             <span for="money">Digite abaixo o valor de venda</span>
-                            <input type="number" id="money" placeholder="100,00">
+                            <input data-cu type="number" id="money" maxlength="2" placeholder="100,00">
                             <span class="taxa-texto-fixo">R$</span>
                         </div>
                         <div data-input class="taxas-input">
@@ -454,12 +454,12 @@
                     </div>
                     <div class="taxas-resultado-container">
                         <div class="taxas-resultado cifrao">
-                            <span>você recebe</span>
-                            <p>98,52<span>R$</span></p>
+                            <span class="xoxotinha">você recebe</span>
+                            <p data-cu="valor">98,52<span>R$</span></p>
                         </div>
                         <div class="taxas-resultado porcentagem">
                             <span>taxa</span>
-                            <p data-taxa>1,48</p>
+                            <p data-cu="taxa">1,48</p>
                         </div>
                         <p>Você recebe <span>R$ 98,52</span> em 1 dia.</p>
                     </div>
