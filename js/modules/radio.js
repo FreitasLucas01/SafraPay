@@ -2,6 +2,9 @@ export default function initRadio() {
   const primeiroRadio = document.querySelectorAll("[data-radio='primeiro'] label")
   const segundoRadio = document.querySelectorAll("[data-radio='segundo'] label")
 
+  primeiroRadio[0].classList.add("ativo")
+  segundoRadio[0].classList.add("ativo")
+
   function handlePrimeiroRadio(e) {
     if (e.type === "touchstart")
       e.preventDefault()
