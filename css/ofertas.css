@@ -1,7 +1,7 @@
 #ofertas {
     color: #182346;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-top: 120px;
 }
 
@@ -338,8 +338,8 @@
 @media(max-width: 1140px) {
     #ofertas {
         margin-top: 49px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .ofertas-maquinas {
@@ -377,7 +377,7 @@
 
     .ofertas-info-container {
         padding-top: 18px;
-        padding-right: 20px;
+        padding-right: 15px;
         padding-left: 10px;
         padding-bottom: 30px;
     }
