@@ -1,4 +1,4 @@
-export default function initInputRadio() {
+export default function initInputTaxRadio() {
   const inputNumber = document.querySelector("[data-inputRadio='input']");
   const inputResult = document.querySelectorAll("[data-inputRadio='receber']");
   const span = document.querySelector("[data-inputRadio='span']");
