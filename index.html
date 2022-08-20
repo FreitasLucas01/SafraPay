@@ -421,7 +421,7 @@
                 <span>simulador</span>
                 <h3>Simule aqui suas vendas</h3>
                 <form action="./" class="taxas-form">
-                    <div data-radio="primeiro" class="taxas-radio">
+                    <div data-inputRadio="primeiro" class="taxas-radio">
                         <input type="radio" name="taxa" id="pessoa">
                         <label for="pessoa">Taxas para Pessoa Jurídica</label>
                         <input type="radio" name="taxa" id="fisica">
@@ -430,7 +430,7 @@
                     <div>
                         <div data-input class="taxas-input money">
                             <span for="money">Digite abaixo o valor de venda</span>
-                            <input data-innerText data-number="max-length" type="number" id="money" maxlength="8" placeholder="100,00">
+                            <input data-inputRadio="input" data-number="max-length" type="number" id="money" maxlength="8" placeholder="100,00">
                             <span class="taxa-texto-fixo">R$</span>
                         </div>
                         <div data-input class="taxas-input">
@@ -455,20 +455,20 @@
                     <div class="taxas-resultado-container">
                         <div class="taxas-resultado cifrao">
                             <span>você recebe</span>
-                            <p data-innerText="receber">98,32<span data-innerText="span">R$</span></p>
+                            <p data-inputRadio="receber">98,32<span data-inputRadio="span">R$</span></p>
                         </div>
                         <div class="taxas-resultado porcentagem">
                             <span>taxa</span>
-                            <p class="teste">1,68</p>
+                            <p data-inputRadio="taxa">1,68</p>
                         </div>
-                        <p>Você recebe <span data-innerText="receber">R$ 98,52</span> em 1 dia.</p>
+                        <p>Você recebe R$ <span data-inputRadio="receber">98,52</span> em 1 dia.</p>
                     </div>
                 </form>
             </div>
             <div class="taxas-simulador">
                 <h3>Nossas taxas para receber em:</h3>
                 <form class="taxas-form">
-                    <div data-radio="segundo" class="taxas-radio">
+                    <div data-inputRadio="segundo" class="taxas-radio">
                         <input type="radio" name="taxa2" id="pessoa2">
                         <label for="pessoa2">Taxas para Pessoa Jurídica</label>
                         <input type="radio" name="taxa2" id="fisica2">

@@ -440,6 +440,14 @@
         margin-top: 4px;
     }
 
+    .taxas-simulador:not(.absolute) {
+        padding-top: 30px;
+    }
+
+    .taxas-simulador h3{
+        font: 300 1.125rem/1.11 "IBM Plex Sans", monospace;
+    }
+
     .taxas-resultado {
         padding: 13px 0;
         padding-left: 15px;
@@ -447,12 +455,12 @@
 
     .taxas-resultado p span {
         margin-top: 7px;
-        margin-left: 5px;
-        font: 400 0.750rem/1.35 "IBM Plex Sans", monospace;
+        margin-left: 2px;
+        font: 400 0.850rem/1.35 "IBM Plex Sans", monospace;
     }
 
     .taxas-resultado>span {
-        font: 600 0.437rem/1.285 "IBM Plex Sans", monospace;
+        font: 600 0.537rem/1.285 "IBM Plex Sans", monospace;
     }
     
     .taxas-resultado p {
@@ -472,9 +480,13 @@
         display: block;
     }
 
-    .taxas-radio input{
-        display: none;
+    .taxas-radio label:nth-child(2){
+        margin-bottom: 20px;
     }
+
+    /* .taxas-radio input{
+        display: none;
+    } */
 
     .taxas-input.money input {
         padding-left: 110px;
@@ -534,7 +546,7 @@
     }
 
     .taxas-tempo{
-        font: 400 0.812rem/1.250 "IBM Plex Sans", monospace;
+        font: 400 0.612rem/1.250 "IBM Plex Sans", monospace;
         padding: 8px 12px;
     }
 
