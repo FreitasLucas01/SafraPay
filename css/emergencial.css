@@ -224,8 +224,8 @@
 
 @media(max-width: 600px) {
     #emergencial {
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     .emergencial-info h3 {
