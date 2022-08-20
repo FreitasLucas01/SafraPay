@@ -2,15 +2,14 @@ export default function initRadio() {
   const primeiroRadio = document.querySelectorAll("[data-radio='primeiro'] label")
   const segundoRadio = document.querySelectorAll("[data-radio='segundo'] label")
 
-  primeiroRadio[0].classList.add("ativo")
-  segundoRadio[0].classList.add("ativo")
+  const ativoClass = "ativo";
+
+  primeiroRadio[0].classList.add(ativoClass)
+  segundoRadio[0].classList.add(ativoClass)
 
   function handlePrimeiroRadio(e) {
     if (e.type === "touchstart")
       e.preventDefault()
-    const ativoClass = "ativo";
-    const classChecked = this.classList.contains(ativoClass);
-
     primeiroRadio.forEach((itens) => {
       itens.classList.remove(ativoClass)
     })
@@ -26,9 +25,6 @@ export default function initRadio() {
   function handleSegundoRadio(e) {
     if (e.type === "touchstart")
       e.preventDefault()
-    const ativoClass = "ativo";
-    const classChecked = this.classList.contains(ativoClass);
-
     segundoRadio.forEach((itens) => {
       itens.classList.remove(ativoClass)
     })
