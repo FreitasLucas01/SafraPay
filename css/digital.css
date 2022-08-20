@@ -1,7 +1,7 @@
 #digital {
     margin-top: 120px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
     padding-bottom: 50px;
     background: linear-gradient(180deg, rgba(244, 245, 249, 0) 0%, rgba(244, 245, 249, 0) 0.01%, #F4F5F9 100%);
     overflow-x: hidden;
@@ -98,8 +98,8 @@
     }
 
     .digital-texto{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .digital-texto h2 {
