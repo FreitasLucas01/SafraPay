@@ -8,14 +8,14 @@
 
 #header {
     background: #182446;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .header-nav {
     max-width: 1230px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -32,8 +32,8 @@
     flex: 1;
     justify-content: space-between;
     align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .linkInterno {
@@ -110,7 +110,7 @@
     }
 
     .header-nav .logo {
-        padding-left: 15px;
+        padding-left: 20px;
     }
 
     .header-nav .telefone {
@@ -119,7 +119,7 @@
 
     .header-nav .menuMobileButton {
         margin-left: 5px;
-        padding-right: 15px;
+        padding-right: 20px;
     }
 
     .menu {
@@ -314,11 +314,11 @@
 @media(max-width: 400px) {
     .header-nav .logo {
         width: 100px;
-        padding-left: 15px;
+        padding-left: 20px;
     }
 
     .header-nav .menuMobileButton {
-        padding-right: 15px;
+        padding-right: 20px;
         padding-left: 10px;
         margin: 0;
     }

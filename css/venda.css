@@ -13,7 +13,7 @@
     display: grid;
     grid-template-columns: 5fr 7fr;
     gap: 100px;
-    padding-left: 15px;
+    padding-left: 20px;
     padding-top: 80px;
     box-sizing: border-box;
 }
@@ -148,7 +148,7 @@
         grid-template-columns: 1fr;
         gap: 60px;
         padding-top: 42px;
-        padding-right: 15px;
+        padding-right: 20px;
         background: url("../img/arcos.svg") no-repeat;
         background-position: center bottom;
     }
@@ -235,8 +235,8 @@
     }
 
     .venda-texto {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 

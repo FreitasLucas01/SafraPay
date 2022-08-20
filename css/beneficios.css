@@ -14,7 +14,7 @@
 
 .beneficios-texto{
     align-self: center;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 .beneficios-texto h2{
@@ -171,7 +171,7 @@
     }
 
     .carrossel-container{
-        padding-left: 15px;
+        padding-left: 20px;
     }
 
     .nxt-btn{
@@ -185,7 +185,7 @@
     }
 
     .beneficios-container{
-        padding-left: 15px;
+        padding-left: 20px;
     }
     
     .beneficios-texto h2{
@@ -238,7 +238,7 @@
 
     .beneficios-texto{
         padding-left: 0;
-        padding-right: 15px;
+        padding-right: 20px;
     }
 
     .beneficios-texto .botao {
