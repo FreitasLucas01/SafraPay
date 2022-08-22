@@ -237,7 +237,7 @@
     }
 
     .js [data-menu="button"].ativo .linha3 {
-        transform: rotate(45deg) translate(-5px, -8px);
+        transform: rotate(45deg) translate(-5px, -6px);
         background: #FFFFFF;
     }
 
