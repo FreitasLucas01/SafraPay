@@ -118,7 +118,7 @@
     margin-right: 4px;
 }
 
-.ajudar-perguntas li {
+.ajudar-perguntas li:not(:first-child) {
     font: 300 1.5rem/2.08 "IBM Plex Sans", monospace;
     color: #FFFFFF;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
