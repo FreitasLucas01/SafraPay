@@ -184,7 +184,7 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    background: #EBECF1;
+    background: #FFFFFF;
     border: 1px solid #C4AD6C;
     border-radius: 50%;
     box-sizing: border-box;
@@ -192,8 +192,8 @@
 }
 
  .taxas-radio label.ativo::before {
-    background-color: #FFFFFF;
-    box-shadow: inset 0 0 0 3px #EBECF1;
+    background-color: #EBECF1;
+    box-shadow: inset 0 0 0 3px #FFFFFF;
 }
 
 .taxas-input.money input {
