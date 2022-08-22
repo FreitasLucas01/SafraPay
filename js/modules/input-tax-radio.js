@@ -3,7 +3,8 @@ export default function initInputTaxRadio() {
   const inputResult = document.querySelectorAll("[data-inputRadio='receber']");
   const segundoRadio = document.querySelectorAll("[data-inputRadio='segundo'] label")
   const taxaElem = document.querySelector("[data-inputRadio='taxa']")
-  const span = document.querySelector("[data-inputRadio='span']");
+  const spanCifrao = document.querySelector("[data-inputRadio='cifrao']");
+  const spanPorcentagem = document.querySelector("[data-inputRadio='porcentagem']");
   const ativoClass = "ativo";
 
   // radio #pessoa tem o value "jur"
@@ -26,7 +27,6 @@ export default function initInputTaxRadio() {
     return () => {
       inputResult.forEach(itens => {
         itens.innerText = (inputValorVenda.value * (100 - taxa) / 100).toFixed(2).replace(".", ",");
-        inputResult[0].appendChild(span);
       });
     };
   }
@@ -93,9 +93,10 @@ export default function initInputTaxRadio() {
   function updateValuesOnUI(taxa) {
     const valorVenda = inputValorVenda.value;
     const valorRecebe = valorVenda * (1 - (taxa / 100));
-    taxaElem.innerText = formatNumber(taxa) + '%';
+    taxaElem.innerText = formatNumber(taxa);
     inputResult.forEach(itens => itens.innerHTML = formatNumber(valorRecebe));
-    inputResult[0].appendChild(span)
+    inputResult[0].appendChild(spanCifrao);
+    taxaElem.appendChild(spanPorcentagem);
   }
 
   /*
