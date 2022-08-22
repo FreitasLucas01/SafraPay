@@ -39,7 +39,7 @@
 .linkInterno {
     position: relative;
     color: #E0E0E0;
-    font: 500 0.875rem/1.25 "IBM Plex Sans", monospace;
+    font: 500 0.875rem/1.25 "IBM Plex Sans", monospace;;
     white-space: nowrap;
 }
 
@@ -84,7 +84,7 @@
 .telefone-numero span {
     display: inline-block;
     margin-bottom: 3px;
-    font: 400 0.750rem/1.40 "Roboto", monospace;
+    font: 400 0.750rem/1.40 "Roboto", monospace;;
 }
 
 .telefone-numero p {

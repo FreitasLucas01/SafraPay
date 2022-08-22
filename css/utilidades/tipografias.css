@@ -1,3 +1,9 @@
-.font-400-14-18{
-    font: 400 0.875rem/1.285 "IBM Plex Sans", monospace;
+
+
+.font-400-750-140{
+    font: 400 0.750rem/1.40 "Roboto", monospace;
+}
+
+.font-500-875-125{
+    font: 500 0.875rem/1.25 "IBM Plex Sans", monospace;
 }

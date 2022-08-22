@@ -184,13 +184,14 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    border: 1px solid #EBECF1;
+    background: #EBECF1;
+    border: 1px solid #C4AD6C;
     border-radius: 50%;
     box-sizing: border-box;
     margin-right: 8px;
 }
 
-.js .taxas-radio label.ativo::before {
+ .taxas-radio label.ativo::before {
     background-color: #FFFFFF;
     box-shadow: inset 0 0 0 3px #EBECF1;
 }
@@ -230,7 +231,7 @@
     transition: 0.2s;
 }
 
-.js .taxas-input p.ativo {
+ .taxas-input p.ativo {
     border-color: #182346;
 }
 
@@ -248,15 +249,19 @@
     transition: 0.2s;
 }
 
-.js .taxas-input p.ativo::after {
+.taxas-input p.ativo::after {
     transform: rotate(180deg);
 }
 
 .taxas-input input,
-.taxa-texto-fixo,
-::placeholder {
+.taxa-texto-fixo{
     font: 600 1.125rem/1.3 "IBM Plex Sans", monospace;
     color: #182346;
+}
+
+::placeholder{
+    color: #182346;
+    opacity: 0.5;
 }
 
 .taxa-texto-fixo {
@@ -279,7 +284,7 @@
     display: none;
 }
 
-.js .taxas-input label.ativo {
+.taxas-input label.ativo {
     display: block;
 }
 
@@ -366,7 +371,7 @@
     cursor: pointer;
 }
 
-.js .taxas-tempo li.ativo {
+.taxas-tempo li.ativo {
     font-weight: 600;
     color: #182346;
     background: #FFFFFF;
@@ -500,7 +505,7 @@
     }
 
     .taxa-texto-fixo {
-        left: 80px;
+        left: 85px;
         top: 33px;
         z-index: 9;
     }
@@ -564,6 +569,6 @@
         display: flex;
         gap: 5px;
         grid-area: 3/1;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 }

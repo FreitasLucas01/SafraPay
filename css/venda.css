@@ -96,7 +96,7 @@
 
 .venda-texto p {
     font: 400 0.875rem/1.250 "IBM Plex Sans", monospace;
-    color: rgba(255, 255, 255, 0.6);
+    color: #A3A7B5;
     max-width: 50ch;
     margin-top: 30px;
 }

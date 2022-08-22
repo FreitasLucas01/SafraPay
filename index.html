@@ -422,35 +422,35 @@
                 <h3>Simule aqui suas vendas</h3>
                 <form action="./" class="taxas-form">
                     <div data-inputRadio="primeiro" class="taxas-radio">
-                        <input type="radio" name="taxa" id="pessoa">
+                        <input type="radio" name="taxa" id="pessoa" value="jur" checked>
                         <label for="pessoa">Taxas para Pessoa Jurídica</label>
-                        <input type="radio" name="taxa" id="fisica">
+                        <input type="radio" name="taxa" id="fisica" value="fis">
                         <label for="fisica">Taxas para Pessoa Física</label>
                     </div>
                     <div>
                         <div data-input class="taxas-input money">
                             <span for="money">Digite abaixo o valor de venda</span>
-                            <input data-inputRadio="input" data-number="max-length" type="number" id="money"
-                                maxlength="8" placeholder="100,00">
+                            <input data-inputRadio="input" name="valorVenda" data-number="max-length" type="number" 
+                            id="money" maxlength="8" placeholder="100,00">
                             <span class="taxa-texto-fixo">R$</span>
                         </div>
                         <div data-input class="taxas-input">
                             <span>Escolha o tipo de venda</span>
                             <p>Débito</p>
                             <label for="debito">Débito</label>
-                            <input type="radio" name="taxa" id="debito">
+                            <input type="radio" name="debito" id="debito">
                         </div>
                         <div data-input class="taxas-input">
                             <span>Prazo de recebimento</span>
                             <p>Receber em um dia</p>
                             <label for="recebimento">Receber em um dia</label>
-                            <input type="radio" name="taxa" id="recebimento">
+                            <input type="radio" name="recebimento" id="recebimento">
                         </div>
                         <div data-input class="taxas-input">
                             <span>Bandeiras</span>
                             <p>Mastercard e Visa</p>
                             <label for="bandeiras">Mastercard e Visa</label>
-                            <input type="radio" name="taxa" id="bandeiras">
+                            <input type="radio" name="bandeiras" id="bandeiras">
                         </div>
                     </div>
                     <div class="taxas-resultado-container">
@@ -460,7 +460,7 @@
                         </div>
                         <div class="taxas-resultado porcentagem">
                             <span>taxa</span>
-                            <p data-inputRadio="taxa">1,68</p>
+                            <p data-inputRadio="taxa">1,68<span>%</span></p>
                         </div>
                         <p>Você recebe R$ <span data-inputRadio="receber">98,52</span> em 1 dia.</p>
                     </div>
