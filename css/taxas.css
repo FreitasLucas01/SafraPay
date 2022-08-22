@@ -192,7 +192,7 @@
 }
 
  .taxas-radio label.ativo::before {
-    background-color: #454E6A;
+    background-color: #A3A7B5;
     box-shadow: inset 0 0 0 3px #FFFFFF;
 }
 
@@ -411,7 +411,7 @@
     }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 700px) {
     #taxas {
         margin-top: 70px;
     }
@@ -459,7 +459,8 @@
 
     .taxas-resultado {
         padding: 13px 0;
-        padding-left: 16px;
+        padding-left: 10px;
+        padding-right: 8px;
     }
 
     .taxas-resultado p span {
