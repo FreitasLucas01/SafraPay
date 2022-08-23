@@ -79,6 +79,10 @@ export default function initInputTaxRadio() {
 
   inputValorVenda.value = (100).toFixed(2);
 
+
+
+
+  
   function handleSegundoRadio(e) {
     if (e.type === "touchstart")
       e.preventDefault()

@@ -1,9 +1,127 @@
+/* IBM Plex Sans */
 
+.font-300-875-875{
+    font: 300 0.875rem/0.875 "IBM Plex Sans", monospace;
+}
 
-.font-400-750-140{
-    font: 400 0.750rem/1.40 "Roboto", monospace;
+.font-300-09-135{
+    font: 300 0.9rem/1.35 "IBM Plex Sans", monospace;
+}
+
+.font-300-1-2125{
+    font: 300 1rem/2.125 "IBM Plex Sans", monospace;
+}
+
+.font-300-1-135{
+    font: 300 1rem/1.35 "IBM Plex Sans", monospace;
+}
+
+.font-300-1125-135{
+    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
+}
+
+.font-300-1125-161{
+    font: 300 1.125rem/1.61 "IBM Plex Sans", monospace;
+}
+
+.font-300-1187-210{
+    font: 300 1.187rem/2.10 "IBM Plex Sans", monospace;
+}
+
+.font-300-135-135{
+    font: 300 1.35rem/1.35 "IBM Plex Sans", monospace;
+}
+
+.font-300-15-135{
+    font: 300 1.5rem/1.35 "IBM Plex Sans", monospace;
+}
+
+.font-300-15-208{
+    font: 300 1.5rem/2.08 "IBM Plex Sans", monospace;
+}
+
+.font-400-687-1236{
+    font: 400 0.687rem/1.236 "IBM Plex Sans", monospace;
+}
+
+.font-400-812-13{
+    font: 400 0.812rem/1.3 "IBM Plex Sans", monospace;
+}
+
+.font-400-875-1285{
+    font: 400 0.875rem/1.285 "IBM Plex Sans", monospace;
+}
+
+.font-400-875-193{
+    font: 400 0.875rem/1.93 "IBM Plex Sans", monospace;
+}
+
+.font-400-937-13{
+    font: 400 0.937rem/1.3 "IBM Plex Sans", monospace;
+}
+
+.font-400-1-17{
+    font: 400 1rem/1.7 "IBM Plex Sans", monospace;
+}
+
+.font-400-1-2125{
+    font: 400 1rem/2.125 "IBM Plex Sans", monospace;
+}
+
+.font-400-1125-135{
+    font: 400 1.125rem/1.35 "IBM Plex Sans", monospace;
+}
+
+.font-400-15-135{
+    font: 400 1.5rem/1.35 "IBM Plex Sans", monospace;
+}
+
+.font-400-156-128{
+    font: 400 1.56rem/1.28 "IBM Plex Sans", monospace;
+}
+
+.font-400-1823-125{
+    font: 400 1.823rem/1.25 "IBM Plex Sans", monospace;
+}
+
+.font-400-195-11{
+    font: 400 1.95rem/1.1 "IBM Plex Sans", monospace;
+}
+
+.font-400-2-1125{
+    font: 400 2rem/1.125 "IBM Plex Sans", monospace;
+}
+
+.font-400-2-125{
+    font: 400 2rem/1.25 "IBM Plex Sans", monospace;
+}
+
+.font-400-2187-1285{
+    font: 400 2.187rem/1.285 "IBM Plex Sans", monospace;
+}
+
+.font-400-25-1125{
+    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;
 }
 
 .font-500-875-125{
     font: 500 0.875rem/1.25 "IBM Plex Sans", monospace;
+}
+
+.font-600-812-13{
+    font: 600 0.812rem/1.3 "IBM Plex Sans", monospace;
+}
+
+.font-600-875-13{
+    font: 600 0.875rem/1.3 "IBM Plex Sans", monospace;
+}
+
+.font-600-096-13{
+    font: 600 0.96rem/1.3 "IBM Plex Sans", monospace;
+}
+
+
+/* ROBOTO */
+.font-400-750-14{
+    font: 400 0.750rem/1.4 "Roboto", monospace;
 }
