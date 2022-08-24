@@ -15,14 +15,14 @@
 .cartao-container span {
     grid-area: 1/2;
     display: inline-block;
-    font: 600 0.812rem/1.3 "IBM Plex Sans", monospace;;
+    font: 600 0.812rem/1.3 "IBM Plex Sans", monospace;; /* font-15 */
     text-transform: uppercase;
     color: #182346;
 }
 
 .cartao-container h2 {
     grid-area: 2/2;
-    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;;
+    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;; /* font-16 */
     color: #182346;
     margin-top: 25px;
     white-space: nowrap;
@@ -30,7 +30,7 @@
 
 .cartao-container p {
     grid-area: 3/2;
-    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;;
+    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;; /* font-2 */
     color: #182346;
     max-width: 35ch;
     margin-top: 18px;
@@ -49,7 +49,7 @@
 
 .cartao-info {
     grid-area: 5/2;
-    font: 300 1.125rem/1.61 "IBM Plex Sans", monospace;;
+    font: 300 1.125rem/1.61 "IBM Plex Sans", monospace;; /* font-17 */
     color: #182346;
     margin-top: 30px;
 }
@@ -98,26 +98,26 @@
     }
 
     .cartao-container h2 {
-        font: 400 1.95rem/1.1 "IBM Plex Sans", monospace;
+        font: 400 1.95rem/1.1 "IBM Plex Sans", monospace;; /* font-16 */
     }
 
     .cartao-container p {
-        font: 300 1.01rem/1.35 "IBM Plex Sans", monospace;
+        font: 300 1rem/1.35 "IBM Plex Sans", monospace;; /* font-2 */
     }
 
     .cartao-info {
-        font: 300 1rem/1.35 "IBM Plex Sans", monospace;
+        font: 300 1rem/1.35 "IBM Plex Sans", monospace;; /* font-17 */
     }
 
     .cartao-container>a {
-        font: 600 0.96rem/1.3 "IBM Plex Sans", monospace;
-        padding: 17px 34px;
+        /* font: 600 0.96rem/1.3 "IBM Plex Sans", monospace;; */
+        /* padding: 17px 34px; */
         margin-top: 40px;
     }
 }
 
 @media(max-width: 290px){
     .cartao-info {
-        font: 300 0.775rem/1.35 "IBM Plex Sans", monospace;
+        font: 300 0.775rem/1.35 "IBM Plex Sans", monospace;; /* font-17 */
     }
 }

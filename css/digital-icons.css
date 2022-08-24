@@ -19,13 +19,13 @@
 }
 
 .digital-icons h3 {
-    font: 300 1.5rem/1.35 "IBM Plex Sans", monospace;
+    font: 300 1.5rem/1.35 "IBM Plex Sans", monospace;; /* font-18 */
     color: #182346;
     margin-top: 22px;
 }
 
 .digital-icons p {
-    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
+    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;; /* font-2 */
     max-width: 18ch;
     color: #454E6A;
     margin-top: 13px;
@@ -88,12 +88,12 @@
     }
 
     .digital-icons h3 {
-        font: 300 1.215rem/1.35 "IBM Plex Sans", monospace;
+        font: 300 1.215rem/1.35 "IBM Plex Sans", monospace;; /* font-18 */
         margin-top: 8px;
     }
 
     .digital-icons p {
-        font: 300 0.911rem/1.35 "IBM Plex Sans", monospace;
+        font: 300 1rem/1.35 "IBM Plex Sans", monospace;; /* font-2 */
         margin-top: 3px;
     }
 }

@@ -75,7 +75,7 @@
     position: absolute;
     display: flex;
     align-items: center;
-    font: 600 0.750rem/1.5 "IBM Plex Sans", monospace;
+    font: 600 0.750rem/1.5 "IBM Plex Sans", monospace;;
     text-transform: uppercase;
     color: #FFFFFF;
     box-shadow: 0px 5.4px 13.5px rgba(196, 173, 108, 0.5);
@@ -91,7 +91,7 @@
 }
 
 .ofertas-info-container ul {
-    font: 400 0.875rem/2.285 "IBM Plex Sans", monospace;
+    font: 400 0.875rem/2.285 "IBM Plex Sans", monospace;;
     margin-top: 24px;
 }
 
@@ -123,8 +123,8 @@
 .ofertas-info-container .botao {
     margin: 0 auto;
     margin-top: 16px;
-    font: 600 0.937rem/1.35 "IBM Plex Sans", monospace;
-    padding: 12px 29px;
+    /* font: 600 0.937rem/1.35 "IBM Plex Sans", monospace;; */
+    /* padding: 12px 29px; */
     white-space: nowrap;
 }
 
@@ -143,7 +143,7 @@
 }
 
 .ofertas-info h3 {
-    font: 400 1.5rem/1.35 "IBM Plex Sans", monospace;
+    font: 400 1.5rem/1.35 "IBM Plex Sans", monospace;;
     margin-top: 32px;
 }
 
@@ -152,7 +152,7 @@
 }
 
 .ofertas-info p {
-    font: 400 0.750rem/1.35 "IBM Plex Sans", monospace;
+    font: 400 0.750rem/1.35 "IBM Plex Sans", monospace;;
     max-width: 36ch;
     margin: 0 auto;
     margin-top: 17px;
@@ -181,7 +181,7 @@
 }
 
 .mini-info p:first-child {
-    font: 600 0.875rem/1.285 "IBM Plex Sans", monospace;
+    font: 600 0.875rem/1.3 "IBM Plex Sans", monospace;;
     text-transform: capitalize;
     padding: 8px 21px;
     color: #182346;
@@ -211,23 +211,23 @@
 }
 
 .ofertas-texto h2 {
-    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;
+    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;;
     margin-top: 38px;
 }
 
 .ofertas-texto p:not(:last-child) {
     display: block;
-    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
+    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;;
     margin-top: 23px;
 }
 
 .ofertas-texto span {
     text-transform: uppercase;
-    font: 600 0.812rem/1.23 "IBM Plex Sans", monospace;
+    font: 600 0.812rem/1.3 "IBM Plex Sans", monospace;;
 }
 
 .ofertas-span {
-    font: 500 0.812rem/1.25 "IBM Plex Sans", monospace;
+    font: 500 0.812rem/1.2 "IBM Plex Sans", monospace;;
 }
 
 .nfc::before {
@@ -437,14 +437,14 @@
     }
 
     .ofertas-info-container p:first-child {
-        font: 600 0.787rem/1.27 "IBM Plex Sans", monospace;
+        font: 600 0.79rem/1.285 "IBM Plex Sans", monospace;;
         padding: 8px 30px;
         top: -33px;
         right: 0;
     }
 
     .mini-info p:first-child {
-        font: 600 0.787rem/1.27 "IBM Plex Sans", monospace;
+        font: 600 0.79rem/1.285 "IBM Plex Sans", monospace;;
         padding: 7px 18px;
     }
 
@@ -453,7 +453,7 @@
     }
 
     .ofertas-info-container ul {
-        font: 400 0.787rem/2.3 "IBM Plex Sans", monospace;
+        font: 400 0.79rem/2.3 "IBM Plex Sans", monospace;;
         margin-top: 24px;
     }
 
@@ -465,29 +465,29 @@
     .ofertas-info-container .botao {
         margin: 0 auto;
         margin-top: 16px;
-        font: 600 0.843rem/1.35 "IBM Plex Sans", monospace;
-        padding: 12px 26px;
+        /* font: 600 0.850rem/1.35 "IBM Plex Sans", monospace;; */
+        /* padding: 12px 26px; */
     }
 
     .ofertas-texto h2 {
-        font: 400 2rem/1.25 "IBM Plex Sans", monospace;
+        font: 400 2rem/1.25 "IBM Plex Sans", monospace;;
     }
 
     .ofertas-texto p:not(:last-child) {
-        font: 300 1rem/1.375 "IBM Plex Sans", monospace;
+        font: 300 1rem/1.35 "IBM Plex Sans", monospace;;
     }
 
     .ofertas-info h3 {
-        font: 400 1.32rem/1.38 "IBM Plex Sans", monospace;
+        font: 400 1.32rem/1.38 "IBM Plex Sans", monospace;;
         margin-top: 18px;
     }
 
     .ofertas-span {
-        font: 400 0.73rem/1.27 "IBM Plex Sans", monospace;
+        font: 400 0.750rem/1.35 "IBM Plex Sans", monospace;;
     }
 
     .ofertas-info p {
-        font: 400 0.69rem/1.27 "IBM Plex Sans", monospace;
+        font: 400 0.7rem/1.285 "IBM Plex Sans", monospace;;
     }
 
     .slim-info p {

@@ -16,13 +16,13 @@
 }
 
 .emergencial-texto h2 {
-    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;
+    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;; /* font-20 */
     max-width: 20ch;
     color: #182346;
 }
 
 .emergencial-texto p {
-    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
+    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;;
     max-width: 45ch;
     margin-top: 22px;
 }
@@ -50,20 +50,20 @@
 }
 
 .emergencial-info h3 {
-    font: 600 0.875rem/1.285 "IBM Plex Sans", monospace;
+    font: 600 0.875rem/1.3 "IBM Plex Sans", monospace;;
     color: #444D6A;
 }
 
 .emergencial-info p {
     display: flex;
     align-items: end;
-    font: 300 2.25rem/1.02 "IBM Plex Sans", monospace;
+    font: 300 2.25rem/1.1 "IBM Plex Sans", monospace;;
     color: #182346;
     margin-top: 10px;
 }
 
 .emergencial-info p span {
-    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
+    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;;
     display: inline-block;
     margin-left: 8px;
 }
@@ -81,15 +81,9 @@
     white-space: nowrap;
 }
 
-.emergencial-buttons a:last-child {
-    padding: 19px 30px;
-    background: none;
-    border: 1px solid #182346;
-}
-
 .emergencial-detalhes>span a {
     display: inline-block;
-    font: 500 0.750rem/1.42 "IBM Plex Sans", monospace;
+    font: 500 0.750rem/1.42 "IBM Plex Sans", monospace;;
     color: #464F6B;
     margin-top: 25px;
     border-bottom: 1px solid #464F6B;
@@ -106,11 +100,11 @@
     }
 
     .emergencial-info p {
-        font: 300 2rem/1.02 "IBM Plex Sans", monospace;
+        font: 300 2rem/1.02 "IBM Plex Sans", monospace;;
     }
 
     .emergencial-info p span {
-        font: 300 1rem/1.35 "IBM Plex Sans", monospace;
+        font: 300 1rem/1.35 "IBM Plex Sans", monospace;;
     }
 }
 
@@ -151,12 +145,12 @@
     }
 
     .emergencial-info p {
-        font: 300 2.25rem/1.02 "IBM Plex Sans", monospace;
+        font: 300 2.25rem/1.1 "IBM Plex Sans", monospace;;
         margin-top: 10px;
     }
 
     .emergencial-info p span {
-        font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
+        font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;;
         display: inline-block;
         margin-left: 8px;
     }
@@ -225,21 +219,21 @@
     }
 
     .emergencial-info h3 {
-        font: 600 0.79rem/1.285 "IBM Plex Sans", monospace;
+        font: 600 0.79rem/1.285 "IBM Plex Sans", monospace;;
         text-align: left;
     }
 
     .emergencial-info p {
-        font: 300 2.025rem/1.02 "IBM Plex Sans", monospace;
+        font: 300 2rem/1.02 "IBM Plex Sans", monospace;;
     }
 
     .emergencial-texto h2 {
-        font: 400 2rem/1.265 "IBM Plex Sans", monospace;
+        font: 400 2rem/1.25 "IBM Plex Sans", monospace;; /* font-20 */
         max-width: 100%;
     }
 
     .emergencial-texto p {
-        font: 300 1rem/1.35 "IBM Plex Sans", monospace;
+        font: 300 1rem/1.35 "IBM Plex Sans", monospace;;
         max-width: 100%;
     }
 
@@ -249,10 +243,6 @@
 
     .emergencial-info {
         gap: 40px;
-    }
-
-    .emergencial-buttons a {
-        font: 600 0.96rem/1.3 "IBM Plex Sans", monospace;
     }
 }
 

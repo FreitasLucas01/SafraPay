@@ -28,7 +28,7 @@
 }
 
 .fatura-container h2 {
-    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;
+    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;;
     color: #FFFFFF;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .fatura-container>p {
-    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
+    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;;
     color: #FFFFFF;
     margin-top: 30px;
 }
@@ -54,7 +54,7 @@
 }
 
 .fatura-protecao p {
-    font: 400 0.875rem/1.285 "IBM Plex Sans", monospace;
+    font: 400 0.875rem/1.285 "IBM Plex Sans", monospace;;
     max-width: 20ch;
 }
 
@@ -116,17 +116,17 @@
     }
 
     .fatura-container h2 {
-        font: 400 2rem/1.125 "IBM Plex Sans", monospace;
+        font: 400 2rem/1.125 "IBM Plex Sans", monospace;;
     }
 
     .fatura-container>p {
-        font: 300 0.9rem/1.35 "IBM Plex Sans", monospace;
+        font: 300 1rem/1.35 "IBM Plex Sans", monospace;;
         margin-top: 6px;
     }
 
     .fatura-container a {
-        font: 500 0.850rem/1.35 "IBM Plex Sans", monospace;
-        padding: 15px 20px;
+        /* font: 500 0.850rem/1.35 "IBM Plex Sans", monospace;; */
+        /* padding: 15px 20px; */
         margin: 0 auto;
         margin-top: 12px;
     }
@@ -140,7 +140,7 @@
     }
 
     .fatura-protecao p {
-        font: 400 0.7rem/1.285 "IBM Plex Sans", monospace;
+        font: 400 0.7rem/1.285 "IBM Plex Sans", monospace;;
     }
 }
 

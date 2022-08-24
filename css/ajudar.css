@@ -21,13 +21,13 @@
 }
 
 .ajudar-texto h2 {
-    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;;
+    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;; /* font-1 */
     color: #FFFFFF;
 }
 
 .ajudar-texto>span {
     display: block;
-    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;;
+    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;; /* font-2 */
     color: #D1D3DA;
     margin-top: 20px;
 }
@@ -56,7 +56,7 @@
 .ajudar-numbers p {
     display: flex;
     align-items: center;
-    font: 400 1.5rem/1.35 "IBM Plex Sans", monospace;;
+    font: 400 1.5rem/1.35 "IBM Plex Sans", monospace;; /* font-3 */
     color: #FFFFFF;
 }
 
@@ -71,7 +71,7 @@
 
 .ajudar-numbers span {
     display: block;
-    font: 400 0.750rem/1.40 "IBM Plex Sans", monospace;;
+    font: 400 0.750rem/1.42 "IBM Plex Sans", monospace;; /* font-4 */
     color: #D1D3DA;
     padding-left: 31px;
 }
@@ -82,12 +82,12 @@
 
 .ajudar-atendimento span {
     display: block;
-    font: 400 0.875rem/1.285 "IBM Plex Sans", monospace;;
+    font: 400 0.875rem/1.285 "IBM Plex Sans", monospace;; /* font-5 */
     color: #D1D3DA;
 }
 
 .ajudar-atendimento p {
-    font: 400 0.937rem/1.3 "IBM Plex Sans", monospace;;
+    font: 400 0.937rem/1.3 "IBM Plex Sans", monospace;; /* font-6 */
     color: #FFFFFF;
     border-bottom: 1px solid #FFFFFF;
     max-width: max-content;
@@ -104,7 +104,7 @@
 .ajudar-perguntas span {
     display: flex;
     align-items: center;
-    font: 400 1rem/2.125 "IBM Plex Sans", monospace;;
+    font: 400 1rem/2.125 "IBM Plex Sans", monospace;; /* font-7 */
     color: #C4AD6C;
     margin-bottom: 20px;
 }
@@ -119,7 +119,7 @@
 }
 
 .ajudar-perguntas li:not(:first-child) {
-    font: 300 1.5rem/2.08 "IBM Plex Sans", monospace;;
+    font: 300 1.5rem/2.08 "IBM Plex Sans", monospace;; /* font-8 */
     color: #FFFFFF;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     white-space: nowrap;
@@ -149,7 +149,7 @@
 .ajudar-online span {
     display: flex;
     align-items: center;
-    font: 400 1rem/2.125 "IBM Plex Sans", monospace;;
+    font: 400 1rem/2.125 "IBM Plex Sans", monospace;; /* font-9 / 7 */
     color: #C4AD6C;
 }
 
@@ -163,14 +163,11 @@
 }
 
 .ajudar-online p {
-    font: 300 1rem/2.125 "IBM Plex Sans", monospace;;
+    font: 300 1rem/2.125 "IBM Plex Sans", monospace;; /* font-10 */
     color: #D1D3DA;
 }
 
 .ajudar-online a {
-    background: none;
-    color: #C4AD6C;
-    border: 2px solid #C4AD6C;
     margin-top: 20px;
 }
 
@@ -188,13 +185,13 @@
 }
 
 .ajudar-comecar h2 {
-    font: 400 2.187rem/1.285 "IBM Plex Sans", monospace;;
+    font: 400 2.2rem/1.285 "IBM Plex Sans", monospace;; /* font-11 */
     color: #1D2348;
 }
 
-.ajudar-comecar P {
-    font: 400 1.125rem/1.35 "IBM Plex Sans", monospace;;
-    color: #4A4F6D;
+.ajudar-comecar p {
+    font: 400 1.125rem/1.35 "IBM Plex Sans", monospace;; /* font-12 */
+    color: #4A4F6D; 
     margin-top: 8px;
 }
 
@@ -275,12 +272,12 @@
     }
 
     .ajudar-texto h2 {
-        font: 400 2rem/1.125 "IBM Plex Sans", monospace;;
+        font: 400 2rem/1.125 "IBM Plex Sans", monospace;; /* font-1 */
         text-align: center;
     }
 
     .ajudar-texto>span {
-        font: 300 0.9rem/1.35 "IBM Plex Sans", monospace;;
+        font: 300 1rem/1.35 "IBM Plex Sans", monospace;; /* font-2 */
         margin-top: 18px;
         text-align: center;
     }
@@ -291,12 +288,12 @@
         margin-top: 30px;
     }
 
-    .ajudar-numbers p {
-        font: 400 1.5rem/1.35 "IBM Plex Sans", monospace;;
-    }
+    /* .ajudar-numbers p {
+        font: 400 1.5rem/1.35 "IBM Plex Sans", monospace;; font-3
+    } */
 
     .ajudar-numbers span {
-        font: 400 0.687rem/1.236 "IBM Plex Sans", monospace;;
+        font: 400 0.687rem/1.236 "IBM Plex Sans", monospace;; /* font-4 */
         padding-left: 31px;
     }
 
@@ -305,12 +302,12 @@
     }
 
     .ajudar-atendimento span {
-        font: 400 0.875rem/1.285 "IBM Plex Sans", monospace;;
+        /* font: 400 0.875rem/1.285 "IBM Plex Sans", monospace;; font-5 */
         text-align: center;
     }
 
     .ajudar-atendimento p {
-        font: 400 0.750rem/1.4 "IBM Plex Sans", monospace;;
+        font: 400 0.750rem/1.42 "IBM Plex Sans", monospace;;  /* font-4 */
         margin: 0 auto;
         margin-top: 8px;
     }
@@ -325,16 +322,16 @@
     
     .ajudar-online span {
         justify-content: center;
-        font: 400 1rem/1.7 "IBM Plex Sans", monospace;;
+        font: 400 1rem/1.7 "IBM Plex Sans", monospace;; /* font-9 */
     }
 
     .ajudar-online p {
-        font: 300 0.875rem/0.875 "IBM Plex Sans", monospace;;
+        font: 300 0.875rem/0.875 "IBM Plex Sans", monospace;; /* font-10 */
         margin-top: 6px;
     }
 
     .ajudar-online a{
-        font: 600 0.875rem/1.3 "IBM Plex Sans", monospace;;
+        /* font: 600 0.875rem/1.3 "IBM Plex Sans", monospace;; */
         margin: 0 auto;
         margin-top: 27px;
     }
@@ -346,12 +343,12 @@
 
     .ajudar-perguntas span {
         justify-content: center;
-        font: 400 0.875rem/1.93 "IBM Plex Sans", monospace;;
+        font: 400 0.875rem/1.93 "IBM Plex Sans", monospace;; /* font-7 */
         margin-bottom: 20px;
     }
 
-    .ajudar-perguntas li {
-        font: 300 1.187rem/2.10 "IBM Plex Sans", monospace;;
+    .ajudar-perguntas li:not(:first-child) {
+        font: 300 1.187rem/2.10 "IBM Plex Sans", monospace;; /* font-8 */
     }
 
     .ajudar-comecar {
@@ -360,16 +357,16 @@
     }
 
     .ajudar-comecar h2 {
-        font: 400 1.56rem/1.28 "IBM Plex Sans", monospace;;
+        font: 400 1.56rem/1.28 "IBM Plex Sans", monospace;; /* font-11 */
         text-align: center;
     }
     
-    .ajudar-comecar P {
-        font: 400 0.812rem/1.30 "IBM Plex Sans", monospace;;
+    .ajudar-comecar p {
+        font: 400 0.812rem/1.3 "IBM Plex Sans", monospace;; /* font-12 */
         margin-top: 8px;
     }
 
-    .ajudar-comecar a{
-        font: 600 0.875rem/1.285 "IBM Plex Sans", monospace;;
-    }
+    /* .ajudar-comecar a{
+        font: 600 0.875rem/1.3 "IBM Plex Sans", monospace;;
+    } */
 }

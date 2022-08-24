@@ -20,8 +20,9 @@
 
 .venda-container h1 {
     position: relative;
-    font: 300 3.43rem/1.1 "IBM Plex Sans", monospace;
+    font: 300 3.43rem/1.1 "IBM Plex Sans", monospace;;
     color: #FFFFFF;
+    z-index: 2;
 }
 
 .venda-container span:first-child {
@@ -95,7 +96,7 @@
 }
 
 .venda-texto p {
-    font: 400 0.875rem/1.250 "IBM Plex Sans", monospace;
+    font: 400 0.875rem/1.285 "IBM Plex Sans", monospace;;
     color: #A3A7B5;
     max-width: 50ch;
     margin-top: 30px;
@@ -108,7 +109,7 @@
 
     .venda-container h1 {
         position: relative;
-        font: 300 3.25rem/1.1 "IBM Plex Sans", monospace;
+        font: 300 3.25rem/1.1 "IBM Plex Sans", monospace;;
         color: #FFFFFF;
     }
 
@@ -154,7 +155,7 @@
     }
 
     .venda-container h1 {
-        font: 300 3.43rem/1.1 "IBM Plex Sans", monospace;
+        font: 300 3.43rem/1.1 "IBM Plex Sans", monospace;;
     }
 
     .venda-container span:first-child {
@@ -206,13 +207,13 @@
     }
 
     .venda-container h1 {
-        font: 300 2.25rem/1.1 "IBM Plex Sans", monospace;
+        font: 300 2.25rem/1.1 "IBM Plex Sans", monospace;;
     }
 
     .venda-texto .botao {
-        font: 600 0.96rem/1.3 "IBM Plex Sans", monospace;
+        /* font: 600 0.96rem/1.3 "IBM Plex Sans", monospace;; */
         margin-top: 26px;
-        padding: 17px 34px;
+        /* padding: 17px 34px; */
     }
 
     .venda-img {
@@ -220,7 +221,7 @@
     }
 
     .venda-texto p {
-        font: 400 0.750rem/1.4 "IBM Plex Sans", monospace;
+        font: 400 0.750rem/1.42 "IBM Plex Sans", monospace;;
         margin-top: 21px;
     }
 }

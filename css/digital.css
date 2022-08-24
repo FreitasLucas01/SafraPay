@@ -24,19 +24,19 @@
 
 .digital-texto span {
     display: inline-block;
-    font: 600 0.812rem/1.23 "IBM Plex Sans", monospace;
+    font: 600 0.812rem/1.3 "IBM Plex Sans", monospace;; /* font-15 */
     text-transform: uppercase;
     color: #182346;
 }
 
 .digital-texto h2 {
-    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;
+    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;; /* font-1 */
     color: #182346;
     margin-top: 39px;
 }
 
 .digital-texto p {
-    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
+    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;; /* font-2 */
     color: #182346;
     max-width: 30ch;
     margin-top: 27px;
@@ -103,11 +103,11 @@
     }
 
     .digital-texto h2 {
-        font: 400 2rem/1.1 "IBM Plex Sans", monospace;
+        font: 400 2rem/1.125 "IBM Plex Sans", monospace;; /* font-1 */
     }
 
     .digital-texto p {
-        font: 300 1.01rem/1.35 "IBM Plex Sans", monospace;
+        font: 300 1rem/1.35 "IBM Plex Sans", monospace;; /* font-2 */
     }
 
     .digital-buttons {

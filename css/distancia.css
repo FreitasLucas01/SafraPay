@@ -22,7 +22,7 @@
 }
 
 .distancia-texto h2 {
-    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;
+    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;; /* font-13 */
     color: #182346;
 }
 
@@ -31,18 +31,18 @@
 }
 
 .distancia-texto p {
-    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
+    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;; /* font-2 */
     color: #464F6B;
     margin-top: 30px;
 }
 
 .distancia-texto a {
     margin-top: 52px;
-    padding: 19px 33px;
+    /* padding: 19px 33px; */
 }
 
 .distancia-info {
-    font: 300 1.125rem/1.61 "IBM Plex Sans", monospace;
+    font: 300 1.125rem/1.61 "IBM Plex Sans", monospace;; /* font-19 */
     color: #182346;
     margin-top: 57px;
 }
@@ -100,7 +100,7 @@
     }
 
     .distancia-texto h2 {
-        font: 400 2rem/1.25 "IBM Plex Sans", monospace;
+        font: 400 2rem/1.25 "IBM Plex Sans", monospace;; /* font-13 */
         margin-top: 0px;
     }
 
@@ -110,15 +110,15 @@
 
     .distancia-texto p,
     .distancia-info {
-        font: 300 1.01rem/1.35 "IBM Plex Sans", monospace;
+        font: 300 1rem/1.35 "IBM Plex Sans", monospace;; /* font-2 / font-19 */
         margin-top: 17px;
         max-width: 30ch;
         align-self: center;
     }
 
     .distancia-texto a {
-        font: 500 1.01rem/1.35 "IBM Plex Sans", monospace;
-        padding: 17px 24px;
+        /* font: 500 1rem/1.35 "IBM Plex Sans", monospace;; */
+        /* padding: 17px 24px; */
     }
 
     .distancia-info {
@@ -128,10 +128,10 @@
 
 @media(max-width: 340px) {
     .distancia-info {
-        font: 300 0.875rem/1.61 "IBM Plex Sans", monospace;
+        font: 300 0.875rem/1.61 "IBM Plex Sans", monospace;; /* font-19 */
     }
 
     .distancia-texto a {
-        font: 500 0.770rem/1.35 "IBM Plex Sans", monospace;
+        /* font: 500 0.770rem/1.35 "IBM Plex Sans", monospace;; */
     }
 }
