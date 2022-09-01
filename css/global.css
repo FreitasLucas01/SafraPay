@@ -113,17 +113,20 @@ a{
 @media(max-width: 600px) {
     .botao,
     .botao-azul,
-    .botao-dourado {
+    .botao-dourado,
+    .botao-small {
         font: 600 0.935rem/1.307 "IBM Plex Sans", monospace;
         height: 54px;
     }
 
-    .botao-small{
-        font: 600 0.875rem/1.307 "IBM Plex Sans", monospace;
-        padding: 0px 10px;
-    }
-
     .botao-azul {
         padding: 0px 32px;
+    }
+}
+
+@media(max-width: 350px){
+    .botao-small{
+        font: 600 0.790rem/1.3 "IBM Plex Sans", monospace;
+        padding: 0px 20px;
     }
 }

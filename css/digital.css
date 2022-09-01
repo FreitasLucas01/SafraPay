@@ -28,7 +28,7 @@
 }
 
 .digital-texto h2 {
-    margin-top: 39px;
+    margin-top: 28px;
 }
 
 .digital-texto p {
@@ -89,6 +89,10 @@
         padding-left: 0px;
         padding-right: 0px;
         padding-bottom: 20px;
+    }
+
+    .digital-texto h2 {
+        margin-top: 40px;
     }
 
     .digital-texto {
