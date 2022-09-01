@@ -19,17 +19,16 @@
 
 .taxas-container input[type="number"] {
     -moz-appearance: textfield;
-    border: 1px solid #BBBDC8;
+    border: 1px solid var(--cor-p2);
     padding: 9px 16px;
 }
 
 .taxas-container input[type=number]:focus {
-    outline: 1.5px solid #C4AD6C;
+    outline: 1.5px solid var(--cor-p1);
 }
 
 .taxas-container h2 {
-    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;;
-    color: #182346;
+    color: var(--cor-16);
     max-width: 23ch;
     grid-column: 1/-1;
 }
@@ -39,8 +38,7 @@
 }
 
 .taxas-container>p {
-    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;;
-    color: #464F6B;
+    color: var(--cor-13);
     grid-column: 1/-1;
     max-width: 45ch;
     margin-top: 23px;
@@ -48,7 +46,7 @@
 
 .taxas-simulador {
     padding-top: 50px;
-    box-shadow: 0px 3px 22px rgba(19, 23, 80, 0.15);
+    box-shadow: 0px 3px 22px var(--cor-p7);
     margin-top: 71px;
     box-sizing: border-box;
     padding-left: 10px;
@@ -56,8 +54,7 @@
 }
 
 .taxas-simulador h3 {
-    font: 300 1.5rem/1.35 "IBM Plex Sans", monospace;;
-    color: #182346;
+    color: var(--cor-16);
     text-align: center
 }
 
@@ -79,13 +76,12 @@
 .taxas-simulador>span {
     display: flex;
     align-items: center;
-    font: 500 0.72rem/1.56 "IBM Plex Sans", monospace;;
-    color: #FFFFFF;
-    background: #C4AD6C;
+    color: var(--cor-0);
+    background: var(--cor-p1);
     padding: 9px 38px;
     text-transform: uppercase;
     max-width: max-content;
-    box-shadow: 0px 6px 15px #DBDCDF;
+    box-shadow: 0px 6px 15px var(--cor-p5);
 }
 
 .taxas-simulador>span::before {
@@ -116,20 +112,17 @@
     display: grid;
 }
 
-.taxa-credito p:first-child,
-.taxa-credito span {
-    font: 600 0.875rem/1.3 "IBM Plex Sans", monospace;;
-    color: #182346;
+.taxa-credito p:first-child {
+    color: var(--cor-16);
+}
+
+.taxa-credito p {
+    color: var(--cor-16);
 }
 
 .taxa-credito span {
     font-weight: 400;
-    color: #747B90;
-}
-
-.taxa-credito p {
-    font: 500 1.375rem/1.54 "IBM Plex Sans", monospace;;
-    color: #182346;
+    color: var(--cor-8);
 }
 
 .taxa-5parcela{
@@ -144,8 +137,7 @@
 .taxas-text-footer {
     display: flex;
     align-items: center;
-    font: 400 0.875rem/1.285 "IBM Plex Sans", monospace;;
-    color: #464F6B;
+    color: var(--cor-13);
     margin-top: 23px;
     gap: 10px;
 }
@@ -161,7 +153,7 @@
 
 .taxa-debito p a,
 .taxas-text-footer a {
-    border-bottom: 1px solid #464F6B;
+    border-bottom: 1px solid var(--cor-13);
 }
 
 .taxas-radio {
@@ -174,8 +166,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    font: 600 1rem/1 "IBM Plex Sans", monospace;;
-    color: #182346;
+    color: var(--cor-16);
     cursor: pointer;
 }
 
@@ -184,16 +175,16 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-    background: #FFFFFF;
-    border: 1px solid #C4AD6C;
+    background: var(--cor-0);
+    border: 1px solid var(--cor-p1);
     border-radius: 50%;
     box-sizing: border-box;
     margin-right: 8px;
 }
 
  .taxas-radio label.ativo::before {
-    background-color: #A3A7B5;
-    box-shadow: inset 0 0 0 3px #FFFFFF;
+    background: var(--cor-7);
+    box-shadow: inset 0 0 0 3px var(--cor-0);
 }
 
 .taxas-input.money input {
@@ -214,29 +205,27 @@
 .taxas-input span:first-child {
     display: block;
     margin-bottom: 7px;
-    font: 600 0.875rem/1.3 "IBM Plex Sans", monospace;;
-    color: #464F6B;
+    color: var(--cor-13);
 }
 
 .taxas-input p {
     display: flex;
     align-items: center;
     justify-content: center;
-    font: 500 0.875rem/1.285 "IBM Plex Sans", monospace;;
-    color: #182346;
-    background: #F4F5F9;
-    border: 1px solid #F4F5F9;
+    color: var(--cor-16);
+    background: var(--cor-2);    
+    border: 1px solid var(--cor-2);
     padding: 12px 0;
     cursor: pointer;
     transition: 0.2s;
 }
 
  .taxas-input p.ativo {
-    border-color: #182346;
+    border-color: var(--cor-16);
 }
 
 .taxas-input p:hover {
-    background: #E9F5F9;
+    background: var(--cor-4);
 }
 
 .taxas-input p::after {
@@ -255,12 +244,11 @@
 
 .taxas-input input,
 .taxa-texto-fixo{
-    font: 600 1.125rem/1.3 "IBM Plex Sans", monospace;;
-    color: #182346;
+    color: var(--cor-16);
 }
 
 ::placeholder{
-    color: #182346;
+    color: var(--cor-16);
     opacity: 0.5;
 }
 
@@ -268,14 +256,13 @@
     position: absolute;
     display: block;
     left: 17px;
-    top: 33px;
+    top: 35px;
     z-index: 9;
 }
 
 .taxas-input label {
-    font: 500 0.875rem/1.285 "IBM Plex Sans", monospace;;
     text-align: center;
-    background: #F4F5F9;
+    background: var(--cor-2);    
     border-top: none;
     padding: 10px 0;
     border-radius: 5px;
@@ -294,13 +281,12 @@
 }
 
 .taxas-resultado-container p {
-    font: 500 0.875rem/1.285 "IBM Plex Sans", monospace;;
-    color: #182346;
+    color: var(--cor-16);
 }
 
 .taxas-resultado {
-    border: 1px solid #E7E9EC;
-    border-left: 1px solid #C4AD6C;
+    border: 1px solid var(--cor-p3);
+    border-left: 1px solid var(--cor-p1);
     padding: 18px 0;
     padding-left: 16px;
     padding-right: 10px;
@@ -315,21 +301,20 @@
     position: absolute;
     width: 18px;
     height: 19px;
-    background: url(../icons/cifrao.svg) no-repeat center;
+    background: url("../icons/cifrao.svg") no-repeat center;
     top: -9px;
 }
 
 .taxas-resultado.porcentagem::before {
-    background: url(../icons/porcentagem.svg) no-repeat center;
+    background: url("../icons/porcentagem.svg") no-repeat center;
 }
 
 .taxas-resultado.cartao::before {
-    background: url(../icons/cartao.svg) no-repeat center;
+    background: url("../icons/cartao.svg") no-repeat center;
 }
 
 .taxas-resultado>span {
-    font: 700 0.687rem/1.3 "IBM Plex Sans", monospace;;
-    color: #464F6B;
+    color: var(--cor-13);
     text-transform: uppercase;
 }
 
@@ -337,15 +322,13 @@
     max-height: min-content;
     display: flex;
     align-items: start;
-    font: 300 2.625rem/1.3 "IBM Plex Sans", monospace;;
-    color: #182346;
+    color: var(--cor-16);
 }
 
 .taxas-resultado p span {
     display: inline-block;
     margin-top: 7px;
     margin-left: 5px;
-    font: 400 1.5rem/1.35 "IBM Plex Sans", monospace;;
 }
 
 .taxas-resultado-container {
@@ -353,9 +336,8 @@
 }
 
 .taxas-tempo {
-    font: 400 1rem/1.7 "IBM Plex Sans", monospace;;
-    color: #6F778C;
-    background: #F3F4F6;
+    color: var(--cor-9);
+    background: var(--cor-1);
     max-width: 520px;
     display: flex;
     justify-content: space-between;
@@ -373,9 +355,9 @@
 
 .taxas-tempo li.ativo {
     font-weight: 600;
-    color: #182346;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 12px #DDDEE4;
+    color: var(--cor-16);
+    background: var(--cor-0);
+    box-shadow: 0px 4px 12px var(--cor-p6);
 }
 
 .taxas-text-footer{
@@ -416,12 +398,7 @@
         margin-top: 70px;
     }
 
-    .taxas-container h2 {
-        font: 400 2rem/1.250 "IBM Plex Sans", monospace;;
-    }
-
     .taxas-container>p {
-        font: 300 1rem/1.35 "IBM Plex Sans", monospace;;
         max-width: 30ch;
         margin-top: 18px;
     }
@@ -436,10 +413,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
+        justify-content: center;
     }
 
     .taxas-resultado-container p {
-        font: 400 0.750rem/1.08 "IBM Plex Sans", monospace;;
         grid-column: 1/-1;
         text-align: center;
         margin-top: 4px;
@@ -453,10 +430,6 @@
         padding-top: 30px;
     }
 
-    .taxas-simulador h3{
-        font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;;
-    }
-
     .taxas-resultado {
         padding: 13px 0;
         padding-left: 10px;
@@ -466,15 +439,6 @@
     .taxas-resultado p span {
         margin-top: 7px;
         margin-left: 2px;
-        font: 400 0.850rem/1.35 "IBM Plex Sans", monospace;;
-    }
-
-    .taxas-resultado>span {
-        font: 600 0.537rem/1.285 "IBM Plex Sans", monospace;;
-    }
-    
-    .taxas-resultado p {
-        font: 300 1.56rem/1.3 "IBM Plex Sans", monospace;;
     }
 
     .taxas-form {
@@ -486,22 +450,14 @@
         margin-top: 25px;
     }
 
-    .taxas-radio {
-        display: block;
-    }
-
-    .taxas-radio label{
-        font: 600 0.875rem/1.3 "IBM Plex Sans", monospace;;
-    }
-
     .taxas-radio label:nth-child(2){
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .taxas-input.money input {
         padding-left: 110px;
-        background: #F4F5F9;
-        border: 1px solid #F4F5F9;
+        background: var(--cor-2);        
+        border: 1px solid var(--cor-2);
         border: none;
     }
 
@@ -527,22 +483,6 @@
         grid-column: 1/-1;
     }
 
-    .taxa-credito div:first-child p{
-        font: 600 1rem/1 "IBM Plex Sans", monospace;;
-    }
-
-    .taxa-credito div:first-child span{
-        font: 400 0.750rem/1 "IBM Plex Sans", monospace;;
-    }
-
-    .taxa-credito p{
-        font: 400 1.250rem/1.05 "IBM Plex Sans", monospace;;
-    }
-
-    .taxa-credito span{
-        font: 400 0.812rem/1.3"IBM Plex Sans", monospace;;
-    }
-
     .taxa-5parcela{
         display: block;
     }
@@ -556,7 +496,6 @@
     }
 
     .taxas-tempo{
-        font: 400 0.640rem/1.250 "IBM Plex Sans", monospace;;
         padding: 8px 12px;
     }
 
@@ -566,10 +505,15 @@
     }
 
     .taxas-text-footer{
-        font: 400 0.750rem/1 "IBM Plex Sans", monospace;;
         display: flex;
         gap: 5px;
         grid-area: 3/1;
         margin-top: 10px;
+    }
+}
+
+@media(max-width: 500px){
+    .taxas-radio {
+        display: block;
     }
 }

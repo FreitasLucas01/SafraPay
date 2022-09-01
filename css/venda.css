@@ -3,7 +3,7 @@
 }
 
 #venda {
-    background: #182446;
+    background: var(--cor-17);
     overflow: hidden;
 }
 
@@ -20,8 +20,7 @@
 
 .venda-container h1 {
     position: relative;
-    font: 300 3.43rem/1.1 "IBM Plex Sans", monospace;;
-    color: #FFFFFF;
+    color: var(--cor-0);
     z-index: 2;
 }
 
@@ -96,8 +95,7 @@
 }
 
 .venda-texto p {
-    font: 400 0.875rem/1.285 "IBM Plex Sans", monospace;;
-    color: #A3A7B5;
+    color: var(--cor-7);
     max-width: 50ch;
     margin-top: 30px;
 }
@@ -109,8 +107,7 @@
 
     .venda-container h1 {
         position: relative;
-        font: 300 3.25rem/1.1 "IBM Plex Sans", monospace;;
-        color: #FFFFFF;
+        color: var(--cor-0);
     }
 
     .venda-container span:first-child {
@@ -152,10 +149,6 @@
         padding-right: 16px;
         background: url("../img/arcos.svg") no-repeat;
         background-position: center bottom;
-    }
-
-    .venda-container h1 {
-        font: 300 3.43rem/1.1 "IBM Plex Sans", monospace;;
     }
 
     .venda-container span:first-child {
@@ -206,14 +199,8 @@
         text-align: center;
     }
 
-    .venda-container h1 {
-        font: 300 2.25rem/1.1 "IBM Plex Sans", monospace;;
-    }
-
     .venda-texto .botao {
-        /* font: 600 0.96rem/1.3 "IBM Plex Sans", monospace;; */
         margin-top: 26px;
-        /* padding: 17px 34px; */
     }
 
     .venda-img {
@@ -221,18 +208,18 @@
     }
 
     .venda-texto p {
-        font: 400 0.750rem/1.42 "IBM Plex Sans", monospace;;
         margin-top: 21px;
     }
 }
 
-@media(max-width: 420px) {
+@media(max-width: 400px) {
     .venda-responsivo-um {
         display: none;
     }
 
     .venda-responsivo-dois {
         display: block;
+        padding-right: 16px;
     }
 
     .venda-texto {

@@ -1,450 +1,382 @@
-/* IBM Plex Sans */
-
-/* .font-300-0775-875-ibm {
-    font: 300 0.775rem/1.35 "IBM Plex Sans", monospace;
-}.font-17 {
-    font: 300 0.775rem/1.35 "IBM Plex Sans", monospace;
-} */
-
-/* .font-300-0875-875-ibm{
-    font: 300 0.875rem/0.875 "IBM Plex Sans", monospace;
-}.font-10{
-    font: 300 0.875rem/0.875 "IBM Plex Sans", monospace;
-} */
-
-/* .font-300-0875-161-ibm {
-    font: 300 0.875rem/1.61 "IBM Plex Sans", monospace;
-}.font-19 {
-    font: 300 0.875rem/1.61 "IBM Plex Sans", monospace;
-} */
-
-.font-300-0875-194-ibm {
-    font: 300 0.875rem/1.94 "IBM Plex Sans", monospace;
-}
-
-.font-300-092-13-ibm {
-    font: 300 0.92rem/1.3 "IBM Plex Sans", monospace;
-}
-
-/* .font-300-1-135-ibm{
-    font: 300 1rem/1.35 "IBM Plex Sans", monospace;
-}.font-2{
-    font: 300 1rem/1.35 "IBM Plex Sans", monospace;
-} */
-
-/* .font-300-1-2125-ibm {
-    font: 300 1rem/2.125 "IBM Plex Sans", monospace;
-} */
-.font-10 {
+/* IBM PLES SANS */
+.font-300-1-ibm,
+.font-300-2-ibm {
     font: 300 1rem/2.125 "IBM Plex Sans", monospace;
 }
 
-/* .font-300-1125-135-ibm {
-    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
-} */
-.font-2 {
+.font-300-3-ibm,
+.font-300-4-ibm,
+.font-300-5-ibm {
     font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
 }
 
-/* .font-300-1125-161-ibm {
-    font: 300 1.125rem/1.61 "IBM Plex Sans", monospace;
-} */
-.font-17,
-.font-19 {
+.font-300-6-ibm,
+.font-300-7-ibm {
     font: 300 1.125rem/1.61 "IBM Plex Sans", monospace;
 }
 
-/* .font-300-1187-210-ibm{
-    font: 300 1.187rem/2.10 "IBM Plex Sans", monospace;
-}.font-8{
-    font: 300 1.187rem/2.10 "IBM Plex Sans", monospace;
-} */
-
-.font-300-12-135-ibm {
-    font: 300 1.2rem/1.35 "IBM Plex Sans", monospace;
-}
-
-/* .font-300-1215-135-ibm {
-    font: 300 1.215rem/1.35 "IBM Plex Sans", monospace;
-}.font-18 {
-    font: 300 1.215rem/1.35 "IBM Plex Sans", monospace;
-} */
-
-/* .font-300-135-135-ibm{
-    font: 300 1.35rem/1.35 "IBM Plex Sans", monospace;
-}.font-14{
-    font: 300 1.35rem/1.35 "IBM Plex Sans", monospace;
-} */
-
-/* .font-300-15-135-ibm {
-    font: 300 1.5rem/1.35 "IBM Plex Sans", monospace;
-} */
-.font-14,
-.font-18 {
+.font-300-8-ibm,
+.font-300-9-ibm,
+.font-300-10-ibm,
+.font-300-11-ibm,
+.font-300-12-ibm {
     font: 300 1.5rem/1.35 "IBM Plex Sans", monospace;
 }
 
-/* .font-300-15-208-ibm {
-    font: 300 1.5rem/2.08 "IBM Plex Sans", monospace;
-} */
-.font-8 {
+.font-300-13-ibm {
     font: 300 1.5rem/2.08 "IBM Plex Sans", monospace;
 }
 
-.font-300-156-13-ibm {
-    font: 300 1.56rem/1.3 "IBM Plex Sans", monospace;
-}
-
-.font-300-2-102-ibm {
-    font: 300 2rem/1.02 "IBM Plex Sans", monospace;
-}
-
-.font-300-225-208-ibm {
+.font-300-14-ibm {
     font: 300 2.25rem/1.1 "IBM Plex Sans", monospace;
 }
 
-.font-300-2625-13-ibm {
+.font-300-15-ibm {
     font: 300 2.625rem/1.3 "IBM Plex Sans", monospace;
 }
 
-.font-300-325-11-ibm {
-    font: 300 3.25rem/1.1 "IBM Plex Sans", monospace;
-}
-
-.font-300-343-11-ibm {
+.font-300-16-ibm {
     font: 300 3.43rem/1.1 "IBM Plex Sans", monospace;
 }
 
-.font-400-0640-1250-ibm {
-    font: 400 0.640rem/1.250 "IBM Plex Sans", monospace;
+.font-400-1-ibm {
+    font: 400 0.75rem/1.35 "IBM Plex Sans", monospace;
 }
 
-/* .font-400-0687-1236-ibm{
-    font: 400 0.687rem/1.236 "IBM Plex Sans", monospace;
-}.font-4{
-    font: 400 0.687rem/1.236 "IBM Plex Sans", monospace;
-} */
-
-.font-400-07-1285-ibm {
-    font: 400 0.7rem/1.285 "IBM Plex Sans", monospace;
+.font-400-2-ibm,
+.font-400-3-ibm {
+    font: 400 0.75rem/1.42 "IBM Plex Sans", monospace;
 }
 
-.font-400-0750-1-ibm {
-    font: 400 0.750rem/1 "IBM Plex Sans", monospace;
+.font-400-4-ibm {
+    font: 400 0.85rem/1.35 "IBM Plex Sans", monospace;
 }
 
-.font-400-0750-108-ibm {
-    font: 400 0.750rem/1.08 "IBM Plex Sans", monospace;
-}
-
-.font-400-0750-135-ibm {
-    font: 400 0.750rem/1.35 "IBM Plex Sans", monospace;
-}
-
-/* .font-400-0750-142-ibm{
-    font: 400 0.750rem/1.42 "IBM Plex Sans", monospace;
-} */
-.font-4 {
-    font: 400 0.750rem/1.42 "IBM Plex Sans", monospace;
-}
-
-.font-400-079-23-ibm {
-    font: 400 0.79rem/2.3 "IBM Plex Sans", monospace;
-}
-
-/* .font-400-0812-13-ibm{
-    font: 400 0.812rem/1.3 "IBM Plex Sans", monospace;
-}.font-12{
-    font: 400 0.812rem/1.3 "IBM Plex Sans", monospace;
-} */
-
-.font-400-0850-135-ibm {
-    font: 400 0.850rem/1.35 "IBM Plex Sans", monospace;
-}
-
-/* .font-400-0875-1285-ibm{
-    font: 400 0.875rem/1.285 "IBM Plex Sans", monospace;
-} */
-.font-5 {
+.font-400-5-ibm,
+.font-400-6-ibm,
+.font-400-7-ibm,
+.font-400-8-ibm {
     font: 400 0.875rem/1.285 "IBM Plex Sans", monospace;
 }
 
-.font-400-0875-2285-ibm {
+.font-400-9-ibm {
     font: 400 0.875rem/2.285 "IBM Plex Sans", monospace;
 }
 
-/* .font-400-0875-193-ibm{
-    font: 400 0.875rem/1.93 "IBM Plex Sans", monospace;
-}.font-7{
-    font: 400 0.875rem/1.93 "IBM Plex Sans", monospace;
-} */
-
-/* .font-400-0937-13-ibm {
-    font: 400 0.937rem/1.3 "IBM Plex Sans", monospace;
-} */
-.font-6 {
+.font-400-10-ibm {
     font: 400 0.937rem/1.3 "IBM Plex Sans", monospace;
 }
 
-/* .font-400-1-17-ibm{
+.font-400-11-ibm {
     font: 400 1rem/1.7 "IBM Plex Sans", monospace;
-}.font-9{
-    font: 400 1rem/1.7 "IBM Plex Sans", monospace;
-} */
+}
 
-/* .font-400-1-2125-ibm {
-    font: 400 1rem/2.125 "IBM Plex Sans", monospace;
-} */
-.font-7,
-.font-9 {
+.font-400-12-ibm,
+.font-400-13-ibm {
     font: 400 1rem/2.125 "IBM Plex Sans", monospace;
 }
 
-/* .font-400-1125-135-ibm {
-    font: 400 1.125rem/1.35 "IBM Plex Sans", monospace;
-} */
-.font-12 {
+.font-400-14-ibm,
+.font-400-15-ibm {
     font: 400 1.125rem/1.35 "IBM Plex Sans", monospace;
 }
 
-.font-400-1250-105-ibm {
-    font: 400 1.250rem/1.05 "IBM Plex Sans", monospace;
-}
-
-.font-400-132-138-ibm {
-    font: 400 1.32rem/1.38 "IBM Plex Sans", monospace;
-}
-
-/* .font-400-15-135-ibm{
-    font: 400 1.5rem/1.35 "IBM Plex Sans", monospace;
-} */
-.font-3 {
+.font-400-16-ibm,
+.font-400-17-ibm,
+.font-400-18-ibm {
     font: 400 1.5rem/1.35 "IBM Plex Sans", monospace;
 }
 
-/* .font-400-156-128-ibm{
-    font: 400 1.56rem/1.28 "IBM Plex Sans", monospace;
-}.font-11{
-    font: 400 1.56rem/1.28 "IBM Plex Sans", monospace;
-} */
-
-/* .font-400-1823-125-ibm{
-    font: 400 1.823rem/1.25 "IBM Plex Sans", monospace;
-}.font-13{
-    font: 400 1.823rem/1.25 "IBM Plex Sans", monospace;
-} */
-
-/* .font-400-195-11-ibm{
-    font: 400 1.95rem/1.1 "IBM Plex Sans", monospace;
-}.font-16{
-    font: 400 1.95rem/1.1 "IBM Plex Sans", monospace;
-} */
-
-/* .font-400-2-1125-ibm{
-    font: 400 2rem/1.125 "IBM Plex Sans", monospace;
-}.font-1{
-    font: 400 2rem/1.125 "IBM Plex Sans", monospace;
-} */
-
-/* .font-400-2-125-ibm{
-    font: 400 2rem/1.25 "IBM Plex Sans", monospace;
-}.font-13{
-    font: 400 2rem/1.25 "IBM Plex Sans", monospace;
-} */
-
-/* .font-400-22-1285-ibm {
-    font: 400 2.2rem/1.285 "IBM Plex Sans", monospace;
-} */
-.font-11 {
+.font-400-19-ibm {
     font: 400 2.2rem/1.285 "IBM Plex Sans", monospace;
 }
 
-/* .font-400-25-1125-ibm {
-    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;
-} */
-.font-1,
-.font-13,
-.font-16,
-.font-20 {
+.font-400-20-ibm,
+.font-400-21-ibm,
+.font-400-22-ibm,
+.font-400-23-ibm {
     font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;
 }
 
-.font-500-0720-156-ibm {
-    font: 500 0.720rem/1.56 "IBM Plex Sans", monospace;
+.font-500-1-ibm {
+    font: 500 0.72rem/1.56 "IBM Plex Sans", monospace;
 }
 
-.font-500-0750-142-ibm {
-    font: 500 0.750rem/1.42 "IBM Plex Sans", monospace;
+.font-500-2-ibm {
+    font: 500 0.75rem/1.42 "IBM Plex Sans", monospace;
 }
 
-.font-500-0770-135-ibm {
-    font: 500 0.770rem/1.35 "IBM Plex Sans", monospace;
-}
-
-.font-500-8122-12-ibm {
+.font-500-3-ibm {
     font: 500 0.812rem/1.2 "IBM Plex Sans", monospace;
 }
 
-.font-500-0875-125-ibm {
+.font-500-4-ibm {
     font: 500 0.875rem/1.25 "IBM Plex Sans", monospace;
 }
 
-.font-500-0875-1285-ibm {
+.font-500-5-ibm,
+.font-500-6-ibm {
     font: 500 0.875rem/1.285 "IBM Plex Sans", monospace;
 }
 
-.font-500-0875-135-ibm {
-    font: 500 0.875rem/1.35 "IBM Plex Sans", monospace;
-}
-
-.font-500-1-135-ibm {
+.font-500-7-ibm {
     font: 500 1rem/1.35 "IBM Plex Sans", monospace;
 }
 
-.font-500-1375-154-ibm {
+.font-500-8-ibm {
     font: 500 1.375rem/1.54 "IBM Plex Sans", monospace;
 }
 
-.font-600-0537-1285-ibm {
-    font: 600 0.537rem/1.285 "IBM Plex Sans", monospace;
-}
-
-.font-600-0750-15-ibm {
-    font: 600 0.750rem/1.5 "IBM Plex Sans", monospace;
-}
-
-.font-600-079-1285-ibm {
+.font-600-1-ibm {
     font: 600 0.79rem/1.285 "IBM Plex Sans", monospace;
 }
 
-/* .font-600-0812-13-ibm {
-    font: 600 0.812rem/1.3 "IBM Plex Sans", monospace;
-} */
-.font-15 {
+.font-600-2-ibm {
     font: 600 0.812rem/1.3 "IBM Plex Sans", monospace;
 }
 
-.font-600-0850-135-ibm {
-    font: 600 0.850rem/1.35 "IBM Plex Sans", monospace;
-}
-
-.font-600-0875-13-ibm {
+.font-600-3-ibm,
+.font-600-4-ibm,
+.font-600-5-ibm {
     font: 600 0.875rem/1.3 "IBM Plex Sans", monospace;
 }
 
-.font-600-0937-135-ibm {
-    font: 600 0.937rem/1.35 "IBM Plex Sans", monospace;
-}
-
-.font-600-096-13-ibm {
-    font: 600 0.96rem/1.3 "IBM Plex Sans", monospace;
-}
-
-.font-600-1-1-ibm {
+.font-600-6-ibm {
     font: 600 1rem/1 "IBM Plex Sans", monospace;
 }
 
-.font-600-106-12-ibm {
+.font-600-7-ibm {
     font: 600 1.06rem/1.2 "IBM Plex Sans", monospace;
 }
 
-.font-600-1125-13-ibm {
+.font-600-8-ibm {
     font: 600 1.125rem/1.3 "IBM Plex Sans", monospace;
 }
 
-.font-700-0687-13-ibm {
+.font-700-1-ibm {
     font: 700 0.687rem/1.3 "IBM Plex Sans", monospace;
 }
 
-
 /* ROBOTO */
-.font-400-750-14-roboto {
-    font: 400 0.750rem/1.4 "Roboto", monospace;
+.font-400-1-roboto {
+    font: 400 0.750rem/1.42 "Roboto", monospace;
 }
 
-@media(max-width: 1400px) {}
+@media(max-width: 1400px) {
+    .font-300-14-ibm {
+        font: 300 2rem/1.02 "IBM Plex Sans", monospace;
+    }
 
-@media(max-width: 1260px) {}
+    .font-300-3-ibm {
+        font: 300 1rem/1.35 "IBM Plex Sans", monospace;
+    }
+}
 
-@media(max-width: 1024px) {}
+@media(max-width: 1260px) {
+    .font-300-14-ibm {
+        font: 300 2.25rem/1.1 "IBM Plex Sans", monospace;
+    }
 
-@media(max-width: 800px) {}
+    .font-300-3-ibm {
+        font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;
+    }
+
+    .font-300-16-ibm {
+        font: 300 3.25rem/1.1 "IBM Plex Sans", monospace;
+    }
+}
+
+@media(max-width: 1100px) {
+    .font-500-4-ibm {
+        font: 400 1.125rem/1.35 "IBM Plex Sans", monospace;
+    }
+
+    .font-600-7-ibm {
+        font: 500 0.812rem/1.2 "IBM Plex Sans", monospace;
+    }
+}
+
+@media(max-width: 1024px) {
+    .font-300-16-ibm {
+        font: 300 3.43rem/1.1 "IBM Plex Sans", monospace;
+    }
+}
+
+@media(max-width: 800px) {
+    .font-300-9-ibm {
+        font: 300 1.215rem/1.35 "IBM Plex Sans", monospace;
+    }
+
+    .font-300-5-ibm {
+        font: 300 0.92rem/1.3 "IBM Plex Sans", monospace;
+    }
+}
 
 @media(max-width: 600px) {
-    .font-1 {
+    .font-400-21-ibm {
         font: 400 2rem/1.125 "IBM Plex Sans", monospace;
     }
 
-    .font-2,
-    .font-17,
-    .font-19 {
+    .font-300-4-ibm,
+    .font-300-7-ibm,
+    .font-300-6-ibm {
         font: 300 1rem/1.35 "IBM Plex Sans", monospace;
     }
 
-    .font-4 {
+    .font-400-3-ibm {
         font: 400 0.687rem/1.236 "IBM Plex Sans", monospace;
     }
 
-    .font-6 {
+    .font-400-10-ibm {
         font: 400 0.750rem/1.42 "IBM Plex Sans", monospace;
     }
 
-    .font-7 {
+    .font-400-12-ibm {
         font: 400 0.875rem/1.93 "IBM Plex Sans", monospace;
     }
 
-    .font-8 {
+    .font-300-13-ibm {
         font: 300 1.187rem/2.10 "IBM Plex Sans", monospace;
     }
 
-    .font-9 {
+    .font-400-13-ibm {
         font: 400 1rem/1.7 "IBM Plex Sans", monospace;
     }
 
-    .font-10 {
+    .font-300-2-ibm {
         font: 300 0.875rem/0.875 "IBM Plex Sans", monospace;
     }
 
-    .font-11 {
+    .font-400-19-ibm {
         font: 400 1.56rem/1.28 "IBM Plex Sans", monospace;
     }
 
-    .font-12 {
+    .font-400-14-ibm {
         font: 400 0.812rem/1.3 "IBM Plex Sans", monospace;
     }
 
-    .font-13,
-    .font-20 {
+    .font-400-22-ibm,
+    .font-400-23-ibm {
         font: 400 2rem/1.25 "IBM Plex Sans", monospace;
     }
 
-    .font-14 {
+    .font-300-8-ibm {
         font: 300 1.35rem/1.35 "IBM Plex Sans", monospace;
     }
 
-    .font-16 {
+    .font-400-20-ibm {
         font: 400 1.95rem/1.1 "IBM Plex Sans", monospace;
     }
 
-    .font-18 {
+    .font-300-10-ibm {
         font: 300 1.215rem/1.35 "IBM Plex Sans", monospace;
+    }
+
+    .font-600-3-ibm {
+        font: 600 0.79rem/1.285 "IBM Plex Sans", monospace;
+    }
+
+    .font-22 {
+        font: 300 2rem/1.02 "IBM Plex Sans", monospace;
+    }
+
+    .font-400-5-ibm {
+        font: 400 0.7rem/1.285 "IBM Plex Sans", monospace;
+    }
+
+    .font-300-11-ibm {
+        font: 300 1.2rem/1.35 "IBM Plex Sans", monospace;
+    }
+
+    .font-300-1-ibm {
+        font: 300 0.875rem/1.94 "IBM Plex Sans", monospace;
+    }
+
+    .font-400-9-ibm {
+        font: 400 0.79rem/2.3 "IBM Plex Sans", monospace;
+    }
+
+    .font-400-17-ibm {
+        font: 400 1.32rem/1.38 "IBM Plex Sans", monospace;
+    }
+
+    .font-400-1-ibm {
+        font: 400 0.7rem/1.285 "IBM Plex Sans", monospace;
+    }
+
+    .font-500-3-ibm {
+        font: 400 0.750rem/1.35 "IBM Plex Sans", monospace;
+    }
+
+    .font-300-12-ibm {
+        font: 300 1.125rem/1.11 "IBM Plex Sans", monospace;
+    }
+
+    .font-600-6-ibm {
+        font: 600 0.875rem/1.3 "IBM Plex Sans", monospace;
+    }
+
+    .font-500-8-ibm {
+        font: 400 1.250rem/1.05 "IBM Plex Sans", monospace;
+    }
+
+    .font-400-6-ibm {
+        font: 400 0.75rem/1 "IBM Plex Sans", monospace;
+    }
+
+    .font-600-4-ibm {
+        font: 400 0.812rem/1.3 "IBM Plex Sans", monospace;
+    }
+
+    .font-500-6-ibm {
+        font: 400 0.750rem/1.08 "IBM Plex Sans", monospace;
+    }
+
+    .font-700-1-ibm {
+        font: 600 0.537rem/1.285 "IBM Plex Sans", monospace;
+    }
+
+    .font-300-15-ibm {
+        font: 300 1.56rem/1.3 "IBM Plex Sans", monospace;
+    }
+
+    .font-400-16-ibm {
+        font: 400 0.850rem/1.35 "IBM Plex Sans", monospace;
+    }
+
+    .font-300-16-ibm {
+        font: 300 2.25rem/1.1 "IBM Plex Sans", monospace;
+    }
+
+    .font-400-7-ibm {
+        font: 400 0.75rem/1.42 "IBM Plex Sans", monospace;
+    }
+
+    .font-400-15-ibm {
+        font: 400 1rem/1.35 "IBM Plex Sans", monospace;
     }
 }
 
-@media(max-width: 340px) {
-    .font-19 {
-        font: 300 0.875rem/1.61 "IBM Plex Sans", monospace;
+@media(max-width: 450px) {
+    .font-400-11-ibm {
+        font: 400 0.640rem/1.250 "IBM Plex Sans", monospace;
     }
 }
 
 @media(max-width: 380px) {
-    .font-13 {
+    .font-400-22-ibm {
         font: 400 1.823rem/1.25 "IBM Plex Sans", monospace;
     }
 }
 
+@media(max-width: 340px) {
+    .font-300-6-ibm {
+        font: 300 0.875rem/1.61 "IBM Plex Sans", monospace;
+    }
+}
+
 @media(max-width: 290px) {
-    .font-17 {
+    .font-300-7-ibm {
         font: 300 0.775rem/1.35 "IBM Plex Sans", monospace;
     }
 }

@@ -1,10 +1,10 @@
-#beneficios{
-    background: #F4F5F9;
+#beneficios {
+    background: var(--cor-2);
     padding: 108px 0;
     overflow-x: hidden;
 }
 
-.beneficios-container{
+.beneficios-container {
     display: grid;
     grid-template-columns: max-content max-content;
     gap: 167px;
@@ -12,32 +12,27 @@
     margin: 0 auto;
 }
 
-.beneficios-texto{
+.beneficios-texto {
     align-self: center;
     padding-left: 16px;
 }
 
-.beneficios-texto h2{
-    font: 400 2.5rem/1.125 "IBM Plex Sans" , monospace;; /* font-13 */
-    color: #182346;
-}
-
-.beneficios-texto span{
+.beneficios-texto span {
     display: block;
 }
 
-.beneficios-texto .botao{
+.beneficios-texto .botao {
     margin-top: 44px;
 }
 
-.carrossel-container{
+.carrossel-container {
     display: flex;
     justify-content: start;
     overflow: hidden;
     position: relative;
 }
 
-.carrossel{
+.carrossel {
     display: flex;
     gap: 15px;
     justify-items: end;
@@ -45,81 +40,80 @@
     transition: 0.5s;
 }
 
-.carrossel li{
+.carrossel li {
     display: flex;
     flex-direction: column;
     flex: 1;
     align-items: start;
     justify-content: start;
-    background: #FFFFFF;
+    background: var(--cor-0);
     padding: 56px 61px 32px 61px;
 }
 
-.carrossel h3{
-    font: 300 1.5rem/1.35 "IBM Plex Sans" , monospace;; /* font-14 */
-    color: #182346;
+.carrossel h3 {
     margin-top: 22px;
 }
 
-.carrossel p{
-    font: 300 1.125rem/1.35 "IBM Plex Sans" , monospace;; /* font-2 */
-    color: #464F6B;
+.carrossel p {
     margin-top: 15px;
 }
 
-.carrossel-venda h3{
+.carrossel-venda h3 {
     max-width: 15ch;
 }
-.carrossel-venda p{
+
+.carrossel-venda p {
     max-width: 31ch;
 }
 
-.carrossel-taxas h3{
+.carrossel-taxas h3 {
     max-width: 20ch;
 }
-.carrossel-taxas p{
+
+.carrossel-taxas p {
     max-width: 29ch;
 }
 
-.carrossel-frete h3{
+.carrossel-frete h3 {
     margin-top: 20px;
 }
-.carrossel-frete p{
+
+.carrossel-frete p {
     max-width: 30ch;
 }
 
-.carrossel-emprestimo h3{
+.carrossel-emprestimo h3 {
     max-width: 16ch;
 }
 
-.nxt-btn{
+.nxt-btn {
     border: none;
-    background: #FFFFFF;
+    background: var(--cor-0);
     padding: 23px;
     cursor: pointer;
     position: absolute;
     left: 930px;
     top: 122px;
-    box-shadow: 0px 4px 12px #C4C7D9;
+    box-shadow: 0px 4px 12px var(--cor-p4);
     z-index: 1;
 }
 
-.gradiente{
+.beneficios-gradiente {
     position: absolute;
-    background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 104.3%);
+    background: linear-gradient(270deg, var(--cor-0) 0%, rgba(255, 255, 255, 0) 104.3%);
     width: 170px;
     height: 307px;
     right: 0;
 }
 
-@media(max-width: 1600px){
-    .nxt-btn{
+@media(max-width: 1600px) {
+    .nxt-btn {
         left: 445px;
     }
 }
 
-@media(max-width: 1260px){
-    .beneficios-container{
+@media(max-width: 1260px) {
+    .beneficios-container {
         display: grid;
         grid-template-columns: 1fr 2fr;
         gap: 80px;
@@ -127,7 +121,7 @@
         margin: 0 auto;
     }
 
-    .carrossel-container{
+    .carrossel-container {
         max-width: 100%;
         display: flex;
         justify-content: start;
@@ -136,124 +130,115 @@
     }
 }
 
-@media(max-width: 1024px){
-    #beneficios{
+@media(max-width: 1024px) {
+    #beneficios {
         padding: 56px 0;
     }
 
-    .beneficios-container{
+    .beneficios-container {
         grid-template-columns: 1fr;
         gap: 49px;
     }
 
-    .gradiente{ 
+    .beneficios-gradiente {
         display: none;
     }
 
-    .beneficios-texto{
+    .beneficios-texto {
         margin: 0 auto;
         justify-content: center;
         padding: 0 20px;
         text-align: center;
     }
 
-    .beneficios-texto h2{
+    .beneficios-texto h2 {
         max-width: 19ch;
     }
 
-    .beneficios-texto span{
+    .beneficios-texto span {
         display: initial;
     }
 
-    .beneficios-texto .botao{
+    .beneficios-texto .botao {
         margin: 0 auto;
         margin-top: 21px;
     }
 
-    .carrossel-container{
+    .carrossel-container {
         padding-left: 16px;
     }
 
-    .nxt-btn{
+    .nxt-btn {
         left: 465px;
     }
 }
 
-@media(max-width: 600px){
-    #beneficios{
+@media(max-width: 600px) {
+    #beneficios {
         padding: 42px 0;
     }
 
-    .beneficios-container{
+    .beneficios-container {
         padding-left: 16px;
     }
-    
-    .beneficios-texto h2{
-        font: 400 2rem/1.25 "IBM Plex Sans" , monospace;; /* font-13 */
+
+    .beneficios-texto h2 {
         max-width: 19ch;
     }
 
-    .carrossel-container{
+    .carrossel-container {
         overflow: auto;
         scroll-snap-type: x;
         scroll-behavior: smooth;
-        background: #F4F5F9;
+        background: var(--cor-2);
         padding-bottom: 34px;
     }
 
-    .carrossel-container::-webkit-scrollbar{
+    .carrossel-container::-webkit-scrollbar {
         width: 2px;
     }
-    
-    .carrossel-container::-webkit-scrollbar-thumb{
-        background: #C4AD6C;
-    }
-    
-    .carrossel-container::-webkit-scrollbar-track{
-        background: #E5DFCF;
+
+    .carrossel-container::-webkit-scrollbar-thumb {
+        background: var(--cor-p1);
     }
 
-    .carrossel h3{
-        font: 300 1.35rem/1.35 "IBM Plex Sans" , monospace;; /* font-14 */
+    .carrossel-container::-webkit-scrollbar-track {
+        background: var(--cor-4);
+    }
+
+    .carrossel h3 {
         margin-top: 15px;
     }
-    
-    .carrossel p{
-        font: 300 1rem/1.35 "IBM Plex Sans" , monospace;; /* font-2 */
+
+    .carrossel p {
         margin-top: 5px;
     }
 
-    .carrossel li{
+    .carrossel li {
         padding: 40px 12px 36px 32px;
         scroll-snap-align: start;
     }
 
-    .carrossel-venda p{
+    .carrossel-venda p {
         max-width: 25ch;
     }
 
-    .carrossel-taxas p{
+    .carrossel-taxas p {
         max-width: 30ch;
     }
 
-    .beneficios-texto{
+    .beneficios-texto {
         padding-left: 0;
         padding-right: 16px;
     }
 
-    .beneficios-texto .botao {
-        /* font: 600 0.96rem/1.3 "IBM Plex Sans", monospace;; */
-        /* padding: 17px 34px; */
-    }
-
-    .nxt-btn{
+    .nxt-btn {
         display: none;
     }
 }
 
-@media(max-width: 380px){
-    .beneficios-texto h2{
-        font: 400 1.823rem/1.25 "IBM Plex Sans" , monospace;; /* font-13 */
+@media(max-width: 380px) {
+    .beneficios-texto h2 {
         max-width: 100%;
     }
 }

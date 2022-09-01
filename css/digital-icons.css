@@ -5,8 +5,8 @@
     display: flex;
     align-items: center;
     margin: 0 auto;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 65px rgba(19, 23, 80, 0.1);
+    background: var(--cor-0);
+    box-shadow: 0px 4px 65px var(--cor-p3);
     z-index: 1;
 }
 
@@ -19,22 +19,20 @@
 }
 
 .digital-icons h3 {
-    font: 300 1.5rem/1.35 "IBM Plex Sans", monospace;; /* font-18 */
-    color: #182346;
+    color: var(--cor-16);
     margin-top: 22px;
 }
 
 .digital-icons p {
-    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;; /* font-2 */
     max-width: 18ch;
-    color: #454E6A;
+    color: var(--cor-12);
     margin-top: 13px;
 }
 
 .digital-sombra {
     position: absolute;
-    background: #FFFFFF;
-    box-shadow: 50px 4px 65px rgba(19, 23, 80, 0.1);
+    background: var(--cor-0);
+    box-shadow: 50px 4px 65px var(--cor-p3);
     height: 100%;
     width: 1000px;
     right: -1000px;
@@ -45,7 +43,7 @@
     width: 26.3%;
     height: 100%;
     left: 0;
-    border-bottom: 2px solid #C4AD6C;
+    border-bottom: 2px solid var(--cor-p1);
     z-index: -1;
 }
 
@@ -88,12 +86,10 @@
     }
 
     .digital-icons h3 {
-        font: 300 1.215rem/1.35 "IBM Plex Sans", monospace;; /* font-18 */
         margin-top: 8px;
     }
 
     .digital-icons p {
-        font: 300 1rem/1.35 "IBM Plex Sans", monospace;; /* font-2 */
         margin-top: 3px;
     }
 }

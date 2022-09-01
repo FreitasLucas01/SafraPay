@@ -27,18 +27,11 @@
     z-index: 1;
 }
 
-.fatura-container h2 {
-    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;;
-    color: #FFFFFF;
-}
-
 .fatura-container h2 span {
     display: block;
 }
 
 .fatura-container>p {
-    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;;
-    color: #FFFFFF;
     margin-top: 30px;
 }
 
@@ -49,19 +42,17 @@
 .fatura-protecao {
     display: flex;
     align-items: center;
-    color: #FFFFFF;
     margin-top: 30px;
 }
 
 .fatura-protecao p {
-    font: 400 0.875rem/1.285 "IBM Plex Sans", monospace;;
     max-width: 20ch;
 }
 
 .fatura-linha {
     width: 1px;
     height: 45px;
-    background: #FFFFFF;
+    background: var(--cor-0);
     margin: 0 14px;
 }
 
@@ -115,32 +106,17 @@
         margin-top: 70px;
     }
 
-    .fatura-container h2 {
-        font: 400 2rem/1.125 "IBM Plex Sans", monospace;;
-    }
-
     .fatura-container>p {
-        font: 300 1rem/1.35 "IBM Plex Sans", monospace;;
         margin-top: 6px;
     }
 
     .fatura-container a {
-        /* font: 500 0.850rem/1.35 "IBM Plex Sans", monospace;; */
-        /* padding: 15px 20px; */
         margin: 0 auto;
         margin-top: 12px;
     }
 
-    .fatura-protecao img {
-        max-width: 15px;
-    }
-
     .fatura-protecao {
         margin-top: 16px;
-    }
-
-    .fatura-protecao p {
-        font: 400 0.7rem/1.285 "IBM Plex Sans", monospace;;
     }
 }
 

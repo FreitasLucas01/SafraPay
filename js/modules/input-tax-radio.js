@@ -7,6 +7,8 @@ export default function initInputTaxRadio() {
   const spanPorcentagem = document.querySelector("[data-inputRadio='porcentagem']");
   const ativoClass = "ativo";
 
+  segundoRadio[0].classList.add("ativo")
+
   const LISTA_TAXAS = {
     jur: 1.68,
     fis: 1.88

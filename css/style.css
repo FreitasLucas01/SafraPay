@@ -1,4 +1,6 @@
 @import url("global.css");
+@import url("utilidades/tipografias.css");
+@import url("utilidades/cores.css");
 @import url("header.css");
 @import url("venda.css");
 @import url("beneficios.css");

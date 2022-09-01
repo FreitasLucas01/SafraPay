@@ -11,7 +11,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding-bottom: 60px;
-    border-bottom: 1px solid rgba(24,35,70, 0.1);
+    border-bottom: 1px solid var(--cor-p3);
 }
 
 .footer-container .footer-info{
@@ -22,25 +22,16 @@
 }
 
 .footer-info h3{
-    font: 300 1.5rem/1.35 "IBM Plex Sans", monospace;;
-    color: #182346;
     margin-bottom: 27px;
 }
 
 .footer-info a{
-    font: 300 1rem/2.125 "IBM Plex Sans", monospace;;
-    color: #182346;
     white-space: nowrap;
 }
 
 .footer-app{
     grid-column: 1/-1;
     margin-top: 50px;
-}
-
-.footer-app p{
-    font: 300 1rem/2.125 "IBM Plex Sans", monospace;;
-    color: #182346;
 }
 
 .footer-buttons{
@@ -54,8 +45,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font: 400 0.750rem/1.42 "IBM Plex Sans", monospace;;
-    color: #747B90;
     margin-top: 30px;
 }
 
@@ -75,7 +64,7 @@
     width: 3px;
     height: 3px;
     border-radius: 50px;
-    background: rgba(24,35,70, 0.6);
+    background: var(--cor-8);
     margin-right: 10px;
 }
 
@@ -101,6 +90,7 @@
     .footer-container .footer-info{
         margin: 0 auto;
     }
+
     .footer-container .footer-info:first-child{
         margin: 0 auto;
     }
@@ -129,7 +119,6 @@
     .footer-final{
         display: block;
         text-align: center;
-        font: 400 0.750rem/1.42 "IBM Plex Sans", monospace;;
         margin-top: 30px;
     }
 
@@ -159,13 +148,7 @@
     }
 
     .footer-info h3{
-        font: 300 1.2rem/1.35 "IBM Plex Sans", monospace;;
         margin-bottom: 11px;
-    }
-
-    .footer-info a,
-    .footer-app p{
-        font: 300 0.875rem/1.94 "IBM Plex Sans", monospace;;
     }
 
     .footer-app p{

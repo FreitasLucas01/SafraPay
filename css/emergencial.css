@@ -1,6 +1,5 @@
 #emergencial {
-    background: #F4F5F9;
-    margin-top: 116px;
+    background: var(--cor-2);    margin-top: 116px;
 }
 
 .emergencial-container {
@@ -16,13 +15,10 @@
 }
 
 .emergencial-texto h2 {
-    font: 400 2.5rem/1.125 "IBM Plex Sans", monospace;; /* font-20 */
     max-width: 20ch;
-    color: #182346;
 }
 
 .emergencial-texto p {
-    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;;
     max-width: 45ch;
     margin-top: 22px;
 }
@@ -49,28 +45,20 @@
     white-space: nowrap;
 }
 
-.emergencial-info h3 {
-    font: 600 0.875rem/1.3 "IBM Plex Sans", monospace;;
-    color: #444D6A;
-}
-
 .emergencial-info p {
     display: flex;
     align-items: end;
-    font: 300 2.25rem/1.1 "IBM Plex Sans", monospace;;
-    color: #182346;
     margin-top: 10px;
 }
 
 .emergencial-info p span {
-    font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;;
     display: inline-block;
-    margin-left: 8px;
+    margin-left: 5px;
 }
 
 .emergencial-info .emprestimo {
     margin: 0;
-    margin-right: 8px;
+    margin-right: 5px;
     align-self: start;
 }
 
@@ -83,10 +71,8 @@
 
 .emergencial-detalhes>span a {
     display: inline-block;
-    font: 500 0.750rem/1.42 "IBM Plex Sans", monospace;;
-    color: #464F6B;
     margin-top: 25px;
-    border-bottom: 1px solid #464F6B;
+    border-bottom: 1px solid var(--cor-13);
 }
 
 @media(max-width: 1400px) {
@@ -98,19 +84,11 @@
         margin-top: 31px;
         gap: 26px;
     }
-
-    .emergencial-info p {
-        font: 300 2rem/1.02 "IBM Plex Sans", monospace;;
-    }
-
-    .emergencial-info p span {
-        font: 300 1rem/1.35 "IBM Plex Sans", monospace;;
-    }
 }
 
 @media(max-width: 1260px) {
     #emergencial {
-        background: linear-gradient(0deg, #F4F5F9 39.58%, rgba(244, 245, 249, 0) 100%);
+        background: linear-gradient(0deg, var(--cor-2) 39.58%, rgba(244, 245, 249, 0) 100%);
         padding-left: 16px;
         padding-right: 16px;
         padding-bottom: 24px;
@@ -145,14 +123,11 @@
     }
 
     .emergencial-info p {
-        font: 300 2.25rem/1.1 "IBM Plex Sans", monospace;;
         margin-top: 10px;
     }
 
     .emergencial-info p span {
-        font: 300 1.125rem/1.35 "IBM Plex Sans", monospace;;
         display: inline-block;
-        margin-left: 8px;
     }
 
     .emergencial-buttons {
@@ -219,21 +194,14 @@
     }
 
     .emergencial-info h3 {
-        font: 600 0.79rem/1.285 "IBM Plex Sans", monospace;;
         text-align: left;
     }
 
-    .emergencial-info p {
-        font: 300 2rem/1.02 "IBM Plex Sans", monospace;;
-    }
-
     .emergencial-texto h2 {
-        font: 400 2rem/1.25 "IBM Plex Sans", monospace;; /* font-20 */
         max-width: 100%;
     }
 
     .emergencial-texto p {
-        font: 300 1rem/1.35 "IBM Plex Sans", monospace;;
         max-width: 100%;
     }
 

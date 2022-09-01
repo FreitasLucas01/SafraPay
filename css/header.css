@@ -1,13 +1,13 @@
 [data-menu="button"],
 .seta,
-.container-menuDivs,
-.menuDivs,
+.container-menu,
+.container-menu li,
 .menuMobileFooter {
     display: none;
 }
 
 #header {
-    background: #182446;
+    background: var(--cor-17);
     padding-left: 16px;
     padding-right: 16px;
 }
@@ -20,7 +20,7 @@
     display: flex;
     justify-content: space-between;
     padding: 23px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid var(--cor-14);
     position: relative;
 }
 
@@ -38,8 +38,7 @@
 
 .linkInterno {
     position: relative;
-    color: #E0E0E0;
-    font: 500 0.875rem/1.25 "IBM Plex Sans", monospace;;
+    color: var(--cor-3);
     white-space: nowrap;
 }
 
@@ -47,7 +46,7 @@
     content: "";
     display: block;
     position: absolute;
-    background: #C4AD6C;
+    background: var(--cor-p1);
     width: 0;
     height: 1.5px;
     top: 62px;
@@ -61,7 +60,7 @@
 .telefone {
     display: flex;
     align-items: center;
-    border: 1px solid #C4AD6C;
+    border: 1px solid var(--cor-p1);
     position: relative;
 }
 
@@ -72,11 +71,11 @@
 .telefone-linha {
     height: 40px;
     width: 1px;
-    background: #C4AD6C;
+    background: var(--cor-p1);
 }
 
 .telefone-numero {
-    color: #FFFFFF;
+    color: var(--cor-0);
     padding: 7px 21px;
     position: relative;
 }
@@ -84,12 +83,10 @@
 .telefone-numero span {
     display: inline-block;
     margin-bottom: 3px;
-    font: 400 0.750rem/1.40 "Roboto", monospace;;
 }
 
 .telefone-numero p {
-    font: 600 1.06rem/1.2 "IBM Plex Sans", monospace;;
-    color: #FFFFFF;
+    color: var(--cor-0);
     white-space: nowrap;
 }
 
@@ -101,16 +98,12 @@
 
     .header-nav {
         max-width: 100%;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding: 23px 0;
+        padding-left: 16px;
+        padding-right: 16px;
         margin: 0 auto;
         display: flex;
         justify-content: none;
-        padding: 23px 0;
-    }
-
-    .header-nav .logo {
-        padding-left: 16px;
     }
 
     .header-nav .telefone {
@@ -119,7 +112,7 @@
 
     .header-nav .menuMobileButton {
         margin-left: 0px;
-        padding-right: 16px;
+        padding-right: 0px;
     }
 
     .menu {
@@ -134,7 +127,7 @@
         z-index: 1000;
         visibility: hidden;
         overflow-y: hidden;
-        background: #182446;
+        background: var(--cor-17);
         z-index: 10000;
     }
 
@@ -149,11 +142,11 @@
     .telefone-linha {
         height: 21px;
         width: 1px;
-        background: #C4AD6C;
+        background: var(--cor-p1);
     }
 
     .telefone-numero {
-        color: #FFFFFF;
+        color: var(--cor-0);
         padding: 7px 13px;
         position: relative;
     }
@@ -163,7 +156,6 @@
     }
 
     .telefone-numero p {
-        font: 500 0.812rem/1.2 "IBM Plex Sans", monospace;;
         white-space: nowrap;
     }
 
@@ -181,18 +173,17 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font: 400 1.125rem/1.35 "IBM Plex Sans", monospace;;
         padding-top: 19px;
         padding-bottom: 11px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        border-bottom: 1px solid var(--cor-14);
     }
 
     .linkInterno:hover {
-        color: #C4AD6C;
+        color: var(--cor-p1);
     }
 
     .linkInterno:hover .seta {
-        stroke: #C4AD6C;
+        stroke: var(--cor-p1);
     }
 
     .linkInterno::after {
@@ -206,7 +197,7 @@
     .telefone-linha {
         height: 21px;
         width: 1px;
-        background: #C4AD6C;
+        background: var(--cor-p1);
     }
 
     [data-menu="button"] {
@@ -223,13 +214,13 @@
         height: 2px;
         margin: 6px 0;
         border-radius: 4px;
-        background: #C4AD6C;
+        background: var(--cor-p1);
         transition: 0.3s;
     }
 
     .js [data-menu="button"].ativo .linha1 {
         transform: rotate(-45deg) translate(-6px, 6px);
-        background: #FFFFFF;
+        background: var(--cor-0);
     }
 
     .js [data-menu="button"].ativo .linha2 {
@@ -238,38 +229,42 @@
 
     .js [data-menu="button"].ativo .linha3 {
         transform: rotate(45deg) translate(-5px, -6px);
-        background: #FFFFFF;
+        background: var(--cor-0);
     }
 
-    .container-menuDivs {
+    .container-menu {
         display: block;
         margin-top: 41px;
     }
 
-    .menuDivs {
-        display: block;
-        margin: 0 auto;
-        font: 500 1rem/1.35 "IBM Plex Sans", monospace;;
+    .container-menu li:not(:last-child),
+    .container-menu li a{
         padding: 19px 0;
-        color: #C4AD6C;
+        color: var(--cor-p1);
         text-align: center;
-        border: 2px solid #C4AD6C;
+        border: 2px solid var(--cor-p1);
         margin-bottom: 19px;
     }
 
-    .menuDivs a {
-        font: 500 1rem/1.35 "IBM Plex Sans", monospace;;
+    .container-menu li.telefone a {
+        width: 100%;
     }
 
-    .menuDivs.seta,
-    .menuDivs.telefone {
+    .container-menu li.seta,
+    .container-menu li.telefone,
+    .container-menu li.telefone a{
         display: flex;
         align-items: center;
         justify-content: center;
         cursor: pointer;
     }
 
-    .menuDivs.seta::after {
+    .container-menu li:last-child{
+        border: none;
+        cursor: inherit;
+    }
+
+    .container-menu li.seta::after {
         content: "";
         display: inline-block;
         background: url("../img/seta-pequena.svg") no-repeat center;
@@ -278,7 +273,7 @@
         margin-left: 6px;
     }
 
-    .menuDivs.telefone::before {
+    .container-menu li.telefone a::before {
         content: "";
         display: inline-block;
         background: url("../img/telefone-pequeno.svg") no-repeat center;
@@ -287,17 +282,17 @@
         margin-right: 9px;
     }
 
-    .menuDivs.seta:hover,
-    .menuDivs.telefone:hover {
-        background: #C4AD6C;
-        color: #182446;
+    .container-menu li.seta:hover,
+    .container-menu li.telefone a:hover {
+        background: var(--cor-p1);
+        color: var(--cor-17);
     }
 
-    .menuDivs.seta:hover::after {
+    .container-menu li.seta:hover::after {
         background: url("../icons/seta-azul.svg") no-repeat center;
     }
 
-    .menuDivs.telefone:hover::before {
+    .container-menu li.telefone a:hover::before {
         background: url("../icons/telefone-azul.svg") no-repeat center;
     }
 
@@ -305,8 +300,7 @@
         display: flex;
         justify-content: center;
         padding: 19px 0;
-        font: 400 0.850rem/1.35 "IBM Plex Sans", monospace;;
-        color: #FFFFFF;
+        color: var(--cor-0);
         gap: 25px;
     }
 }
@@ -314,11 +308,9 @@
 @media(max-width: 400px) {
     .header-nav .logo {
         width: 100px;
-        padding-left: 16px;
     }
 
     .header-nav .menuMobileButton {
-        padding-right: 16px;
         padding-left: 10px;
         margin: 0;
     }
