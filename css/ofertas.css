@@ -149,7 +149,7 @@
 }
 
 .ofertas-info p {
-    max-width: 36ch;
+    /* max-width: 36ch; */
     margin: 0 auto;
     margin-top: 17px;
 }
@@ -161,6 +161,10 @@
     height: 15px;
     background-image: url("../icons/veloz-branco.svg");
     margin-right: 9px;
+}
+
+.smart-info p{
+    max-width: 30ch;
 }
 
 .pro-info p {
