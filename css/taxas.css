@@ -517,3 +517,10 @@
         display: block;
     }
 }
+
+@media(max-width: 315px){
+    .taxas-simulador{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

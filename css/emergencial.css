@@ -4,7 +4,7 @@
 
 .emergencial-container {
     display: flex;
-    /* gap: 64px; */
+    gap: 64px;
 }
 
 .emergencial-detalhes {
