@@ -45,12 +45,11 @@
 ✔️CSS<br><br>
 ✔️JavaScript<br><br>
 
-
-<h2 id="projeto"> 💻 Projeto </h2>
-
 <h2 id="construção"> 🚧 "Nossas taxas para receber" está em construção 🚧</h2>
 
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/4.gif> </h2><br><br>
+
+<h2 id="projeto"> 💻 Projeto </h2>
 
 <p>Projeto criado com intuito de treinar ferramentas de desenvolvimento web.</p> 
 <hr>
