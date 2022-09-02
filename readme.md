@@ -17,6 +17,7 @@
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/1.gif> </h2>
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/3.gif> </h2>
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/2.gif> </h2>
+<h2 align="center"> <img alt="Readme" title="Readme" src=./img/lighthouse.jpeg> </h2>
 
 
 
@@ -30,9 +31,11 @@
 <h2 id="func"> ⚙ Funcionalidades </h2>
 
  - [x] Página totalmente responsiva <br>
- - [x] Menu hambúrguer</br>
- - [x] Design simples e moderno <br>
- - [x] Cores correspondentes<br>
+ - [x] Menu Hambúrguer</br>
+ - [x] Simulador de vendas como pessoas física e jurídica <br>
+ - [x] Slider carousel <br>
+ - [x] Cores correspondentes ao produto<br>
+ - [x] Projeto focado em design UX/UI <br>
  - [x] Acessibilidade<br>
  - [x] Menu Hambúrguer<br> <br>
 
