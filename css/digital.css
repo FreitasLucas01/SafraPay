@@ -59,6 +59,10 @@
     .digital-texto {
         padding-bottom: 0;
     }
+
+    .digital-img{
+        padding-left: 50px;
+    }
 }
 
 @media(max-width: 900px) {
@@ -106,6 +110,5 @@
 
     .digital-img {
         margin-left: auto;
-        padding-left: 50px;
     }
 }

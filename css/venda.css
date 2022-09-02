@@ -212,14 +212,18 @@
     }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 420px) {
     .venda-responsivo-um {
         display: none;
     }
 
     .venda-responsivo-dois {
         display: block;
-        padding-right: 16px;
+        margin-right: 40px;
+    }
+
+    .venda-responsivo-dois img{
+        width: 100%;
     }
 
     .venda-texto {
