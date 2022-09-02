@@ -1,5 +1,5 @@
 <br>
-<p align="center"><img align="center" src="./img/logo-readme.svg">  <br></p>
+<p align="center"><img align="center" src="./img/logo-readme.svg"> </p> <br>
 
 <h1 align="center"> Portófio </h1>
 
@@ -9,17 +9,14 @@
     <a href="#tec"> Tecnologias</a> •
     <a href="#projeto"> Projeto</a> •
     <a href="#construção"> Em construção</a>
-    <br> <br> 
+    <br> <br>
 
 <h2 id="demo"> 📷 Demonstração </h2>
-
 
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/1.gif> </h2>
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/3.gif> </h2>
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/2.gif> </h2>
-<h2 align="center"> <img alt="Readme" title="Readme" src=./img/lighthouse.jpeg> </h2>
-
-
+<h2 align="center"> <img alt="Readme" title="Readme" src=./gif/lighthouse.jpeg> </h2>
 
 <br>
 <p align="center">
@@ -30,13 +27,13 @@
 
 <h2 id="func"> ⚙ Funcionalidades </h2>
 
- - [x] Página totalmente responsiva <br>
- - [x] Menu Hambúrguer</br>
- - [x] Simulador de vendas como pessoas física e jurídica <br>
- - [x] Slider carousel <br>
- - [x] Cores correspondentes ao produto<br>
- - [x] Projeto focado em design UX/UI <br>
- - [x] Acessibilidade<br><br>
+- [x] Página totalmente responsiva <br>
+- [x] Menu Hambúrguer</br>
+- [x] Simulador de vendas como pessoas física e jurídica <br>
+- [x] Slider carousel <br>
+- [x] Cores correspondentes ao produto<br>
+- [x] Projeto focado em design UX/UI <br>
+- [x] Acessibilidade<br><br>
 
 <h2 id="tec"> 🚀 Tecnologias </h2>
 
@@ -54,7 +51,8 @@
 
 <p>Projeto foi desenvolvido em parceria com uma designer. Resultado final e alterações foram aprovados pela designer que produziu layout.
 
-Projeto no Figma: https://www.figma.com/file/xK85An1LWrTucBbDn53MkE/SafraPay---Redesign?node-id=173%3A1508</p> 
+Projeto no Figma: https://www.figma.com/file/xK85An1LWrTucBbDn53MkE/SafraPay---Redesign?node-id=173%3A1508</p>
+
 <hr>
 <br>
-<p> Criado por Lucas Freitas 🖖🏽| <a href="https://www.linkedin.com/in/lucasfreitas01/"> Faça contato comigo </a> <p> 
+<p> Criado por Lucas Freitas 🖖🏽| <a href="https://www.linkedin.com/in/lucasfreitas01/"> Faça contato comigo </a> <p>
