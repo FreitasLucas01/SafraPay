@@ -4,7 +4,7 @@
 
 .emergencial-container {
     display: flex;
-    gap: 64px;
+    /* gap: 64px; */
 }
 
 .emergencial-detalhes {
@@ -214,8 +214,8 @@
     }
 }
 
-@media(max-width: 310px) {
+@media(max-width: 350px){
     .emergencial-info {
-        gap: 20px;
+        gap: 40px 0px;
     }
-} 
+}
