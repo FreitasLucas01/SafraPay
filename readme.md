@@ -36,9 +36,7 @@
  - [x] Slider carousel <br>
  - [x] Cores correspondentes ao produto<br>
  - [x] Projeto focado em design UX/UI <br>
- - [x] Acessibilidade<br>
- - [x] Menu Hambúrguer<br> <br>
-
+ - [x] Acessibilidade<br><br>
 
 <h2 id="tec"> 🚀 Tecnologias </h2>
 
