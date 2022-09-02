@@ -59,4 +59,4 @@
 Projeto no Figma: https://www.figma.com/file/xK85An1LWrTucBbDn53MkE/SafraPay---Redesign?node-id=173%3A1508</p> 
 <hr>
 <br>
-<p> Criado por Lucas Freitas 🖖🏽| <a href="https://www.linkedin.com/in/lucasfreitas01/"> Faça contato comigo </a> <p> 
+<p> Criado por Lucas Freitas 🖖🏽| <a href="https://www.linkedin.com/in/lucasfreitas01/"> Faça contato comigo. </a> <p> 
