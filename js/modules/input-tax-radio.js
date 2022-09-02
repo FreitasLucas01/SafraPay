@@ -14,14 +14,6 @@ export default function initInputTaxRadio() {
     fis: 1.88
   };
 
-  function handleKeyUpFn(taxa) {
-    return () => {
-      inputResult.forEach(itens => {
-        itens.innerText = (inputValorVenda.value * (100 - taxa) / 100).toFixed(2).replace(".", ",");
-      });
-    };
-  }
-
   function getRadioValue(inputName) {
     const input = document.querySelector('input[name="' + inputName + '"]:checked');
     if (!input) {
