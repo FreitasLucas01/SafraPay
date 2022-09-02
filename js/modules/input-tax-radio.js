@@ -79,12 +79,9 @@ export default function initInputTaxRadio() {
     updateValuesOnUI(LISTA_TAXAS[getRadioValue('taxa')] || 0);
   })
 
-  inputValorVenda.value = (100).toFixed(2);
+  // inputValorVenda.value = (100).toFixed(2);
 
 
-
-
-  
   function handleSegundoRadio(e) {
     if (e.type === "touchstart")
       e.preventDefault()
