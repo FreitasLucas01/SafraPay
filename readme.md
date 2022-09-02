@@ -30,7 +30,7 @@
 <h2 id="func"> ⚙ Funcionalidades </h2>
 
  - [x] Página totalmente responsiva <br>
- - [x] Link para os projetos descritos</br>
+ - [x] Menu hambúrguer</br>
  - [x] Design simples e moderno <br>
  - [x] Cores correspondentes<br>
  - [x] Acessibilidade<br>
