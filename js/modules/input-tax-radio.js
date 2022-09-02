@@ -11,7 +11,7 @@ export default function initInputTaxRadio() {
 
   const LISTA_TAXAS = {
     jur: 1.68,
-    fis: 1.88.
+    fis: 1.88
   };
 
   function getRadioValue(inputName) {
