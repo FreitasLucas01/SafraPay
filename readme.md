@@ -52,7 +52,7 @@
 
 <p>Projeto foi desenvolvido em parceria com uma designer. Resultado final e alterações foram aprovados pela designer que produziu layout.
 
-Projeto no Figma: https://www.figma.com/file/xK85An1LWrTucBbDn53MkE/SafraPay---Redesign?node-id=173%3A1508</p>
+Projeto no Figma: https://www.figma.com/file/mTayCzjijV8HGGSjkiewER/SafraPay---Redesign-(Behance)?node-id=173%3A1508</p>
 
 <hr>
 <br>
