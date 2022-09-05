@@ -13,6 +13,7 @@
 
 <h2 id="demo"> 📷 Demonstração </h2>
 
+<h2 align="center"> <img alt="Readme" title="Readme" src=./gif/safra-mockup.jpg> </h2>
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/1.gif> </h2>
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/3.gif> </h2>
 <h2 align="center"> <img alt="Readme" title="Readme" src=./gif/2.gif> </h2>
