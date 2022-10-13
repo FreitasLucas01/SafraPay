@@ -149,7 +149,6 @@
 }
 
 .ofertas-info p {
-    /* max-width: 36ch; */
     margin: 0 auto;
     margin-top: 17px;
 }
@@ -168,7 +167,7 @@
 }
 
 .pro-info p {
-    max-width: 38ch;
+    max-width: 36ch;
 }
 
 .slim-info p {
