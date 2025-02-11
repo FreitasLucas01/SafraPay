@@ -50,7 +50,7 @@
 
 <h2 id="projeto"> 💻 Projeto </h2>
 
-<p>Projeto foi desenvolvido em parceria com uma designer. Resultado final e alterações foram aprovados pela designer que produziu layout.
+<p>Figma do projeto: https://www.figma.com/proto/xK85An1LWrTucBbDn53MkE?node-id=0-1&t=8bJeqTCwi4Gkde6i-6.
 
 <hr>
 <br>
